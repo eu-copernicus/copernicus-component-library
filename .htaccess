@@ -1,0 +1,5 @@
+Options +Includes
+AddHandler server-parsed .shtml .html .htm
+
+
+
