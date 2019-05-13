@@ -1,5 +1,5 @@
 v='?v=0.1.0.1';
-baseurlpath="http://demo.codex42.online/copernicus";
+baseurlpath="/copernicus";
 
 var includes={
 	"scripts":[
