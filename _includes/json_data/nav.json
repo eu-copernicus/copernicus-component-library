@@ -1,0 +1,54 @@
+{
+	"menu":[
+		{
+			"label":"Styles",
+			"path":"ccl-styles",
+			"menu":[
+				{
+					"label":"Colors",
+					"link":"colors"
+				}
+				
+			]
+		},
+		{
+			"label":"Components",
+			"path":"ccl-elements",
+			"menu":[
+				{
+					"label":"Titles",
+					"link":"titles"
+				},
+				{
+					"label":"Links",
+					"link":"links"
+				},
+				{
+					"label":"Breadcrumbs",
+					"link":"breadcrumbs"
+				},
+				{
+					"label":"Error",
+					"link":"error"
+				}
+				,
+				
+				{
+					"label":"Paragraph",
+					"link":"paragraph"
+				},
+				{
+					"label":"Forms",
+					"link":"forms"
+				}
+				,
+				{
+					"label":"Calendar event",
+					"link":"calendar"
+				}
+			]
+		}
+
+
+	]
+}
