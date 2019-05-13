@@ -4,18 +4,18 @@ baseurlpath="http://demo.codex42.online/copernicus";
 var includes={
 	"scripts":[
 		"https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js",
-		"/_assets/js/ccl-functions.js",
-		"/_assets/lib/codemirror.js",
-		"/_assets/js/javascript.js",
-		"/_assets/js/xml.js",
-		"/_assets/js/css.js",
-		"/_assets/js/htmlmixed.js",
+		"/assets/js/ccl-functions.js",
+		"/assets/lib/codemirror.js",
+		"/assets/js/javascript.js",
+		"/assets/js/xml.js",
+		"/assets/js/css.js",
+		"/assets/js/htmlmixed.js",
 		
-		"/_assets/js/ccl-build.js",
+		"/assets/js/ccl-build.js",
 	],
 	"css":[
-	"/_assets/css/demo.css",
-	"/_assets/lib/codemirror.css",
+	"/assets/css/demo.css",
+	"/assets/lib/codemirror.css",
 		
 	"/ccl-css/fonts.css",	
 	"/ccl-css/base.css",
