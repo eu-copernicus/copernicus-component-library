@@ -10,11 +10,10 @@ $(function() {
 		if ($(this).next('ul').length){
 			$(this).addClass('ccl-expandable__button').attr('aria-expanded','false');
 		}
-		if (window.location.href.includes($(this).attr('href'))){
-			$(this).attr('aria-expanded','true');
+		if (window.location.href.includes($(this).attr('href')) && $(this).attr('href') != "#"){
+			$(this).parent('.ccl-expandable__button').attr('aria-expanded','true');
 		}
-		console.log($(this).attr('href'));
-		console.log(window.location.href);
+		
 	});
 
 	$(".ccl-expandable__button").click(function(){
