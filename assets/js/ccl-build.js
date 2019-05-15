@@ -46,7 +46,7 @@ $(function() {
 
 
 	//build the 'how to use' block selector and INCLUDE it
-	$('<div id="howto_container"></div>').load(baseUrl('/includes/how_to_use.html'),function(){
+
 
 		$('#demo-include-css').val($('#demo-include-css').val().replace(/{{baseurl}}/g,baseurlpath));
 		$('.toCodeMirror').each(function(index, elem){
@@ -56,7 +56,7 @@ $(function() {
 				lineWrapping: true
 			});
 		});
-	}).appendTo($('.ccl-element'));
+
 
 
 	
