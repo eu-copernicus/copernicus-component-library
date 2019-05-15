@@ -43,12 +43,8 @@ $(function() {
 	changeTheme('generic');
 
 
-
-
 	//build the 'how to use' block selector and INCLUDE it
 
-
-		$('#demo-include-css').val($('#demo-include-css').val().replace(/{{baseurl}}/g,baseurlpath));
 		$('.toCodeMirror').each(function(index, elem){
 			CodeMirror.fromTextArea(elem, {
 				mode: "htmlmixed",  
@@ -59,7 +55,6 @@ $(function() {
 
 
 
-	
 
 	
 });
