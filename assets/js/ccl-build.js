@@ -10,7 +10,7 @@ $(function() {
 		if ($(this).next('ul').length){
 			$(this).addClass('ccl-expandable__button').attr('aria-expanded','false');
 		}
-		if ($(this).attr('href') == window.location.href){
+		if (window.location.href.includes($(this).attr('href'))){
 			$(this).attr('aria-expanded','true');
 		}
 		console.log($(this).attr('href'));
