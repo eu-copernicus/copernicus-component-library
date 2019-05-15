@@ -10,7 +10,7 @@ $(function() {
     //$('<div class="ccl-leftside"><nav class="ccl-site-nav" ></nav></div>').prependTo($('.ccl-container'));
 
 	//INCLUDE navigation
-	$.getJSON(baseUrl("/includes/json_data/nav.json"+v), function(result){     
+	//$.getJSON(baseUrl("/includes/json_data/nav.json"+v), function(result){     
 		//Build Menu
 		$(".ccl-site-nav").append(buildMenu(result['menu'],'','ccl-side-navigation__root'));
 		$(".ccl-expandable__button").click(function(){
@@ -22,7 +22,7 @@ $(function() {
 	});
 
 	//SHOW page
-	$('body').fadeIn('slow');
+	//$('body').fadeIn('slow');
 
 	//build element ccl
 	$(".demo-item").each(function(){
