@@ -8,7 +8,7 @@ $(function() {
 	$(".ccl-site-nav a").each(function(){
 		$(this).addClass('ccl-side-navigation__link');
 		if (typeof $(this).next('ul') !== 'undefined'){
-			(this).addClass('ccl-expandable__button');
+			$(this).addClass('ccl-expandable__button');
 		}
 	});
 	$(".ccl-expandable__button").click(function(){
