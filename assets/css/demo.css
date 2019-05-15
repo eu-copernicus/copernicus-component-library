@@ -117,7 +117,12 @@ display: none;
 	margin:20px;
 	padding:20px;
 	border: 1px solid #ddd;
-	 
+	 display: flex;
+	flex-flow: row;
+	flex-wrap: wrap;
+}
+.demo-group.demo-large{
+	flex-flow: column;
 }
 
 code{
@@ -132,11 +137,7 @@ code{
   max-height: 600px;
 }
 
-.demo-group{
-	display: flex;
-	flex-flow: row;
-	    flex-wrap: wrap;
-}
+
 .demo-label{
 	width: 100%;
 	font-size: 30px;

@@ -11,6 +11,8 @@ $(function() {
 			$(this).addClass('ccl-expandable__button').attr('aria-expanded','false');
 		}
 		if (window.location.href.includes($(this).attr('href')) && $(this).attr('href') != "#"){
+			console.log('ok');
+			console.log($(this).parents('.ccl-expandable__button'));
 			$(this).parents('.ccl-expandable__button').attr('aria-expanded','true');
 		}
 		
