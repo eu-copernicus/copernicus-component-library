@@ -17,6 +17,7 @@ function codeMirror(){
 			lineNumbers: true,
 			lineWrapping: true,
 			readOnly:true
+			reindentOnLoad:true,
 		});
 	});
 }
