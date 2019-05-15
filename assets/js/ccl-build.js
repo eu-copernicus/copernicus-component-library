@@ -5,14 +5,18 @@ $(function() {
 	$(".ccl-site-nav > ul").addClass('ccl-side-navigation__root');
 	$(".ccl-site-nav > ul ul").addClass('ccl-side-navigation__group');
 	$(".ccl-site-nav li").addClass('ccl-side-navigation__item');
-	$(".ccl-site-nav a").addClass('ccl-side-navigation__link');
-
-	/*	$(".ccl-expandable__button").click(function(){
-
+	$(".ccl-site-nav a").each(function(){
+		$(this).addClass('ccl-side-navigation__link');
+		if (typeof $(this).next('<ul>') !== 'undefined'){
+			(this).addClass('ccl-expandable__button');
+		}
+	});
+	$(".ccl-expandable__button").click(function(){
 			$(this).attr('aria-expanded', function(index, attr){
 				return attr == 'true' ? 'false' : 'true';
 			});
-	})*/
+	})
+
 	
 
 	//SHOW page
