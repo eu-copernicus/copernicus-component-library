@@ -11,7 +11,7 @@ function baseUrl(path){
 /*GENERATe HTML editor*/
 function codeMirror(){
 	
-	$('.toCodemirror').each(function(index, elem){
+	$('.toCodeMirror').each(function(index, elem){
 		CodeMirror.fromTextArea(elem, {
 			mode: "htmlmixed",  
 			lineNumbers: true,

@@ -53,6 +53,7 @@ $(function() {
 
 	//build the codemirror 
 	codeMirror();
+	
 	//default theme is GENERIC
 	changeTheme('generic');
 
