@@ -9,7 +9,7 @@ function baseUrl(path){
 
 
 /*GENERATe HTML editor*/
-function generateCode(palette){
+function codeMirror(){
 	
 	$('.toCodemirror').each(function(index, elem){
 		CodeMirror.fromTextArea(elem, {

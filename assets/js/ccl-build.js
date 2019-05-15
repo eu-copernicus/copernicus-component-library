@@ -27,8 +27,13 @@ $(function() {
 
 	//build element ccl
 		$(".demo-item").each(function(){
-		$('<div class="label">Result</div>').prependTo($(this));
-	})
+			$('<div class="label">Result</div>').prependTo($(this));
+		})
+	//build demo code ccl
+		$(".demo-code").each(function(){
+			$('<div class="label">HTML</div>').prependTo($(this));
+			$('textarea',this).addClass('toCodeMirror');
+		})	
 
 
 	//build the theme selector 
@@ -46,20 +51,13 @@ $(function() {
 		changeTheme($(this).val());
 	})
 
-
+	//build the codemirror 
+	codeMirror();
 	//default theme is GENERIC
 	changeTheme('generic');
 
 
-	//build the 'how to use' block selector 
-	$('.toCodeMirror').each(function(index, elem){
-		CodeMirror.fromTextArea(elem, {
-			mode: "htmlmixed",  
-			lineNumbers: true,
-			lineWrapping: true,
-			readOnly:true
-		});
-	});
+	
 
 
 
