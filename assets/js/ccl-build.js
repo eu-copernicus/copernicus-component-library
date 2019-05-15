@@ -8,7 +8,7 @@ $(function() {
 	$(".ccl-site-nav a").each(function(){
 		$(this).addClass('ccl-side-navigation__link');
 		if (typeof $(this).next('ul') !== 'undefined'){
-			$(this).addClass('ccl-expandable__button');
+			$(this).addClass('ccl-expandable__button').attr('aria-expanded','false');
 		}
 	});
 	$(".ccl-expandable__button").click(function(){
@@ -17,10 +17,10 @@ $(function() {
 		});
 	})
 
-		//build element ccl
+	//build element ccl
 		$(".demo-item").each(function(){
-			$('<div class="label">Result</div>').prependTo($(this));
-		})
+		$('<div class="label">Result</div>').prependTo($(this));
+	})
 
 
 	//build the theme selector 
@@ -43,15 +43,14 @@ $(function() {
 	changeTheme('generic');
 
 
-	//build the 'how to use' block selector and INCLUDE it
-
-		$('.toCodeMirror').each(function(index, elem){
-			CodeMirror.fromTextArea(elem, {
-				mode: "htmlmixed",  
-				lineNumbers: true,
-				lineWrapping: true
-			});
+	//build the 'how to use' block selector 
+	$('.toCodeMirror').each(function(index, elem){
+		CodeMirror.fromTextArea(elem, {
+			mode: "htmlmixed",  
+			lineNumbers: true,
+			lineWrapping: true
 		});
+	});
 
 
 
