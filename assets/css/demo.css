@@ -153,7 +153,7 @@ code{
 	justify-content: space-between;
 	margin: 0px 5px 0px -5px;
 }
-.demo-large .demo-label,
+.demo-large .demo-code,
 .demo-large .demo-item{
 	width: 100%;	
 }
