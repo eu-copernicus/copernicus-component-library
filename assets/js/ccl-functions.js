@@ -16,8 +16,8 @@ function codeMirror(){
 			mode: "htmlmixed",  
 			lineNumbers: true,
 			lineWrapping: true,
-			readOnly:true
-			reindentOnLoad:true,
+			readOnly:true,
+			reindentOnLoad:true
 		});
 	});
 }
