@@ -10,12 +10,20 @@ $(function() {
 		if ($(this).next('ul').length){
 			$(this).addClass('ccl-expandable__button').attr('aria-expanded','false');
 		}
+		if ($(this).attr('href') == window.location.href){
+			$(this).attr('aria-expanded','true');
+		}
+		console.log($(this).attr('href'));
+		console.log(window.location.href);
 	});
+
 	$(".ccl-expandable__button").click(function(){
 		$(this).attr('aria-expanded', function(index, attr){
 			return attr == 'true' ? 'false' : 'true';
 		});
 	})
+	
+
 
 	//build element ccl
 		$(".demo-item").each(function(){
