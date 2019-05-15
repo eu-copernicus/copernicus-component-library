@@ -29,9 +29,10 @@ function changeTheme(palette){
 	$("#themeselector_container").attr('class','ccl-color_'+palette);
 	
 
-
 	$('.CodeMirror').each(function(i, el){
-		el.CodeMirror.setValue('<body class="ccl-style ccl-color_'+palette+'">');
+		var code=el.CodeMirror.getValue();
+		code=code.replace(/ccl-color_[a-z]+/,'ccl-color_'+palette);
+		el.CodeMirror.setValue(code);
 		setTimeout(function() {
 			el.CodeMirror.refresh();;
 		},1);
