@@ -56,7 +56,8 @@ $(function() {
 		CodeMirror.fromTextArea(elem, {
 			mode: "htmlmixed",  
 			lineNumbers: true,
-			lineWrapping: true
+			lineWrapping: true,
+			readOnly:true
 		});
 	});
 

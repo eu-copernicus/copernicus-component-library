@@ -15,7 +15,8 @@ function generateCode(palette){
 		CodeMirror.fromTextArea(elem, {
 			mode: "htmlmixed",  
 			lineNumbers: true,
-			lineWrapping: true
+			lineWrapping: true,
+			readOnly:true
 		});
 	});
 }
@@ -26,11 +27,10 @@ function changeTheme(palette){
 	$(".ccl-element").attr('class','ccl-element');
 	$(".ccl-element").attr('class','ccl-element ccl-style ccl-color_'+palette);
 	$("#themeselector_container").attr('class','ccl-color_'+palette);
-	$(".demo-code").remove();
-	generateCode(palette);
+	
 
 
-	$('#demo-body-example').next('.CodeMirror').each(function(i, el){
+	$('.CodeMirror').each(function(i, el){
 		el.CodeMirror.setValue('<body class="ccl-style ccl-color_'+palette+'">');
 		setTimeout(function() {
 			el.CodeMirror.refresh();;
