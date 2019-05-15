@@ -12,8 +12,8 @@ $(function() {
 		}
 		if (window.location.href.includes($(this).attr('href')) && $(this).attr('href') != "#"){
 			console.log('ok');
-			console.log($(this).parents('.ccl-expandable__button'));
-			$(this).parents('.ccl-expandable__button').attr('aria-expanded','true');
+			console.log($(this).parents('li').find('.ccl-expandable__button'));
+			$(this).parents('li').find('.ccl-expandable__button').attr('aria-expanded','true');
 		}
 		
 	});
