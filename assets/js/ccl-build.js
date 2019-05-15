@@ -11,7 +11,7 @@ $(function() {
 			$(this).addClass('ccl-expandable__button').attr('aria-expanded','false');
 		}
 		if (window.location.href.includes($(this).attr('href')) && $(this).attr('href') != "#"){
-			$(this).parent('.ccl-expandable__button').attr('aria-expanded','true');
+			$(this).parents('.ccl-expandable__button').attr('aria-expanded','true');
 		}
 		
 	});
