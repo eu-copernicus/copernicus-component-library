@@ -16,8 +16,8 @@ function codeMirror(){
 			mode: "htmlmixed",  
 			lineNumbers: true,
 			lineWrapping: true,
-			readOnly:true,
-			reindentOnLoad:true
+			readOnly:true
+			
 		});
 	});
 }
@@ -35,7 +35,19 @@ function changeTheme(palette){
 		code=code.replace(/ccl-color_[a-z]+/,'ccl-color_'+palette);
 		el.CodeMirror.setValue(code);
 		setTimeout(function() {
-			el.CodeMirror.refresh();;
+			el.CodeMirror.refresh();
+			.setSelection({
+    'line':el.CodeMirror.firstLine(),
+    'ch':0,
+    'sticky':null
+  },{
+    'line':el.CodeMirror.lastLine(),
+    'ch':0,
+    'sticky':null
+  },
+  {scroll: false});
+  //auto indent the selection
+  el.CodeMirror.indentSelection("smart");
 		},1);
 	});
 
