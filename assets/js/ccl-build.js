@@ -17,12 +17,7 @@ $(function() {
 			});
 	})
 
-	
-
-	//SHOW page
-	//$('body').fadeIn('slow');
-
-	//build element ccl
+		//build element ccl
 	$(".demo-item").each(function(){
 		$('<div class="label">Result</div>').prependTo($(this));
 	})
