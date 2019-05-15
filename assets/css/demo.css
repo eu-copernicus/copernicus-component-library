@@ -141,8 +141,6 @@ code{
 .demo-label{
 	width: 100%;
 	font-size: 30px;
-	color: #1484A8;
-
 }
 .demo-item{
 	width: 49%;
@@ -154,6 +152,10 @@ code{
 	display: flex;
 	justify-content: space-between;
 	margin: 0px 5px 0px -5px;
+}
+.demo-large .demo-label,
+.demo-large .demo-item{
+	width: 100%;	
 }
 
 .demo-color > div{
