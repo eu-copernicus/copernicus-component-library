@@ -46,8 +46,9 @@ function changeTheme(palette){
 				'sticky':null
 			},
 			{scroll: false});
-			 
+
   el.CodeMirror.indentSelection("smart");
+  el.CodeMirror.setCursor(0);
 },1);
 	});
 
