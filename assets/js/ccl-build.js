@@ -1,13 +1,13 @@
 $(function() {
 
 	//Build main container
-	$(".ccl-element").wrap( "<div class='ccl-main-container'></div>" );
+	//$(".ccl-element").wrap( "<div class='ccl-main-container'></div>" );
 	//INCLUDE header
-	$('<header class="ccl-site-header" role="banner"></header>').load(baseUrl('/includes/header.html')).prependTo($('.ccl-main-container'));
+	//$('<header class="ccl-site-header" role="banner"></header>').load(baseUrl('/includes/header.html')).prependTo($('.ccl-main-container'));
 	//Build content container
-	$(".ccl-element").wrap( "<div class='ccl-container'></div>" );
+	//$(".ccl-element").wrap( "<div class='ccl-container'></div>" );
     //Build nav container
-    $('<div class="ccl-leftside"><nav class="ccl-site-nav" ></nav></div>').prependTo($('.ccl-container'));
+    //$('<div class="ccl-leftside"><nav class="ccl-site-nav" ></nav></div>').prependTo($('.ccl-container'));
 
 	//INCLUDE navigation
 	$.getJSON(baseUrl("/includes/json_data/nav.json"+v), function(result){     
