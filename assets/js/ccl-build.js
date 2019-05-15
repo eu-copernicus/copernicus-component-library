@@ -1,25 +1,19 @@
 $(function() {
 
-	//Build main container
-	//$(".ccl-element").wrap( "<div class='ccl-main-container'></div>" );
-	//INCLUDE header
-	//$('<header class="ccl-site-header" role="banner"></header>').load(baseUrl('/includes/header.html')).prependTo($('.ccl-main-container'));
-	//Build content container
-	//$(".ccl-element").wrap( "<div class='ccl-container'></div>" );
-    //Build nav container
-    //$('<div class="ccl-leftside"><nav class="ccl-site-nav" ></nav></div>').prependTo($('.ccl-container'));
+	 
+	//Build Menu
+	$(".ccl-site-nav > ul").addClass('ccl-side-navigation__root');
+	$(".ccl-site-nav > ul ul").addClass('ccl-side-navigation__group');
+	$(".ccl-site-nav li").addClass('ccl-side-navigation__item');
+	$(".ccl-site-nav a").addClass('ccl-side-navigation__link');
 
-	//INCLUDE navigation
-	//$.getJSON(baseUrl("/includes/json_data/nav.json"+v), function(result){     
-		//Build Menu
-		$(".ccl-site-nav").append(buildMenu(result['menu'],'','ccl-side-navigation__root'));
-		$(".ccl-expandable__button").click(function(){
+	/*	$(".ccl-expandable__button").click(function(){
 
 			$(this).attr('aria-expanded', function(index, attr){
 				return attr == 'true' ? 'false' : 'true';
 			});
-		})
-	});
+	})*/
+	
 
 	//SHOW page
 	//$('body').fadeIn('slow');
