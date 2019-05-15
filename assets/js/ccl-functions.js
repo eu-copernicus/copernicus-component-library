@@ -1,22 +1,12 @@
-
-
-/*MENU*/
-function buildMenu(eljson,menupath,classes){//recursive html list (dropdown) based on JSON
-	var classesa = (typeof classes !== 'undefined') ? classes:'ccl-side-navigation__group';
-	var newmenu = $('<ul>').addClass(classesa);
-	$.each(eljson, function(i, el){		
-		var newel=$('<li>').addClass('ccl-side-navigation__item');		
-		var href = (typeof el.link !== 'undefined') ? baseUrl('/'+menupath+'/ccl-'+el.link+'.html'):'#';
-		var linkclass = (typeof el.menu !== 'undefined') ? 'ccl-side-navigation__link ccl-expandable__button':'ccl-side-navigation__link';
-		var newlink= $('<a>').attr('aria-expanded','false').addClass(linkclass).attr('href',href).text(el.label);
-
-		newel.append(newlink);
-		newel.append(buildMenu(el.menu,el.path));
-		newmenu.append(newel);
-
-	})
-	return newmenu;
+/*build full path*/
+function baseUrl(path){
+	if (path.charAt(0) == '/'){
+		return baseurlpath+path;
+	}else{
+		return path;
+	}
 }
+
 
 /*GENERATe HTML editor*/
 function generateCode(palette){
