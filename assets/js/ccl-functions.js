@@ -10,9 +10,7 @@ function baseUrl(path){
 
 /*GENERATe HTML editor*/
 function generateCode(palette){
-	$(".demo-item").each(function(){
-		$('<div class="demo-code"><div class="label">HTML</div><textarea class="toCodemirror"><body class="ccl-style ccl-color_'+palette+'">\n   '+$.trim($(this).html().replace(/\t/g,' '))+'\n</body></textarea></div>').insertAfter( $(this) );
-	})
+	
 	$('.toCodemirror').each(function(index, elem){
 		CodeMirror.fromTextArea(elem, {
 			mode: "htmlmixed",  
