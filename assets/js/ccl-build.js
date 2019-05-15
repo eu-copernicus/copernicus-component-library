@@ -1,6 +1,6 @@
 $(function() {
 
-	 
+
 	//Build Menu
 	$(".ccl-site-nav > ul").addClass('ccl-side-navigation__root');
 	$(".ccl-site-nav > ul ul").addClass('ccl-side-navigation__group');
@@ -12,39 +12,36 @@ $(function() {
 		}
 	});
 	$(".ccl-expandable__button").click(function(){
-			$(this).attr('aria-expanded', function(index, attr){
-				return attr == 'true' ? 'false' : 'true';
-			});
+		$(this).attr('aria-expanded', function(index, attr){
+			return attr == 'true' ? 'false' : 'true';
+		});
 	})
 
 		//build element ccl
-	$(".demo-item").each(function(){
-		$('<div class="label">Result</div>').prependTo($(this));
+		$(".demo-item").each(function(){
+			$('<div class="label">Result</div>').prependTo($(this));
+		})
+
+
+	//build the theme selector 
+	
+	//load configuration JSON file
+	$.getJSON(baseUrl("/assets/json_data/themes.json"+v), function(result){
+		$.each(result, function(i, el){
+			var newOptions= $('<option>').val(i).text(el);
+			$("#themeselector").append(newOptions);
+		})
 	})
-	
+
+	//Change theme command
+	$("#themeselector").change(function(){
+		changeTheme($(this).val());
+	})
 
 
-	//build the theme selector and INCLUDE it
-	$('<div id="themeselector_container"></div>').load(baseUrl('/includes/theme_selector.html'),
-		function() {
-			//load configuration JSON file
-			$.getJSON(baseUrl("/includes/json_data/themes.json"+v), function(result){
-				$.each(result, function(i, el){
-					var newOptions= $('<option>').val(i).text(el);
-					$("#themeselector").append(newOptions);
-				})
-			})
-
-			//CHange theme command
-			$("#themeselector").change(function(){
-				changeTheme($(this).val());
-			})
-		})	
-	.appendTo($('.ccl-leftside'));
-	
 	//default theme is GENERIC
 	changeTheme('generic');
-   
+
 
 
 
