@@ -13,10 +13,12 @@
 				</nav>
 			</div>
 			<div class="ccl-content">
-			{{ content }}
-			<div id="howto_container">
-				{% include how_to_use.html %}
-			</div>
+				{{ content }}
+				{% if page.doc == "how_to_use" %}
+				<div id="howto_container">
+					{% include how_to_use.html %}
+				</div>
+				{% endif %}
 			</div>
 		</div>
 		
