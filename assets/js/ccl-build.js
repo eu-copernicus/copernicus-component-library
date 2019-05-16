@@ -42,7 +42,7 @@ $(function() {
 	//load configuration JSON file
 	$.getJSON(baseUrl("/assets/json_data/themes.json"+v), function(result){
 		$.each(result, function(i, el){
-			var selected = (defaultTheme == i) ? {"selected":"selected"} : '';
+			var selected = (defaultTheme == i) ? {"selected":"selected","data-theme":i} : {"data-theme":i};
 			var newOptions= $('<option>').val(i).text(el).attr(selected);
 			$("#themeselector").append(newOptions);
 		})
