@@ -48,13 +48,15 @@ $(function() {
 
 	//Change theme command
 	$("#themeselector").change(function(){
+		document.cookie = "ccl-theme="+$(this).val();
 		changeTheme($(this).val());
 	})
 
 	//build the codemirror 
 	codeMirror();
-	
+
 	//default theme is GENERIC
+
 	changeTheme('generic');
 
 
