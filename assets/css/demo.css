@@ -146,9 +146,9 @@ code{
 	font-size: 30px;
 }
 .demo-item{
-	width: 49%;
+	width: calc(49% - 40px);
 	border: 1px solid #ddd;
-	
+	padding: 20px;
 	margin-bottom: 20px;
 }
 .demo-color{
@@ -158,7 +158,7 @@ code{
 }
 .demo-large .demo-code,
 .demo-large .demo-item{
-	width: 100%;	
+	width: calc(100% - 40px);	
 }
 
 .demo-color > div{
@@ -192,6 +192,8 @@ code{
 	background-color: #eee;
 	font-size: 18px;
 	padding: 3px 5px;
+	    padding: 5px 10px;
+    margin: -20px -20px 20px -20px
 }
 
 .demo-color_code{
