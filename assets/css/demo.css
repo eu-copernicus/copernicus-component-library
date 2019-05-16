@@ -124,8 +124,6 @@ body {
 
 .demo-group {
 	margin: 20px;
-	padding: 20px;
-	border: 1px solid #ddd;
 	display: flex;
 	flex-flow: row;
 	flex-wrap: wrap;
@@ -153,10 +151,11 @@ code {
 }
 
 .demo-item {
-	width: calc(49% - 40px);
+	width: calc(50% - 50px);
 	border: 1px solid #ddd;
 	padding: 20px;
 	margin-bottom: 20px;
+	margin-right: 20px;
 }
 
 .demo-color {
@@ -224,7 +223,7 @@ code {
 }
 
 .demo-code {
-	width: 49%;
+	width: calc(50% - 14px);
 	border: 1px solid #ccc;
 	background: #fefefe;
 	margin-bottom: 20px;
