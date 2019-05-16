@@ -148,6 +148,9 @@ code {
 .demo-label {
 	width: 100%;
 	font-size: 30px;
+	margin-bottom: 20px;
+	font-weight: 700;
+	color: #273B4B;
 }
 
 .demo-item {
