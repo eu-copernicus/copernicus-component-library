@@ -48,7 +48,8 @@ $(function() {
 
 	//Change theme command
 	$("#themeselector").change(function(){
-		document.cookie = "ccl-theme="+$(this).val();
+		$.cookie("ccl-theme", $(this).val(), { path: '/' });
+
 		changeTheme($(this).val());
 	})
 
@@ -56,8 +57,9 @@ $(function() {
 	codeMirror();
 
 	//default theme is GENERIC
-
-	changeTheme('generic');
+	console.log($.cookie("ccl-theme"));
+	var defaultTheme = ($.cookie("ccl-theme")) ? $.cookie("ccl-theme") : "generic";
+	changeTheme(defaultTheme);
 
 
 	
