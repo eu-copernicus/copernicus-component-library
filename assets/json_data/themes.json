@@ -1,11 +1,10 @@
 {
 	"generic":"Generic",
 	"climate":"Climate change",
-	"land":"Land"
-	"atmosphere":"Atmosphere"
-	"marine":"Marine"
-	"security":"Security and surveillance"
-	"emergency":"Emergency"
+	"land":"Land",
+	"atmosphere":"Atmosphere",
+	"marine":"Marine",
+	"security":"Security and surveillance",
+	"emergency":"Emergency",
 	"insitu":"In situ"
-
 }
