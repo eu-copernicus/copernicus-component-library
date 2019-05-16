@@ -167,9 +167,11 @@ code {
 	margin: 0px 5px 0px -5px;
 }
 
-.demo-large .demo-code,
 .demo-large .demo-item {
 	width: calc(100% - 40px);
+}
+.demo-large .demo-code {
+	width: 100% ;
 }
 
 .demo-color > div {
