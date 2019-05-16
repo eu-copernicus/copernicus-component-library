@@ -37,7 +37,7 @@ $(function() {
 
 
 	//build the theme selector 
-	var defaultTheme = ((typeof $.cookie("ccl-theme") !== 'undefined') ? $.cookie("ccl-theme") : "generic";
+	var defaultTheme = (typeof $.cookie("ccl-theme") !== 'undefined') ? $.cookie("ccl-theme") : "generic";
 
 	//load configuration JSON file
 	$.getJSON(baseUrl("/assets/json_data/themes.json"+v), function(result){
