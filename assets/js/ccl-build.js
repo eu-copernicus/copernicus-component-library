@@ -37,28 +37,26 @@ $(function() {
 
 
 	//build the theme selector 
-	
+	var defaultTheme = ((typeof $.cookie("ccl-theme") !== 'undefined') ? $.cookie("ccl-theme") : "generic";
+
 	//load configuration JSON file
 	$.getJSON(baseUrl("/assets/json_data/themes.json"+v), function(result){
 		$.each(result, function(i, el){
-			var newOptions= $('<option>').val(i).text(el);
+			var selected = (defaultTheme == i) ? {"selected","selected"} : '';
+			var newOptions= $('<option>').val(i).text(el).attr(selected);
 			$("#themeselector").append(newOptions);
 		})
 	})
 
 	//Change theme command
 	$("#themeselector").change(function(){
-		$.cookie("ccl-theme", $(this).val(), { path: '/' });
-
 		changeTheme($(this).val());
 	})
 
 	//build the codemirror 
 	codeMirror();
 
-	//default theme is GENERIC
-	console.log($.cookie("ccl-theme"));
-	var defaultTheme = ($.cookie("ccl-theme")) ? $.cookie("ccl-theme") : "generic";
+	//default theme cookie value or GENERIC	
 	changeTheme(defaultTheme);
 
 

@@ -24,7 +24,7 @@ function codeMirror(){
 
 // CHANGE the COLOR theme
 function changeTheme(palette){
-	
+	$.cookie("ccl-theme", palette, { path: '/' });
 	$(".ccl-element").attr('class','ccl-element');
 	$(".ccl-element").attr('class','ccl-element ccl-style ccl-color_'+palette);
 	$("#themeselector_container").attr('class','ccl-color_'+palette);
