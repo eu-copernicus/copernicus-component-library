@@ -12,7 +12,7 @@ $(function() {
 		}
 		if (window.location.href.includes($(this).attr('href')) && $(this).attr('href') != "#"){
 			
-			$(this).addClass('ccl-side-navigation__active').parents('li').find('.ccl-expandable__button').attr('aria-expanded','true');
+			$(this).addClass('ccl-side-navigation__active').parents('li').children('.ccl-expandable__button').attr('aria-expanded','true');
 		}
 		
 	});
