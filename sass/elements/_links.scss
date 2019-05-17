@@ -1,5 +1,5 @@
 //links
-.ccl-style a,
+
 .ccl-link{
     
     font-weight: 400;
@@ -10,8 +10,10 @@
     transition: all .3s ease;
 }
 
-.ccl-style a:hover,
+
 .ccl-link_hover{    
+	text-decoration: none;
+    padding-bottom: 1px;
     font-weight: 400;   
     border-bottom: 1px solid ;
     

@@ -1,0 +1,47 @@
+
+
+
+
+.ccl-form .ccl-form_item label{
+	font-size: 18px;
+	display: block;
+	line-height: 60px;
+}
+
+.ccl-form .ccl-form_item label.ccl-form_required:after{
+	font-size: 18px;
+	padding-left: 5px;
+	content:"*";
+}
+
+.ccl-form .ccl-form_item input{
+	font-size: 16px;
+	display: block;
+	
+	border-width: 1px;
+	padding: 5px 10px ;
+}
+
+.ccl-form .ccl-form_item select{
+	font-size: 16px;
+	display: block;
+	border-width: 1px;
+	padding: 5px 10px ;
+}
+
+.ccl-form .ccl-form_item .ccl-form_invalid_feedback{
+	display:none;
+}
+
+
+.ccl-form .ccl-form_item.ccl-form_item_error input{
+	border-color: #FF3838 !important;	
+	border-style: solid;
+}
+
+.ccl-form .ccl-form_item.ccl-form_item_error .ccl-form_invalid_feedback{
+	display:block;
+	font-size: 12px;
+	margin-top: 10px;
+	color:#FF3838;
+}

@@ -28,11 +28,10 @@
   margin: 0;
   padding: .6rem 1rem;
   text-decoration: none;
-  -webkit-transition: all .3s ease;
-  transition: all .3s ease;
+  -webkit-transition: all .3s ease-out;
+  transition: all .3s ease-out;
   cursor: pointer; }
 
-.ccl-style a,
 .ccl-link {
   font-weight: 400;
   text-decoration: none;
@@ -41,8 +40,9 @@
   -webkit-transition: all .3s ease;
   transition: all .3s ease; }
 
-.ccl-style a:hover,
 .ccl-link_hover {
+  text-decoration: none;
+  padding-bottom: 1px;
   font-weight: 400;
   border-bottom: 1px solid; }
 
@@ -78,5 +78,43 @@
       text-transform: none;
       content: "\f054";
       width: 2rem; }
+
+.ccl-error {
+  color: #f00 !important; }
+
+.ccl-form .ccl-form_item label {
+  font-size: 18px;
+  display: block;
+  line-height: 60px; }
+
+.ccl-form .ccl-form_item label.ccl-form_required:after {
+  font-size: 18px;
+  padding-left: 5px;
+  content: "*"; }
+
+.ccl-form .ccl-form_item input {
+  font-size: 16px;
+  display: block;
+  border-width: 1px;
+  padding: 5px 10px; }
+
+.ccl-form .ccl-form_item select {
+  font-size: 16px;
+  display: block;
+  border-width: 1px;
+  padding: 5px 10px; }
+
+.ccl-form .ccl-form_item .ccl-form_invalid_feedback {
+  display: none; }
+
+.ccl-form .ccl-form_item.ccl-form_item_error input {
+  border-color: #FF3838 !important;
+  border-style: solid; }
+
+.ccl-form .ccl-form_item.ccl-form_item_error .ccl-form_invalid_feedback {
+  display: block;
+  font-size: 12px;
+  margin-top: 10px;
+  color: #FF3838; }
 
 /*# sourceMappingURL=elements.css.map */

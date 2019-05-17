@@ -24,7 +24,9 @@ body {
 	display: flex;
 	flex: 1;
 }
-
+.ccl-content {
+    width: calc(100% - 300px);
+}
 .ccl-element {
 	width: 100%;
 }
@@ -277,6 +279,15 @@ code {
 	
 }
 
+.demo-icon{
+	display: flex;
+	flex-flow: row;
+	flex-wrap: wrap;
+}
+.demo-icon-nowrap{
+	display: flex;
+	flex-flow: row;
+}
 .CodeMirror {
 	height: auto !important;
 }

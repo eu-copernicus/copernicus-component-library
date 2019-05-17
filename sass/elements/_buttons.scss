@@ -16,8 +16,8 @@
     margin: 0;
     padding: .6rem 1rem;
     text-decoration: none;
-    -webkit-transition: all .3s ease;
-    transition: all .3s ease;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
     cursor: pointer;
 
     &:active,

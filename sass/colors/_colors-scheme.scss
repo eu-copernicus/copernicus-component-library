@@ -30,17 +30,7 @@
 	}
 
 	/*elements*/
-	.ccl-title_color,
-	h1,
-	h2,
-	h3,
-	h4,
-	h5,
-	h6,
-	.ccl-title_headline,
-	.ccl-title,
-	.ccl-body_title,
-	input {
+	.ccl-title_color, h1, h2, h3, h4, h5, h6, .ccl-title_headline, .ccl-title, .ccl-body_title, input {
 		color: $ccl-color-title;
 	}
 
@@ -48,11 +38,7 @@
 		border-color: $ccl-color-title;
 	}
 
-	.ccl-text_color,
-	p,
-	.ccl-body_big,
-	.ccl-body_normal,
-	.ccl-body_small {
+	.ccl-text_color, p, .ccl-body_big, .ccl-body_normal, .ccl-body_small {
 		color: $ccl-color-text;
 	}
 
@@ -60,19 +46,12 @@
 		color: $ccl-color-text_light;
 	}
 
-	.ccl-link_hover_color,
-	a:hover,
-	.ccl-link_hover,
-	.ccl-breadcrumbs_link_hover {
+	.ccl-link_hover_color, a:hover, .ccl-link_hover, .ccl-breadcrumbs_link_hover {
 		color: $ccl-color-link_hover;
 		border-color: $ccl-color-link_hover;
 	}
 
-	.ccl-link_color,
-	.ccl_button_color,
-	a,
-	.ccl-link,
-	.ccl-breadcrumbs_link {
+	.ccl-link_color, .ccl_button_color, a, .ccl-link, .ccl-breadcrumbs_link {
 		color: $ccl-color-link;
 		border-color: $ccl-color-link;
 	}
@@ -85,22 +64,103 @@
 		border-color: $ccl-color-main;
 		color: $ccl-color-main;
 
-		&:active,
-		&:focus,
-		&:hover {
+		&:active, &:focus, &:hover {
 			background-color: $ccl-color-main;
 			color: #fff;
 		}
 
 	}
-	.ccl-breadcrumb__segment--last{
-		color:$ccl-color-link_hover;
+
+	.ccl-breadcrumb__segment--last {
+		color: $ccl-color-link_hover;
 	}
-
-
 
 }
 
-.ccl-service-button-m.ccl-service-button-#{$theme}{
+.ccl-service-button-m, .ccl-service-button-l, .ccl-service-button-f {
+	&.ccl-service-button-#{$theme}{
 		background-color: $ccl-color-main;
+
+		.ccl-service-button-icon path {
+			fill: #fff;
+		}
+
+		&:active, &:focus, &:hover {
+			background-color: #fff;
+			color: $ccl-color-main;
+
+			.ccl-service-button-icon path {
+				fill: $ccl-color-main;
+			}
+
+		}
+
+	}
+
+}
+
+.ccl-service-button-s {
+	&.ccl-service-button-#{$theme}{
+		.ccl-service-button-icon {
+			path {
+				fill: $ccl-color-main;
+			}
+
+		}
+		&.ccl-service-button-link {
+		&:active, &:focus, &:hover {
+			background-color: $ccl-color-main;
+
+			.ccl-service-button-icon path {
+				fill: #fff;
+			}
+
+		}
+	}
+
+	}
+
+}
+
+.ccl-service-button-w {
+	&.ccl-service-button-#{$theme}{
+		.ccl-service-button-icon {
+			path {
+				fill: #fff;
+			}
+
+		}
+		&.ccl-service-button-link {
+		&:active, &:focus, &:hover {
+			background-color: #fff;
+
+			.ccl-service-button-icon path {
+				fill: $ccl-color-main;
+			}
+
+		}
+	}
+
+	}
+
+}
+.ccl-service-button-full {
+	&.ccl-service-button-#{$theme}{
+		.ccl-service-button-label{
+			color: $ccl-color-main;
+		}
+			&.ccl-service-button-link {
+		&:active, &:focus, &:hover {
+			background-color: $ccl-color-main;
+
+			.ccl-service-button-icon path {
+				fill: #fff;
+			}
+			.ccl-service-button-label{
+			color:  #fff;
+		}
+
+		}
+	}
+	}
 }
