@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ECL - Europa Component Library v1
 
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
@@ -47,3 +48,7 @@ Please contact [COMM Europa Management](mailto:Europamanagement@ec.europa.eu) fo
 ## Previous versions
 
 - v0.24.0: [sources](https://github.com/ec-europa/europa-component-library/tree/v0) - [release](https://github.com/ec-europa/europa-component-library/releases/tag/v0.24.0) - [website](https://v0--europa-component-library.netlify.com/) 
+=======
+# copernicus-component-library
+Copernicus component library
+>>>>>>> 29eaf6a27a19af8cc57f9d65faf7db2edeca3a99
