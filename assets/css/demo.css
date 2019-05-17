@@ -152,23 +152,31 @@ code {
 	font-weight: 700;
 	color: #273B4B;
 }
-
-.demo-item {
+.demo-doc {
+	width: calc(100% - 40px);
+	border: 1px solid #ddd;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	padding: 20px;
+}
+.demo-item-container {
 	width: calc(50% - 50px);
 	border: 1px solid #ddd;
-	padding: 20px;
 	margin-bottom: 20px;
 	margin-right: 20px;
 }
 
+.demo-item{
+	margin: 20px;
+}
 .demo-color {
 	display: flex;
 	justify-content: space-between;
 	margin: 0px 5px 0px -5px;
 }
 
-.demo-large .demo-item {
-	width: calc(100% - 40px);
+.demo-large .demo-item-container {
+	width: 100% ;
 }
 .demo-large .demo-code {
 	width: 100% ;
@@ -190,6 +198,34 @@ code {
 	margin-top: 5px;
 	display: block;
 }
+.copy-color{
+	position: relative;
+	cursor: pointer;
+}
+
+.copy-color:before{
+	-webkit-transition: all .2s ease;
+    transition: all .2s ease;
+	position: absolute;
+	content: "Copy";
+	top:40%;
+	margin-left: calc(25% - 10px);
+	margin-right: calc(25% - 10px);
+	text-align: center;
+	color: #fff;
+	padding: 5px 10px;
+	border:2px solid #fff;
+	width: 50%;
+}
+.copied:before{
+	
+	content: "Copied";
+	background-color:  #ccc !important;
+}
+.copy-color:hover:before{
+	background-color:  #fff;
+	color:inherit;
+}
 
 .square {
 	width: 50%;
@@ -201,11 +237,11 @@ code {
 	padding-bottom: 100%;
 }
 
-.demo-item .label {
+.demo-item-container .label {
 	background-color: #eee;
 	font-size: 18px;
 	padding: 5px 10px;
-	margin: -20px -20px 20px -20px
+	
 }
 
 .demo-color_code {
@@ -260,7 +296,7 @@ code {
 
 #themeselector {
 	font-size: 20px;
-	color: #1484A8;
+	
 	padding: 5px 10px;
 	margin: 0px 20px;
 	text-align: center;

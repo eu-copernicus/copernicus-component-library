@@ -1,0 +1,106 @@
+.ccl-color_#{$theme}{
+
+	/*backgrounds*/
+	.ccl-main_bgcolor {
+		background-color: $ccl-color-main;
+	}
+
+	.ccl-title_bgcolor {
+		background-color: $ccl-color-title;
+	}
+
+	.ccl-text_bgcolor {
+		background-color: $ccl-color-text;
+	}
+
+	.ccl-text_light_bgcolor {
+		background-color: $ccl-color-text_light;
+	}
+
+	.ccl-link_hover_bgcolor {
+		background-color: $ccl-color-link_hover;
+	}
+
+	.ccl-link_bgcolor {
+		background-color: $ccl-color-link;
+	}
+
+	.ccl-main_color {
+		color: $ccl-color-main;
+	}
+
+	/*elements*/
+	.ccl-title_color,
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	.ccl-title_headline,
+	.ccl-title,
+	.ccl-body_title,
+	input {
+		color: $ccl-color-title;
+	}
+
+	input {
+		border-color: $ccl-color-title;
+	}
+
+	.ccl-text_color,
+	p,
+	.ccl-body_big,
+	.ccl-body_normal,
+	.ccl-body_small {
+		color: $ccl-color-text;
+	}
+
+	.ccl-text_light_color {
+		color: $ccl-color-text_light;
+	}
+
+	.ccl-link_hover_color,
+	a:hover,
+	.ccl-link_hover,
+	.ccl-breadcrumbs_link_hover {
+		color: $ccl-color-link_hover;
+		border-color: $ccl-color-link_hover;
+	}
+
+	.ccl-link_color,
+	.ccl_button_color,
+	a,
+	.ccl-link,
+	.ccl-breadcrumbs_link {
+		color: $ccl-color-link;
+		border-color: $ccl-color-link;
+	}
+
+	.ccl-list li::before {
+		background: $ccl-color-main;
+	}
+
+	.ccl-button--default {
+		border-color: $ccl-color-main;
+		color: $ccl-color-main;
+
+		&:active,
+		&:focus,
+		&:hover {
+			background-color: $ccl-color-main;
+			color: #fff;
+		}
+
+	}
+	.ccl-breadcrumb__segment--last{
+		color:$ccl-color-link_hover;
+	}
+
+
+
+}
+
+.ccl-service-button-m.ccl-service-button-#{$theme}{
+		background-color: $ccl-color-main;
+}

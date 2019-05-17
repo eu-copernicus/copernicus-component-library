@@ -1,0 +1,72 @@
+//list
+
+ul.ccl-list {
+  
+    list-style: none;
+    padding: 0;
+
+    li {
+      position: relative;
+      padding-left: 2rem;
+      line-height: 1.5;
+
+      &::before {
+        content: ' ';
+        height: .4rem;
+        width: .4rem;
+        border-radius: 50%;
+        position: absolute;
+        left: 0;
+        top: 0.55rem;
+      }
+
+    }
+
+  
+
+  &.ccl-list--inline,
+  &.ccl-list--unstyled,
+  &.ccl-list--alpha {
+    padding-inline-start: 2rem;
+
+    li {
+      padding-left: 0;
+
+      &::before {
+        content: none;
+      }
+
+    }
+
+  }
+
+  &.ccl-list--inline,
+  &.ccl-list--unstyled {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  &.ccl-list--inline li {
+    display: inline-block;
+    margin-left: .66rem;
+
+    &:first-child {
+      margin-left: 0;
+    }
+
+  }
+
+  
+}
+
+
+ol.ccl-list {
+  &.ccl-list--alpha {
+    list-style-type: lower-latin;
+  }
+
+  li {
+    line-height: 1.5;
+  }
+
+}

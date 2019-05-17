@@ -6,20 +6,52 @@ doc: how_to_use
 	<div class="demo-group">
 		<div class="demo-label">Breadcrumbs</div>
 		<div class="demo-item">
-			<div class="ccl-breadcrumbs">
-				<a href="#">Breadcrumbs</a> &gt; <a href="#">Breadcrumbs</a>
-			</div>
-			<a href="#" class="ccl-breadcrumbs_link">Breadcrumbs with class</a><br/>
-			<a href="#" class="ccl-breadcrumbs_link_hover">Breadcrumbs hover with class</a>
+			<nav class="ccl-breadcrumb" aria-label="breadcrumb">
+				<span class="ccl-u-sr-only">You are here:</span>
+				<ol class="ccl-breadcrumb__segments-wrapper">
+					<li class="ccl-breadcrumb__segment ccl-breadcrumb__segment--first">
+
+						<a class="ccl-link ccl-breadcrumb__link" href="#">Home</a>
+					</li>
+					<li class="ccl-breadcrumb__segment">
+
+						<a class="ccl-link ccl-breadcrumb__link" href="#">Theme</a>
+					</li>
+					<li class="ccl-breadcrumb__segment">
+
+						<a class="ccl-link ccl-breadcrumb__link" href="#">Category</a>
+					</li>
+					
+					<li class="ccl-breadcrumb__segment ccl-breadcrumb__segment--last">
+						<span>Page title</span>
+					</li>
+				</ol>
+			</nav>
 		</div>
 		<div class="demo-code">
 			<textarea>
 				<body class="ccl-style ccl-color_generic">
-					<div class="ccl-breadcrumbs">
-						<a href="#">Breadcrumbs</a> &gt; <a href="#">Breadcrumbs</a>
-					</div>
-					<a href="#" class="ccl-breadcrumbs_link">Breadcrumbs with class</a><br/>
-					<a href="#" class="ccl-breadcrumbs_link_hover">Breadcrumbs hover with class</a>
+					<nav class="ccl-breadcrumb" aria-label="breadcrumb">
+						<span class="ccl-u-sr-only">You are here:</span>
+						<ol class="ccl-breadcrumb__segments-wrapper">
+					<li class="ccl-breadcrumb__segment ccl-breadcrumb__segment--first">
+
+						<a class="ccl-link ccl-link--inverted ccl-link--standalone ccl-breadcrumb__link" href="#">Home</a>
+					</li>
+					<li class="ccl-breadcrumb__segment">
+
+						<a class="ccl-link ccl-link--inverted ccl-link--standalone ccl-breadcrumb__link" href="#">Theme</a>
+					</li>
+					<li class="ccl-breadcrumb__segment">
+
+						<a class="ccl-link ccl-link--inverted ccl-link--standalone ccl-breadcrumb__link" href="#">Category</a>
+					</li>
+					
+					<li class="ccl-breadcrumb__segment ccl-breadcrumb__segment--last">
+						<span>Page title</span>
+					</li>
+				</ol>
+					</nav>
 				</body>
 			</textarea>
 		</div>

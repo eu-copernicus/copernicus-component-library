@@ -1,0 +1,29 @@
+//buttons
+.ccl-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: none;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Lato';
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    padding: .6rem 1rem;
+    text-decoration: none;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    cursor: pointer;
+
+    &:active,
+    &:focus,
+    &:hover {
+        //text-decoration: underline;
+    }
+
+}

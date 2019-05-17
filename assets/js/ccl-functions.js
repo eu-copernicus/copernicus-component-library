@@ -24,6 +24,8 @@ function codeMirror(){
 
 // CHANGE the COLOR theme
 function changeTheme(palette){
+	
+
 	$.cookie("ccl-theme", palette, { path: '/' });
 	$(".ccl-element").attr('class','ccl-element');
 	$(".ccl-element").attr('class','ccl-element ccl-style ccl-color_'+palette);
@@ -47,20 +49,40 @@ function changeTheme(palette){
 			},
 			{scroll: false});
 
-  el.CodeMirror.indentSelection("smart");
-  el.CodeMirror.setCursor(0);
-},1);
+			el.CodeMirror.indentSelection("smart");
+			el.CodeMirror.setCursor(0);
+		},1);
 	});
 
 	$(".demo-color_code").each(function(){
 		var color=$(this).prev('div').css('background-color');
-		$(this).html(rgb2hex(color)+'<span class="demo-rgb">'+color+'</span>');
+		var colorHex=rgb2hex(color);
+		$(this).html('<span class="demo-hex">'+colorHex+'</span><span class="demo-rgb">'+color+'</span>');
 		
+		$(this).parent()
+
+	})
+
+	$(".copy-color").click(function(){
+			var copyinput=$('<input>').appendTo('body');
+			copyinput.val($(this).next().children('.demo-hex').text());	
+			copyinput.select();	
+			document.execCommand('copy');
+			copyinput.remove();
+			$(this).addClass('copied');
+			setTimeout(function(el){
+				$('.copied').removeClass('copied');
+			},1500)
+	})
+
+
+	$(".demo-theme-name").each(function(){		
+		$(this).text(themes[palette]);
 	})
 }
 
 //Function to Convert RGB to HEX
-function rgb2hex(rgb){console.log(rgb);
+function rgb2hex(rgb){
 	rgb = rgb.match(/^rgb\(([0-9]+), *([0-9]+), *([0-9]+)\)$/);
 
 	return "#" +

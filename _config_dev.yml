@@ -1,0 +1,14 @@
+# Site Settings
+title: Copernicus Component Library
+email: martin@codex42.be
+description: >
+  Copernicus Component Library
+baseurl: "/copernicus/_site"
+url: "http://codex42.github.io"
+github_username:  codex42
+# Build Settings
+sass:
+  sass_dir: _sass
+include: ['_pages']
+kramdown:
+  input: GFM

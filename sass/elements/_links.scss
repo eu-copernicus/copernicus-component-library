@@ -1,0 +1,18 @@
+//links
+.ccl-style a,
+.ccl-link{
+    
+    font-weight: 400;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid ;    
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.ccl-style a:hover,
+.ccl-link_hover{    
+    font-weight: 400;   
+    border-bottom: 1px solid ;
+    
+}

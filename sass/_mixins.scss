@@ -1,0 +1,9 @@
+$base-font-size:18px;
+
+@function trim-unit($value){
+	@return $value / ($value * 0 * 1);
+}
+
+@function rem-calc($value){
+	@return $value / trim-unit($base-font-size) * 1rem
+}

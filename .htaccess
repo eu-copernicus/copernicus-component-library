@@ -1,5 +1,5 @@
-Options +Includes
-AddHandler server-parsed .shtml .html .htm
 
+RewriteEngine on
+RewriteRule ^copernicas/(.*)$ /copernicus/_site/$1 [L]
 
 

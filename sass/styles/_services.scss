@@ -1,0 +1,25 @@
+//icons services
+
+.ccl-service-button {
+	text-align: center;
+
+	&.ccl-service-button-m {
+		width: 11.2rem;
+		height: 11.2rem;
+		color: #fff;
+		padding: 1rem;
+
+		.ccl-service-button-icon{
+			margin: auto;
+		}
+
+		.ccl-service-button-name {
+			height: 100px;
+			line-height: 100px;
+			text-align: center;
+			width: 100%;
+		}
+
+	}
+
+ }

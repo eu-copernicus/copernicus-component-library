@@ -1,0 +1,42 @@
+//breadcrumbs
+.ccl-breadcrumb{
+.ccl-breadcrumb__segments-wrapper {    
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 1rem 0;
+}
+
+.ccl-breadcrumb__segment {
+    font-size: .875rem;
+    line-height: 1.375;
+    display: block;
+    .ccl-breadcrumb__link{
+    	margin-right: 2rem;
+    	&:after {
+    display: inline-block;
+    position: absolute;
+     font-family: "Font Awesome 5 Free";;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 900;
+    line-height: 1.6;
+    text-align: center;
+    speak: none;
+    text-decoration: none;
+    text-transform: none;
+    content: "\f054";
+    width: 2rem;
+}
+}
+}
+
+}
+
