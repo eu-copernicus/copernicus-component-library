@@ -3,8 +3,8 @@ title: Copernicus Component Library
 email: martin@codex42.be
 description: >
   Copernicus Component Library
-baseurl: "/copernicus"
-url: "http://codex42.github.io"
+baseurl: "/copernicus-component-library"
+url: "https://eu-copernicus.github.io"
 github_username:  codex42
 # Build Settings
 sass:
