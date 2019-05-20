@@ -149,14 +149,7 @@
     margin: 0;
     padding: 0.5555555556rem 1.1111111111rem;
     width: 100%; }
-  .ccl-form .ccl-select {
-    background: no-repeat url(../images/down.svg) 98% center;
-    background-size: 1.3rem;
-    -moz-appearance: none;
-    -webkit-appearance: none;
-    appearance: none; }
-  .ccl-form * + .ccl-text-input,
-  .ccl-form * + .ccl-select {
+  .ccl-form * + .ccl-text-input {
     margin-top: .89rem; }
   .ccl-form .invalid-feedback {
     display: none;
@@ -234,6 +227,80 @@
     margin-top: 1rem;
     padding-right: 4rem;
     padding-left: 4rem; }
+  .ccl-form * + .ccl-select-container {
+    margin-top: .89rem; }
+  .ccl-form .ccl-select-container {
+    position: relative;
+    /*style the arrow inside the select element:*/
+    /*point the arrow upwards when the select box is open (active):*/
+    /*style the items (options), including the selected item:*/
+    /*style items (options):*/
+    /*hide the items when the select box is closed:*/ }
+    .ccl-form .ccl-select-container .ccl-select-selected {
+      position: relative;
+      background-color: #fff;
+      background-image: none;
+      border: 1px solid #dadada;
+      box-sizing: border-box;
+      color: #000;
+      min-height: 2.5555555556rem;
+      display: block;
+      font-size: 1rem;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0.5555555556rem 1.1111111111rem;
+      width: 100%;
+      border-radius: .25rem; }
+    .ccl-form .ccl-select-container .ccl-select-selected:after {
+      display: inline-block;
+      font-family: "ccl-icons";
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-font-smoothing: antialiased;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: 900;
+      line-height: 1;
+      margin-left: 0.2222222222rem;
+      margin-top: 0.1666666667rem;
+      speak: none;
+      text-decoration: none;
+      text-transform: none;
+      font-size: 1.5rem;
+      color: #404040;
+      margin-left: 0.66rem;
+      position: absolute;
+      right: 0.8888888889rem;
+      -webkit-transition: all .3s ease-in-out;
+      transition: all .3s  ease-in-out;
+      content: '\e914'; }
+    .ccl-form .ccl-select-container .ccl-select-selected.ccl-select-arrow-active {
+      border-bottom-color: #eee;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0; }
+      .ccl-form .ccl-select-container .ccl-select-selected.ccl-select-arrow-active:after {
+        content: '\e911'; }
+    .ccl-form .ccl-select-container .ccl-select-items div,
+    .ccl-form .ccl-select-container .ccl-select-selected {
+      padding: 8px 16px;
+      cursor: pointer;
+      user-select: none; }
+    .ccl-form .ccl-select-container .ccl-select-items {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      z-index: 99;
+      border: 1px solid #dadada;
+      border-top: 0px;
+      background-color: #fff;
+      border-radius: .25rem;
+      border-top-left-radius: 0;
+      border-top-right-radius: 0; }
+    .ccl-form .ccl-select-container .ccl-select-hide {
+      display: none; }
+    .ccl-form .ccl-select-container .ccl-select-items div:hover,
+    .ccl-form .ccl-select-container .same-as-selected {
+      background-color: rgba(0, 0, 0, 0.1); }
 
 .ccl-dropdown__link {
   border-bottom: 1px solid #dadada;
