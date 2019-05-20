@@ -30,13 +30,11 @@
 	}
 
 	/*elements*/
-	.ccl-title_color, h1, h2, h3, h4, h5, h6, .ccl-title_headline, .ccl-title, .ccl-body_title, input {
+	.ccl-title_color, h1, h2, h3, h4, h5, h6, .ccl-title_headline, .ccl-title, .ccl-body_title {
 		color: $ccl-color-title;
 	}
 
-	input {
-		border-color: $ccl-color-title;
-	}
+	
 
 	.ccl-text_color, p, .ccl-body_big, .ccl-body_normal, .ccl-body_small {
 		color: $ccl-color-text;

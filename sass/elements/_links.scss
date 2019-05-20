@@ -6,8 +6,8 @@
     text-decoration: none;
     padding-bottom: 1px;
     border-bottom: 1px solid ;    
-    -webkit-transition: all .3s ease;
-    transition: all .3s ease;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s  ease-in-out;
 }
 
 

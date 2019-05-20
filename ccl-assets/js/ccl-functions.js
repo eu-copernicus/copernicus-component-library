@@ -54,4 +54,12 @@ $(function() {
             }, 'xml');
 
     });
+
+    $('.ccl-expandable__button').click(function(){
+      $(this).attr('aria-expanded', function(index, attr){
+      return attr == 'true' ? 'false' : 'true';
+    });
+    })
+
+
 });

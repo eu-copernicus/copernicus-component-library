@@ -6,64 +6,140 @@ doc: how_to_use
 	<div class="demo-group">
 		<div class="demo-label"> Forms</div>
 		<div class="demo-item">
+
 			<form class="ccl-form">
-				<div class="ccl-form_item ccl-form_item_textfield">
-					<label for="name" class="ccl-form_required ">Label</label>
-					<input placeholder="Placeholder" class="ccl-form_text required" style="width: 90%" type="text" name="name" value="" required="required" aria-required="true">
-					<div class="ccl-form_invalid_feedback">
-						This field is required.
+
+				<fieldset class="ccl-fieldset">
+
+					<legend class="ccl-form-legend ccl-form-legend--level-1">Personal information</legend>
+
+					<div class="ccl-form-group">
+
+						<label class="ccl-form-label" for="field-ID-1">First name</label>
+
+						<input type="text" class="ccl-text-input" id="field-ID-1" name="field-name-1" placeholder="Some placeholder text." />
 					</div>
-				</div>
-			
-				<div class="ccl-form_item ccl-form_item_textfield ccl-form_item_error">
-					<label for="name" class="ccl-form_required ">Label</label>
-					<input placeholder="Placeholder" class="ccl-form_text required" style="width: 90%" type="text" name="name" value="" required="required" aria-required="true">
-					<div class="ccl-form_invalid_feedback">
-						This field is required.
+
+					<div class="ccl-form-group">
+
+						<label class="ccl-form-label" for="field-ID-2">Last name</label>
+
+						<input type="text" class="ccl-text-input" id="field-ID-2" name="field-name-2" placeholder="Some placeholder text." />
 					</div>
-				</div>
-			
-				<div class="ccl-form_item ccl-form_item_select ">
-					<label for="name" >Label</label>
-					<select class="ccl-form_select"  name="name"  required="required" aria-required="true">
-						<option value="1">Option 1</option>
-						<option value="2">Option 2</option>
-						<option value="3">Option 3</option>
-					</select>
+				</fieldset>
+
+				<fieldset class="ccl-fieldset">
+
+					<legend class="ccl-form-legend ccl-form-legend--level-1">Group</legend>
+
+					<fieldset class="ccl-fieldset">
+
+						<legend class="ccl-form-legend ccl-form-legend--level-2">Subgroup 1</legend>
+
+						<div class="ccl-form-group">
+
+							<label class="ccl-form-label" for="field-ID-3">Text Input - disabled</label>
+
+							<p class="ccl-help-block ccl-help-block--disabled">This is some placeholder help text</p>
+
+							<input type="text" class="ccl-text-input" id="field-ID-3" name="field-name-3" disabled placeholder="Some placeholder text." />
+						</div>
+
+						<div class="ccl-form-group">
+
+							<label class="ccl-form-label" for="field-ID-4">Text Input - error on a field</label>
+
+							<p class="ccl-help-block ccl-help-block--has-error">This is some placeholder help text</p>
+
+							<input type="text" class="ccl-text-input ccl-text-input--has-error" id="field-ID-4" name="field-name-4" placeholder="Some placeholder text." />
+
+							<div class="ccl-feedback-message--error" role="alert">
+								Some feedback message
+							</div>
+						</div>
+					</fieldset>
+
+
+		
+
+					<div class="ccl-form-group">
+
+						<label class="ccl-form-label" for="select-ID-1">Otions list</label>
+
+						<select class="ccl-select" id="select-ID-1" name="select-name-1">
+							<option value="option1">First option</option>
+							<option value="option2">Second option</option>
+							<option value="option3">Third option</option>
+						</select>
+					</div>
+
 					
-				</div>
+				</fieldset>
+
+
+				<fieldset class="ccl-fieldset text-right">
+					<div class="ccl-form-group">
+
+						<input  type="checkbox" id="edit-field-gdpr-value" name="field_gdpr[value]" value="1" class="ccl-checkbox ccl-required ccl-form-check-input" required="required" aria-required="true">
+
+						<label class="ccl-form-check-label" for="edit-field-gdpr-value">
+							<a href="#">I agree to the privacy policy.</a>
+						</label>
+						<div class="invalid-feedback mb-1">
+							Please accept our policies.
+						</div>
+					</div>
+					<button type="submit" class="ccl-button ccl-button--default">Submit</button>
+				</fieldset>
 			</form>
 		</div>
 		<div class="demo-code">
 			<textarea>
 				<body class="ccl-style ccl-color_generic">
 					<form class="ccl-form">
-				<div class="ccl-form_item ccl-form_item_textfield">
-					<label for="name" class="ccl-form_required ">Label</label>
-					<input placeholder="Placeholder" class="ccl-form_text required" style="width: 90%" type="text" name="name" value="" required="required" aria-required="true">
-					<div class="ccl-form_invalid_feedback">
-						This field is required.
-					</div>
-				</div>
-			
-				<div class="ccl-form_item ccl-form_item_textfield ccl-form_item_error">
-					<label for="name" class="ccl-form_required ">Label</label>
-					<input placeholder="Placeholder" class="ccl-form_text required" style="width: 90%" type="text" name="name" value="" required="required" aria-required="true">
-					<div class="ccl-form_invalid_feedback">
-						This field is required.
-					</div>
-				</div>
-			
-				<div class="ccl-form_item ccl-form_item_select ">
-					<label for="name" >Label</label>
-					<select class="ccl-form_select"  name="name"  required="required" aria-required="true">
-						<option value="1">Option 1</option>
-						<option value="2">Option 2</option>
-						<option value="3">Option 3</option>
-					</select>
-					
-				</div>
-			</form>
+						<fieldset class="ccl-fieldset">
+							<legend class="ccl-form-legend ccl-form-legend--level-1">Personal information</legend>
+							<div class="ccl-form-group">
+								<label class="ccl-form-label" for="field-ID-1">First name</label>
+								<input type="text" class="ccl-text-input" id="field-ID-1" name="field-name-1" placeholder="Some placeholder text." />
+							</div>
+							<div class="ccl-form-group">
+								<label class="ccl-form-label" for="field-ID-2">Last name</label>
+								<input type="text" class="ccl-text-input" id="field-ID-2" name="field-name-2" placeholder="Some placeholder text." />
+							</div>
+						</fieldset>
+						<fieldset class="ccl-fieldset">
+							<legend class="ccl-form-legend ccl-form-legend--level-1">Group</legend>
+							<fieldset class="ccl-fieldset">
+								<legend class="ccl-form-legend ccl-form-legend--level-2">Subgroup 1</legend>
+								<div class="ccl-form-group">
+									<label class="ccl-form-label" for="field-ID-3">Text Input - disabled</label>
+									<p class="ccl-help-block ccl-help-block--disabled">This is some placeholder help text</p>
+									<input type="text" class="ccl-text-input" id="field-ID-3" name="field-name-3" disabled placeholder="Some placeholder text." />
+								</div>
+								<div class="ccl-form-group">
+									<label class="ccl-form-label" for="field-ID-4">Text Input - error on a field</label>
+									<p class="ccl-help-block ccl-help-block--has-error">This is some placeholder help text</p>
+									<input type="text" class="ccl-text-input ccl-text-input--has-error" id="field-ID-4" name="field-name-4" placeholder="Some placeholder text." />
+									<div class="ccl-feedback-message--error" role="alert">
+										Some feedback message
+									</div>
+								</div>
+							</fieldset>
+						</fieldset>
+						<fieldset class="ccl-fieldset text-right">
+							<div class="ccl-form-group">
+								<input  type="checkbox" id="edit-field-gdpr-value" name="field_gdpr[value]" value="1" class="ccl-checkbox ccl-required ccl-form-check-input" required="required" aria-required="true">
+								<label class="ccl-form-check-label" for="edit-field-gdpr-value">
+									<a href="#">I agree to the privacy policy.</a>
+								</label>
+								<div class="invalid-feedback mb-1">
+									Please accept our policies.
+								</div>
+							</div>
+							<button type="submit" class="ccl-button ccl-button--default">Submit</button>
+						</fieldset>
+					</form>
 				</body>
 			</textarea>
 		</div>

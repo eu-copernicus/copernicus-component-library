@@ -1,0 +1,50 @@
+
+ .ccl-dropdown__link{
+border-bottom: 1px solid $ccl-color-border-grey-light;
+	color: $ccl-color-border-grey;
+	display: -webkit-flex;
+	display: flex;
+	
+	padding: 1rem 0;
+	position: relative;
+	text-decoration: none;
+	
+}
+
+ .ccl-dropdown__link[aria-expanded='false'] + * {
+	display: none;
+	    
+}
+
+ .ccl-dropdown__link[aria-expanded='true'] + * {
+	display: block;
+	}
+
+.ccl-expandable__button::after {
+	display: inline-block;
+	font-family: "ccl-icons";
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 900;
+	line-height: 1;
+	margin-left: rem-calc(4);
+	margin-top: rem-calc(3);
+	speak: none;
+	text-decoration: none;
+	text-transform: none;
+	
+	margin-left: 0.66rem;
+	position: absolute;
+    right: 0;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s  ease-in-out;
+}
+.ccl-expandable__button[aria-expanded='false']::after {
+	content: '\e914';
+}
+
+.ccl-expandable__button[aria-expanded='true']::after {
+	content: '\e911';
+}

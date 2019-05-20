@@ -28,6 +28,9 @@ html {
   .ccl-style p {
     font-size: 1.0rem; }
 
+.text-right {
+  text-align: right !important; }
+
 .ccl-paragraph--l {
   font-size: 1.4rem;
   line-height: 1.6rem; }

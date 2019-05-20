@@ -3,17 +3,17 @@
 {% include head.html %}
 
 <body>
-	<div class='ccl-main-container'>
+	<div class='demo-main-container'>
 		{% include header.html %}
 		
-		<div class='ccl-container'>
-			<div class="ccl-leftside">
-				<nav class="ccl-site-nav" >
+		<div class='demo-container'>
+			<div class="demo-leftside">
+				<nav class="demo-site-nav" >
 					{% include nav.html %}
 				</nav>
 				{% include theme_selector.html %}
 			</div>
-			<div class="ccl-content">
+			<div class="demo-content">
 				{{ content }}
 				{% if page.doc == "how_to_use" %}
 				<div id="howto_container">
