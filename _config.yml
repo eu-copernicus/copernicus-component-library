@@ -1,11 +1,11 @@
 # Site Settings
 title: Copernicus Component Library
-email: martin@codex42.be
+email: Michel.WAKIM@icfnext.com
 description: >
   Copernicus Component Library
 baseurl: "/copernicus-component-library"
 url: "https://eu-copernicus.github.io"
-github_username:  codex42
+github_username:  eu-copernicus
 # Build Settings
 sass:
   sass_dir: _sass
