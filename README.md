@@ -47,7 +47,7 @@ contains the class for the Copernicus elements
 
 #### template.css 
 
-contains the class and syles of [html elements] (https://eu-copernicus.github.io/copernicus-component-library/ccl-layout/ccl-template.html) 
+contains the class and syles of [html elements](https://eu-copernicus.github.io/copernicus-component-library/ccl-layout/ccl-template.html) 
 
 #### fonts & images 
 
