@@ -181,7 +181,7 @@
 		top: rem-calc(3);
 		right: rem-calc(-21);
 		height: rem-calc(13);
-		border: solid $ccl-color-border-grey;
+		border: solid;
 		border-width: 0 2px 2px 0;
 		-webkit-transform: rotate(45deg);
 		transform: rotate(45deg);
@@ -193,12 +193,13 @@
 		padding-left: 4rem;
 	}
 
-* + .ccl-select-container {
-    margin-top: .89rem;
-}
+	* + .ccl-select-container {
+		margin-top: .89rem;
+	}
 
 	.ccl-select-container {
 		position: relative;
+
 		.ccl-select-selected {
 			position: relative;
 			background-color: #fff;
@@ -241,15 +242,18 @@
 			content: '\e914';
 		}
 
+
 		/*point the arrow upwards when the select box is open (active):*/
-		.ccl-select-selected.ccl-select-arrow-active{
-border-bottom-color: #eee;
-border-bottom-left-radius:0;
-border-bottom-right-radius:0;
+		.ccl-select-selected.ccl-select-arrow-active {
+			border-bottom-color: #eee;
+			border-bottom-left-radius: 0;
+			border-bottom-right-radius: 0;
+
 			&:after {
-			content: '\e911';
+				content: '\e911';
+			}
+
 		}
-	}
 
 		/*style the items (options), including the selected item:*/
 		.ccl-select-items div,
@@ -261,7 +265,7 @@ border-bottom-right-radius:0;
 
 		/*style items (options):*/
 		.ccl-select-items {
-			position: absolute;			
+			position: absolute;
 			top: 100%;
 			left: 0;
 			right: 0;
@@ -270,8 +274,8 @@ border-bottom-right-radius:0;
 			border-top: 0px;
 			background-color: #fff;
 			border-radius: .25rem;
-			border-top-left-radius:0;
-border-top-right-radius:0;
+			border-top-left-radius: 0;
+			border-top-right-radius: 0;
 		}
 
 		/*hide the items when the select box is closed:*/
@@ -283,7 +287,40 @@ border-top-right-radius:0;
 		.same-as-selected {
 			background-color: rgba(0, 0, 0, 0.1);
 		}
+		&.ccl-select-container-reverse{
+			.ccl-select-items {
+			position: absolute;
+			top:inherit;
+			bottom: 100%;
+			left: 0;
+			right: 0;
+			z-index: 99;			
+			border-top: 1px solid $ccl-color-border-grey-light;;
+			border-bottom: 0px;
+			background-color: #fff;
+	
+			border-top-left-radius: .25rem;
+			border-top-right-radius: .25rem;
+			border-bottom-left-radius: 0;
+			border-bottom-right-radius: 0;
+		}
 
+			.ccl-select-selected:after {
+				content: '\e911';
+			}
+			.ccl-select-selected.ccl-select-arrow-active {
+				border-bottom-color: 1px solid $ccl-color-border-grey-light;;
+				border-bottom-left-radius: .25rem;
+				border-bottom-right-radius: .25rem;
+				border-top-color: #eee;
+				border-top-left-radius: 0;
+				border-top-right-radius: 0;	
+			&:after {
+				content: '\e914';
+			}
+
+		}
+		}
 	}
 
 }

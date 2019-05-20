@@ -4,7 +4,7 @@ email: martin@codex42.be
 description: >
   Copernicus Component Library
 baseurl: "/copernicus/_site"
-url: "http://codex42.github.io"
+url: "http://demo.codex42.online"
 github_username:  codex42
 # Build Settings
 sass:

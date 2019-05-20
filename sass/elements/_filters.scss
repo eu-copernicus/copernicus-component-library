@@ -1,0 +1,41 @@
+.ccl-filter-list{
+	list-style: none;
+	padding-left: 0;
+	label{
+		color: $ccl-color-border-medium;
+	}
+}
+.ccl-filter-link{
+	text-decoration: none;
+	span{
+		text-decoration: none;
+	}
+}
+ .ccl-dropdown__filter{
+
+	color: $ccl-color-border-grey;
+	display: -webkit-flex;
+	display: flex;
+	font-size: 1.05rem;
+	padding: 1rem 0 0 0;
+	position: relative;
+	text-decoration: none;
+	
+}
+
+ .ccl-dropdown__filter[aria-expanded='false'] + * {
+	display: none;
+	    
+}
+
+ .ccl-dropdown__filter[aria-expanded='true'] + * {
+	display: block;
+	}
+
+.ccl-filter-title{
+	display: block;
+	color: #fff;
+	text-align: center;
+	line-height: 2.5rem;
+	margin-bottom: 0.5rem;
+}

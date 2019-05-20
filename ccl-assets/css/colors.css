@@ -38,6 +38,21 @@
       color: #fff; }
   .ccl-color_generic .ccl-breadcrumb__segment--last {
     color: #286E9F; }
+  .ccl-color_generic .ccl-block-title {
+    border-color: #0094E0; }
+  .ccl-color_generic .ccl-form-check-input:checked + .ccl-form-check-label::after,
+  .ccl-color_generic .form-check-input:checked + label::after {
+    border-color: #0094E0 !important; }
+  .ccl-color_generic .ccl-form-check-input:checked + .ccl-form-check-label:before {
+    border-color: #0094E0; }
+  .ccl-color_generic .ccl-filter-title {
+    background-color: #0094E0; }
+  .ccl-color_generic .ccl-modal {
+    background-color: #0094E0; }
+  .ccl-color_generic .ccl-footer {
+    background-color: #0094E0; }
+  .ccl-color_generic .ccl-footer-form button {
+    color: #0094E0 !important; }
 
 .ccl-service-button-m.ccl-service-button-generic, .ccl-service-button-l.ccl-service-button-generic, .ccl-service-button-f.ccl-service-button-generic {
   background-color: #0094E0; }
@@ -112,6 +127,21 @@
       color: #fff; }
   .ccl-color_climate .ccl-breadcrumb__segment--last {
     color: #720A24; }
+  .ccl-color_climate .ccl-block-title {
+    border-color: #941333; }
+  .ccl-color_climate .ccl-form-check-input:checked + .ccl-form-check-label::after,
+  .ccl-color_climate .form-check-input:checked + label::after {
+    border-color: #941333 !important; }
+  .ccl-color_climate .ccl-form-check-input:checked + .ccl-form-check-label:before {
+    border-color: #941333; }
+  .ccl-color_climate .ccl-filter-title {
+    background-color: #941333; }
+  .ccl-color_climate .ccl-modal {
+    background-color: #941333; }
+  .ccl-color_climate .ccl-footer {
+    background-color: #941333; }
+  .ccl-color_climate .ccl-footer-form button {
+    color: #941333 !important; }
 
 .ccl-service-button-m.ccl-service-button-climate, .ccl-service-button-l.ccl-service-button-climate, .ccl-service-button-f.ccl-service-button-climate {
   background-color: #941333; }
@@ -186,6 +216,21 @@
       color: #fff; }
   .ccl-color_land .ccl-breadcrumb__segment--last {
     color: #7C8921; }
+  .ccl-color_land .ccl-block-title {
+    border-color: #A0B128; }
+  .ccl-color_land .ccl-form-check-input:checked + .ccl-form-check-label::after,
+  .ccl-color_land .form-check-input:checked + label::after {
+    border-color: #A0B128 !important; }
+  .ccl-color_land .ccl-form-check-input:checked + .ccl-form-check-label:before {
+    border-color: #A0B128; }
+  .ccl-color_land .ccl-filter-title {
+    background-color: #A0B128; }
+  .ccl-color_land .ccl-modal {
+    background-color: #A0B128; }
+  .ccl-color_land .ccl-footer {
+    background-color: #A0B128; }
+  .ccl-color_land .ccl-footer-form button {
+    color: #A0B128 !important; }
 
 .ccl-service-button-m.ccl-service-button-land, .ccl-service-button-l.ccl-service-button-land, .ccl-service-button-f.ccl-service-button-land {
   background-color: #A0B128; }
@@ -260,6 +305,21 @@
       color: #fff; }
   .ccl-color_atmosphere .ccl-breadcrumb__segment--last {
     color: #5AA8BC; }
+  .ccl-color_atmosphere .ccl-block-title {
+    border-color: #55BFD0; }
+  .ccl-color_atmosphere .ccl-form-check-input:checked + .ccl-form-check-label::after,
+  .ccl-color_atmosphere .form-check-input:checked + label::after {
+    border-color: #55BFD0 !important; }
+  .ccl-color_atmosphere .ccl-form-check-input:checked + .ccl-form-check-label:before {
+    border-color: #55BFD0; }
+  .ccl-color_atmosphere .ccl-filter-title {
+    background-color: #55BFD0; }
+  .ccl-color_atmosphere .ccl-modal {
+    background-color: #55BFD0; }
+  .ccl-color_atmosphere .ccl-footer {
+    background-color: #55BFD0; }
+  .ccl-color_atmosphere .ccl-footer-form button {
+    color: #55BFD0 !important; }
 
 .ccl-service-button-m.ccl-service-button-atmosphere, .ccl-service-button-l.ccl-service-button-atmosphere, .ccl-service-button-f.ccl-service-button-atmosphere {
   background-color: #55BFD0; }
@@ -334,6 +394,21 @@
       color: #fff; }
   .ccl-color_marine .ccl-breadcrumb__segment--last {
     color: #146883; }
+  .ccl-color_marine .ccl-block-title {
+    border-color: #1484A8; }
+  .ccl-color_marine .ccl-form-check-input:checked + .ccl-form-check-label::after,
+  .ccl-color_marine .form-check-input:checked + label::after {
+    border-color: #1484A8 !important; }
+  .ccl-color_marine .ccl-form-check-input:checked + .ccl-form-check-label:before {
+    border-color: #1484A8; }
+  .ccl-color_marine .ccl-filter-title {
+    background-color: #1484A8; }
+  .ccl-color_marine .ccl-modal {
+    background-color: #1484A8; }
+  .ccl-color_marine .ccl-footer {
+    background-color: #1484A8; }
+  .ccl-color_marine .ccl-footer-form button {
+    color: #1484A8 !important; }
 
 .ccl-service-button-m.ccl-service-button-marine, .ccl-service-button-l.ccl-service-button-marine, .ccl-service-button-f.ccl-service-button-marine {
   background-color: #1484A8; }
@@ -408,6 +483,21 @@
       color: #fff; }
   .ccl-color_security .ccl-breadcrumb__segment--last {
     color: #617B7B; }
+  .ccl-color_security .ccl-block-title {
+    border-color: #618888; }
+  .ccl-color_security .ccl-form-check-input:checked + .ccl-form-check-label::after,
+  .ccl-color_security .form-check-input:checked + label::after {
+    border-color: #618888 !important; }
+  .ccl-color_security .ccl-form-check-input:checked + .ccl-form-check-label:before {
+    border-color: #618888; }
+  .ccl-color_security .ccl-filter-title {
+    background-color: #618888; }
+  .ccl-color_security .ccl-modal {
+    background-color: #618888; }
+  .ccl-color_security .ccl-footer {
+    background-color: #618888; }
+  .ccl-color_security .ccl-footer-form button {
+    color: #618888 !important; }
 
 .ccl-service-button-m.ccl-service-button-security, .ccl-service-button-l.ccl-service-button-security, .ccl-service-button-f.ccl-service-button-security {
   background-color: #618888; }
@@ -482,6 +572,21 @@
       color: #fff; }
   .ccl-color_emergency .ccl-breadcrumb__segment--last {
     color: #286E9F; }
+  .ccl-color_emergency .ccl-block-title {
+    border-color: #FAA73E; }
+  .ccl-color_emergency .ccl-form-check-input:checked + .ccl-form-check-label::after,
+  .ccl-color_emergency .form-check-input:checked + label::after {
+    border-color: #FAA73E !important; }
+  .ccl-color_emergency .ccl-form-check-input:checked + .ccl-form-check-label:before {
+    border-color: #FAA73E; }
+  .ccl-color_emergency .ccl-filter-title {
+    background-color: #FAA73E; }
+  .ccl-color_emergency .ccl-modal {
+    background-color: #FAA73E; }
+  .ccl-color_emergency .ccl-footer {
+    background-color: #FAA73E; }
+  .ccl-color_emergency .ccl-footer-form button {
+    color: #FAA73E !important; }
 
 .ccl-service-button-m.ccl-service-button-emergency, .ccl-service-button-l.ccl-service-button-emergency, .ccl-service-button-f.ccl-service-button-emergency {
   background-color: #FAA73E; }
@@ -556,6 +661,21 @@
       color: #fff; }
   .ccl-color_insitu .ccl-breadcrumb__segment--last {
     color: #60342B; }
+  .ccl-color_insitu .ccl-block-title {
+    border-color: #783F34; }
+  .ccl-color_insitu .ccl-form-check-input:checked + .ccl-form-check-label::after,
+  .ccl-color_insitu .form-check-input:checked + label::after {
+    border-color: #783F34 !important; }
+  .ccl-color_insitu .ccl-form-check-input:checked + .ccl-form-check-label:before {
+    border-color: #783F34; }
+  .ccl-color_insitu .ccl-filter-title {
+    background-color: #783F34; }
+  .ccl-color_insitu .ccl-modal {
+    background-color: #783F34; }
+  .ccl-color_insitu .ccl-footer {
+    background-color: #783F34; }
+  .ccl-color_insitu .ccl-footer-form button {
+    color: #783F34 !important; }
 
 .ccl-service-button-m.ccl-service-button-insitu, .ccl-service-button-l.ccl-service-button-insitu, .ccl-service-button-f.ccl-service-button-insitu {
   background-color: #783F34; }

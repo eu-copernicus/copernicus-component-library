@@ -1,0 +1,37 @@
+.ccl-modal{
+		padding: 1rem;
+		position: relative;
+		color: #fff;
+		.ccl-modal-title{
+			font-size: 1.4rem;
+			margin-left: 3rem;
+			margin-right: 3rem;
+		}
+		.ccl-modal-body{
+			margin-top: 1rem;
+			margin-left: 3rem;
+			margin-right: 3rem;
+			
+			*{
+				color: #fff !important;
+			}
+			
+		}
+		.ccl-modal-close{
+			position: absolute;
+			top:0;
+			right: 0;
+			margin: 1rem;
+			font-size: 1.1rem;
+
+		}
+		.ccl-modal-buttons{
+			text-align: right;
+			margin-left: 3rem;
+			margin-right: 3rem;
+			button{
+				border-color: #fff;
+				color: #fff;
+			}
+		}
+	}

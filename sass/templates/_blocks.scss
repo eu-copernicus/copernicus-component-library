@@ -1,0 +1,45 @@
+.ccl-block-title {
+	font-size: 1.4rem !important;
+	border-bottom: 1px solid;
+	padding-bottom: rem-calc(20);
+	margin-bottom: rem-calc(40);
+}
+
+.ccl-block {
+	&.ccl-block-services {
+		display: flex;
+	}
+
+}
+
+@media (max-width:900px) {
+	.ccl-block {
+		&.ccl-block-services {
+			display: flex;
+			flex-wrap: wrap;
+
+			.ccl-service-button-container {
+				width: 33%;
+			}
+
+		}
+
+	}
+
+}
+
+@media (max-width:570px) {
+	.ccl-block {
+		&.ccl-block-services {
+			display: flex;
+			flex-wrap: wrap;
+
+			.ccl-service-button-container {
+				width: 50%;
+			}
+
+		}
+
+	}
+
+}

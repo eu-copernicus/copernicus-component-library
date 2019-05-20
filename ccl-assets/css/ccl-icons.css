@@ -24,6 +24,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.ccl-icon-close:before {
+  content: "\e916";
+}
 .ccl-icon-zoom:before {
   content: "\e908";
 }

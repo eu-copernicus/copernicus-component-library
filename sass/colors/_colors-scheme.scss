@@ -72,7 +72,28 @@
 	.ccl-breadcrumb__segment--last {
 		color: $ccl-color-link_hover;
 	}
-
+	.ccl-block-title{
+		border-color: $ccl-color-main;
+	}
+	.ccl-form-check-input:checked+.ccl-form-check-label::after,
+	.form-check-input:checked+label::after {
+		border-color:  $ccl-color-main !important;
+	}
+	.ccl-form-check-input:checked+.ccl-form-check-label:before {
+		border-color:  $ccl-color-main;
+	}
+	.ccl-filter-title{
+		background-color: $ccl-color-main;
+	}
+	.ccl-modal{
+		background-color: $ccl-color-main;
+	}
+	.ccl-footer{
+		background-color: $ccl-color-main;
+	}
+	.ccl-footer-form button{
+		color: $ccl-color-main !important;
+	}
 }
 
 .ccl-service-button-m, .ccl-service-button-l, .ccl-service-button-f {

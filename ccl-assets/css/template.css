@@ -1,0 +1,101 @@
+/*THEME generic*/
+.ccl-block-title {
+  font-size: 1.4rem !important;
+  border-bottom: 1px solid;
+  padding-bottom: 1.1111111111rem;
+  margin-bottom: 2.2222222222rem; }
+
+.ccl-block.ccl-block-services {
+  display: flex; }
+
+@media (max-width: 900px) {
+  .ccl-block.ccl-block-services {
+    display: flex;
+    flex-wrap: wrap; }
+    .ccl-block.ccl-block-services .ccl-service-button-container {
+      width: 33%; } }
+@media (max-width: 570px) {
+  .ccl-block.ccl-block-services {
+    display: flex;
+    flex-wrap: wrap; }
+    .ccl-block.ccl-block-services .ccl-service-button-container {
+      width: 50%; } }
+.ccl-footer {
+  color: #fff;
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+  .ccl-footer * {
+    color: #fff !important; }
+  .ccl-footer .ccl-footer-logo {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5.5555555556rem; }
+    .ccl-footer .ccl-footer-logo .ccl-footer-logo-img {
+      width: 18.3333333333rem; }
+  .ccl-footer .ccl-footer-col {
+    width: 28%; }
+    @media (max-width: 900px) {
+      .ccl-footer .ccl-footer-col {
+        width: 100%;
+        margin-bottom: 3rem; } }
+    .ccl-footer .ccl-footer-col .ccl-footer-col-title {
+      font-size: 1.3rem;
+      border-bottom: 1px solid #dadada;
+      padding-bottom: 1.5rem; }
+    .ccl-footer .ccl-footer-col .ccl-footer-body-title {
+      text-transform: uppercase;
+      letter-spacing: 0.05rem; }
+    .ccl-footer .ccl-footer-col .ccl-footer-services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin-top: 1rem; }
+      .ccl-footer .ccl-footer-col .ccl-footer-services .ccl-service-button {
+        width: 22%;
+        text-decoration: none;
+        font-size: 0.7rem;
+        margin: 0 5%;
+        padding: 0 0 2rem 0; }
+        .ccl-footer .ccl-footer-col .ccl-footer-services .ccl-service-button:hover {
+          background-color: transparent !important;
+          color: #dadada !important; }
+          .ccl-footer .ccl-footer-col .ccl-footer-services .ccl-service-button:hover .ccl-service-button-icon path {
+            fill: #dadada !important; }
+    .ccl-footer .ccl-footer-col .ccl-footer-form {
+      margin: 1rem 0;
+      display: flex; }
+      .ccl-footer .ccl-footer-col .ccl-footer-form input {
+        display: block;
+        background-color: transparent;
+        border: 1px solid #fff;
+        line-height: 1rem;
+        padding: 0.2rem 0.5rem;
+        color: #fff;
+        font-family: 'Lato';
+        font-size: 1rem;
+        width: 100%; }
+        .ccl-footer .ccl-footer-col .ccl-footer-form input:focus {
+          outline-offset: none;
+          outline: none; }
+      .ccl-footer .ccl-footer-col .ccl-footer-form button {
+        display: block;
+        background-color: #fff;
+        border: 1px solid #fff; }
+    .ccl-footer .ccl-footer-col .ccl-footer-social {
+      text-align: center;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin-top: 1rem; }
+      .ccl-footer .ccl-footer-col .ccl-footer-social a {
+        text-decoration: none;
+        font-size: 1.5rem;
+        display: block;
+        -webkit-transition: all .2s ease-in-out;
+        transition: all .2s ease-in-out; }
+        .ccl-footer .ccl-footer-col .ccl-footer-social a:hover span {
+          color: #dadada !important; }
+
+/*# sourceMappingURL=template.css.map */

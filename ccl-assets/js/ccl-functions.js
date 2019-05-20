@@ -1,3 +1,57 @@
+ //builds nice select dropdown
+
+ function buildSelect(elSelect,i){
+
+
+  var $wrapper=$('<div class="ccl-select-container"></div>')
+  if ($(elSelect).hasClass('ccl-select-reverse')){
+    $wrapper.addClass('ccl-select-container-reverse');
+  }
+  $(elSelect).hide().wrap($wrapper);
+  var $Selected=$('<div></div>')
+  .addClass('ccl-select-selected')
+  .attr('id','ccl-select-id--'+i)
+  .text($(elSelect).val())
+  .click(function(){
+    closeAllSelect(this);
+    $(this).next('.ccl-select-items').toggleClass("ccl-select-hide");
+    $(this).toggleClass("ccl-select-arrow-active");
+  })
+
+
+
+  var $options=$('<div></div>').addClass('ccl-select-items ccl-select-hide'); 
+  $('option',elSelect).each(function(index,el){
+    $option=$('<div></div>').text($(el).text()).click(function(){
+      $elParent=$(el).parents('.ccl-select-container')
+      $('select',$elParent)[0].selectedIndex = index;
+      $('select',$elParent).trigger('change');
+      $('.ccl-select-selected',$elParent).text($(el).text());
+      $('.ccl-same-as-selected',$(el).parent()).removeAttr('class')
+      $(el).addClass('ccl-same-as-selected');
+    });
+
+    $options.append($option);
+  })
+  $options.insertAfter($(elSelect));
+  $Selected.insertAfter($(elSelect));
+}
+
+function closeAllSelect(elmnt) {
+  
+  if ($(elmnt).hasClass('ccl-select-selected')){
+    $('.ccl-select-selected').each(function(){
+      if ($(this).attr('id') != $(elmnt).attr('id')){
+        $(this).removeClass('ccl-select-arrow-active');
+        $('.ccl-select-items',$(this).parent()).addClass('ccl-select-hide');
+      }
+    })
+  }else{
+    $('.ccl-select-selected').removeClass('ccl-select-arrow-active');
+    $('.ccl-select-items').addClass('ccl-select-hide');
+  }
+}
+
 /* Replace all SVG images with inline SVG */
 $(function() {
 
@@ -63,40 +117,14 @@ $(function() {
       });
     })
 
-    //builds nice select dropdown
-
-    
-  
-
-    $('.ccl-select').each(function(){
-      $(this).hide().wrap('<div class="ccl-select-container"></div>');
-      var $Selected=$('<div></div>')
-      .addClass('ccl-select-selected')
-      .text($(this).val())
-      .click(function(){
-       
-        $(this).next('.ccl-select-items').toggleClass("ccl-select-hide");
-        $(this).toggleClass("ccl-select-arrow-active");
-      })
 
 
 
-      var $options=$('<div></div>').addClass('ccl-select-items ccl-select-hide'); 
-      $('option',this).each(function(index,el){
-        $option=$('<div></div>').text($(el).text()).click(function(){
-          $elParent=$(el).parents('.ccl-select-container')
-          $('select',$elParent)[0].selectedIndex = index;
-          $('.ccl-select-selected',$elParent).text($(el).text());
-          $('.ccl-same-as-selected',$(el).parent()).removeAttr('class')
-          $(el).addClass('ccl-same-as-selected');
-        });
-
-        $options.append($option);
-      })
-      $options.insertAfter($(this));
-      $Selected.insertAfter($(this));
-      
+    $('.ccl-select').each(function(index,el){
+      buildSelect(el,index);
     });
     /*if the user clicks anywhere outside the select box, then close all select boxes:*/
- 
+    $(document).click(function(event){
+      closeAllSelect(event.target);
+    })
   });

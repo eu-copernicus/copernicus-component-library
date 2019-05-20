@@ -47,7 +47,8 @@ $(function() {
 			var newOptions= $('<option>').val(i).text(el).attr(selected);
 			$("#themeselector").append(newOptions);
 		});
-
+		$("#themeselector").addClass('ccl-select-reverse').wrap('<div class="ccl-form"></div>')
+			buildSelect($("#themeselector"),9999);
 		//Change theme command
 		$("#themeselector").change(function(){
 			changeTheme($(this).val());
@@ -59,7 +60,12 @@ $(function() {
 			changeTheme(defaultTheme);
 		})
 
+		$(".demo-collapse-nav-btn").click(function(){
+			$('.demo-leftside').toggleClass('demo-collapse-nav-visible');
 
+			
+
+		})
 
 	
 });
