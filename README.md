@@ -56,7 +56,7 @@ contains the class and syles of [html elements](https://eu-copernicus.github.io/
   * Copernicus logo
   * different service icons
 
-*All images are in vectorised svg format.
+*All images are in vectorised svg format*
 
 ### JS
 
