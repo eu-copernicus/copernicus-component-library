@@ -203,4 +203,16 @@
       .ccl-header .ccl-header-nav .ccl-header-main-menu li:last-child {
         margin-right: 0; }
 
+.ccl-list-items .ccl-list-item .ccl-list-item-image {
+  border-bottom: 3px solid; }
+.ccl-list-items .ccl-list-item .ccl-list-item-date {
+  margin: 1.1111111111rem 0;
+  font-size: 0.8888888889rem;
+  color: #6C6E73; }
+.ccl-list-items .ccl-list-item .ccl-list-item-title {
+  margin: 1.1111111111rem 0;
+  font-size: 1.3888888889rem; }
+.ccl-list-items .ccl-list-item .ccl-list-item-buttons {
+  margin-top: 3.3333333333rem 0; }
+
 /*# sourceMappingURL=template.css.map */

@@ -1,0 +1,29 @@
+.ccl-list-items {
+	.ccl-list-item {
+		.ccl-list-item-image {
+			border-bottom: 3px solid;
+		}
+
+		.ccl-list-item-date {
+			margin: rem-calc(20) 0;
+			font-size: rem-calc(16);
+			color:$ccl-color-border-medium;
+		}
+
+		.ccl-list-item-title {
+			margin: rem-calc(20) 0;
+			font-size: rem-calc(25);
+		}
+
+		.ccl-list-item-summary {
+		}
+
+		.ccl-list-item-body {
+		}
+		.ccl-list-item-buttons {
+			margin-top: rem-calc(60) 0;
+		}
+
+	}
+
+}
