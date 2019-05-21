@@ -94,6 +94,26 @@
 	.ccl-footer-form button{
 		color: $ccl-color-main !important;
 	}
+	.ccl-header-tools{
+		background-color: $ccl-color-main;
+	}
+	.ccl-header-search input{
+		color:$ccl-color-main !important;
+	}
+	.ccl-header-search button{
+		background-color:$ccl-color-text !important;
+	}
+	.ccl-header-main-menu{
+		a {
+					
+					color: $ccl-color-main !important;
+					
+					&:hover{
+						border-color:  $ccl-color-main !important;
+					}
+				}
+
+		}
 }
 
 .ccl-service-button-m, .ccl-service-button-l, .ccl-service-button-f {

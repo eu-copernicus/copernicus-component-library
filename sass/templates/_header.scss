@@ -1,0 +1,143 @@
+.ccl-header {
+	.ccl-header-tools {
+		height: rem-calc(40);
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		@media (max-width:1200px) {
+				justify-content: flex-end;
+			}
+
+		.ccl-header-slogan {
+			color: #fff;
+			font-weight: 400;
+			font-size: 0.8rem;
+			line-height: rem-calc(40);
+			margin-left: rem-calc(60);
+			@media (max-width:1400px) {
+				margin-left: rem-calc(20);
+			}
+			@media (max-width:1200px) {
+				display: none;
+			}
+		}
+		.ccl-header-tools-container{
+			display: flex;
+		height: rem-calc(40);
+		margin-right: 10%;
+		@media (max-width:1400px) {
+				margin-right: rem-calc(20);
+			}
+		}
+		.ccl-header-lang-switcher{
+			
+			.ccl-language-list{
+			list-style: none;
+			display: none;
+		}
+		.ccl-language-active{
+			color: #fff;
+			font-size: rem-calc(16);
+			line-height: rem-calc(40);
+			
+		}
+		}
+
+		.ccl-header-search{
+			margin: rem-calc(7) 1rem;
+			display: flex;
+			input{
+				display: block;
+				background-color: #fff;
+				border:0px;
+				line-height: 1rem;
+				padding: 0.2rem 0.5rem;
+				
+				font-family: 'Lato';
+				font-size: rem-calc(16);
+				font-style: italic;
+				width: 100%;
+				&:focus{    
+				outline-offset: none;
+				outline: none;}
+			}
+			button{
+				display: block;
+				color: #fff;
+				border:0px;
+
+			}
+		}
+		
+
+		.ccl-header-menu-tools {
+			list-style: none;
+			display: flex;
+			justify-content: space-around;
+			line-height: rem-calc(40);
+			font-size: rem-calc(16);
+			padding: 0;
+			margin: 0;
+
+			li {
+				margin: 0 1rem;
+				@media (max-width:1400px) {
+					margin: 0 0.5rem;
+				}
+				a {
+					text-decoration: none;
+					color: #fff;
+					padding-bottom: 1px;
+					&:hover{
+						border-bottom: 1px solid #fff;
+					}
+				}
+
+			}
+
+		}
+
+	}
+
+	.ccl-header-nav {
+		margin: 0 10%;
+		@media (max-width:1400px) {
+				margin: 0 rem-calc(20);
+			}
+		height: rem-calc(88);
+		display: flex;
+		justify-content: space-between;
+
+		.ccl-header-logo {
+			width: rem-calc(190);
+		}
+		.ccl-header-main-menu{
+			list-style: none;
+			display: flex;
+			justify-content: space-around;
+			line-height: rem-calc(88);
+			font-size: 1rem;
+			padding: 0;
+			margin: 0;
+			li {
+				margin: 0 1rem;
+				@media (max-width:1400px) {
+					margin: 0 0.5rem;
+				}
+
+				a {
+					text-decoration: none;
+					color: #fff;
+					padding-bottom: 1px;
+					&:hover{
+						border-bottom: 1px solid #fff;
+					}
+				}
+				&:last-child{
+					margin-right: 0;
+				}
+			}
+		}
+	}
+
+}

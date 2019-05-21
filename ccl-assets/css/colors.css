@@ -3,7 +3,7 @@
   /*backgrounds*/
   /*elements*/ }
   .ccl-color_generic .ccl-main_bgcolor {
-    background-color: #0094E0; }
+    background-color: #273B4B; }
   .ccl-color_generic .ccl-title_bgcolor {
     background-color: #273B4B; }
   .ccl-color_generic .ccl-text_bgcolor {
@@ -15,7 +15,7 @@
   .ccl-color_generic .ccl-link_bgcolor {
     background-color: #69A8DB; }
   .ccl-color_generic .ccl-main_color {
-    color: #0094E0; }
+    color: #273B4B; }
   .ccl-color_generic .ccl-title_color, .ccl-color_generic h1, .ccl-color_generic h2, .ccl-color_generic h3, .ccl-color_generic h4, .ccl-color_generic h5, .ccl-color_generic h6, .ccl-color_generic .ccl-title_headline, .ccl-color_generic .ccl-title, .ccl-color_generic .ccl-body_title {
     color: #273B4B; }
   .ccl-color_generic .ccl-text_color, .ccl-color_generic p, .ccl-color_generic .ccl-body_big, .ccl-color_generic .ccl-body_normal, .ccl-color_generic .ccl-body_small {
@@ -29,45 +29,55 @@
     color: #69A8DB;
     border-color: #69A8DB; }
   .ccl-color_generic .ccl-list li::before {
-    background: #0094E0; }
+    background: #273B4B; }
   .ccl-color_generic .ccl-button--default {
-    border-color: #0094E0;
-    color: #0094E0; }
+    border-color: #273B4B;
+    color: #273B4B; }
     .ccl-color_generic .ccl-button--default:active, .ccl-color_generic .ccl-button--default:focus, .ccl-color_generic .ccl-button--default:hover {
-      background-color: #0094E0;
+      background-color: #273B4B;
       color: #fff; }
   .ccl-color_generic .ccl-breadcrumb__segment--last {
     color: #286E9F; }
   .ccl-color_generic .ccl-block-title {
-    border-color: #0094E0; }
+    border-color: #273B4B; }
   .ccl-color_generic .ccl-form-check-input:checked + .ccl-form-check-label::after,
   .ccl-color_generic .form-check-input:checked + label::after {
-    border-color: #0094E0 !important; }
+    border-color: #273B4B !important; }
   .ccl-color_generic .ccl-form-check-input:checked + .ccl-form-check-label:before {
-    border-color: #0094E0; }
+    border-color: #273B4B; }
   .ccl-color_generic .ccl-filter-title {
-    background-color: #0094E0; }
+    background-color: #273B4B; }
   .ccl-color_generic .ccl-modal {
-    background-color: #0094E0; }
+    background-color: #273B4B; }
   .ccl-color_generic .ccl-footer {
-    background-color: #0094E0; }
+    background-color: #273B4B; }
   .ccl-color_generic .ccl-footer-form button {
-    color: #0094E0 !important; }
+    color: #273B4B !important; }
+  .ccl-color_generic .ccl-header-tools {
+    background-color: #273B4B; }
+  .ccl-color_generic .ccl-header-search input {
+    color: #273B4B !important; }
+  .ccl-color_generic .ccl-header-search button {
+    background-color: #212529 !important; }
+  .ccl-color_generic .ccl-header-main-menu a {
+    color: #273B4B !important; }
+    .ccl-color_generic .ccl-header-main-menu a:hover {
+      border-color: #273B4B !important; }
 
 .ccl-service-button-m.ccl-service-button-generic, .ccl-service-button-l.ccl-service-button-generic, .ccl-service-button-f.ccl-service-button-generic {
-  background-color: #0094E0; }
+  background-color: #273B4B; }
   .ccl-service-button-m.ccl-service-button-generic .ccl-service-button-icon path, .ccl-service-button-l.ccl-service-button-generic .ccl-service-button-icon path, .ccl-service-button-f.ccl-service-button-generic .ccl-service-button-icon path {
     fill: #fff; }
   .ccl-service-button-m.ccl-service-button-generic:active, .ccl-service-button-m.ccl-service-button-generic:focus, .ccl-service-button-m.ccl-service-button-generic:hover, .ccl-service-button-l.ccl-service-button-generic:active, .ccl-service-button-l.ccl-service-button-generic:focus, .ccl-service-button-l.ccl-service-button-generic:hover, .ccl-service-button-f.ccl-service-button-generic:active, .ccl-service-button-f.ccl-service-button-generic:focus, .ccl-service-button-f.ccl-service-button-generic:hover {
     background-color: #fff;
-    color: #0094E0; }
+    color: #273B4B; }
     .ccl-service-button-m.ccl-service-button-generic:active .ccl-service-button-icon path, .ccl-service-button-m.ccl-service-button-generic:focus .ccl-service-button-icon path, .ccl-service-button-m.ccl-service-button-generic:hover .ccl-service-button-icon path, .ccl-service-button-l.ccl-service-button-generic:active .ccl-service-button-icon path, .ccl-service-button-l.ccl-service-button-generic:focus .ccl-service-button-icon path, .ccl-service-button-l.ccl-service-button-generic:hover .ccl-service-button-icon path, .ccl-service-button-f.ccl-service-button-generic:active .ccl-service-button-icon path, .ccl-service-button-f.ccl-service-button-generic:focus .ccl-service-button-icon path, .ccl-service-button-f.ccl-service-button-generic:hover .ccl-service-button-icon path {
-      fill: #0094E0; }
+      fill: #273B4B; }
 
 .ccl-service-button-s.ccl-service-button-generic .ccl-service-button-icon path {
-  fill: #0094E0; }
+  fill: #273B4B; }
 .ccl-service-button-s.ccl-service-button-generic.ccl-service-button-link:active, .ccl-service-button-s.ccl-service-button-generic.ccl-service-button-link:focus, .ccl-service-button-s.ccl-service-button-generic.ccl-service-button-link:hover {
-  background-color: #0094E0; }
+  background-color: #273B4B; }
   .ccl-service-button-s.ccl-service-button-generic.ccl-service-button-link:active .ccl-service-button-icon path, .ccl-service-button-s.ccl-service-button-generic.ccl-service-button-link:focus .ccl-service-button-icon path, .ccl-service-button-s.ccl-service-button-generic.ccl-service-button-link:hover .ccl-service-button-icon path {
     fill: #fff; }
 
@@ -76,12 +86,12 @@
 .ccl-service-button-w.ccl-service-button-generic.ccl-service-button-link:active, .ccl-service-button-w.ccl-service-button-generic.ccl-service-button-link:focus, .ccl-service-button-w.ccl-service-button-generic.ccl-service-button-link:hover {
   background-color: #fff; }
   .ccl-service-button-w.ccl-service-button-generic.ccl-service-button-link:active .ccl-service-button-icon path, .ccl-service-button-w.ccl-service-button-generic.ccl-service-button-link:focus .ccl-service-button-icon path, .ccl-service-button-w.ccl-service-button-generic.ccl-service-button-link:hover .ccl-service-button-icon path {
-    fill: #0094E0; }
+    fill: #273B4B; }
 
 .ccl-service-button-full.ccl-service-button-generic .ccl-service-button-label {
-  color: #0094E0; }
+  color: #273B4B; }
 .ccl-service-button-full.ccl-service-button-generic.ccl-service-button-link:active, .ccl-service-button-full.ccl-service-button-generic.ccl-service-button-link:focus, .ccl-service-button-full.ccl-service-button-generic.ccl-service-button-link:hover {
-  background-color: #0094E0; }
+  background-color: #273B4B; }
   .ccl-service-button-full.ccl-service-button-generic.ccl-service-button-link:active .ccl-service-button-icon path, .ccl-service-button-full.ccl-service-button-generic.ccl-service-button-link:focus .ccl-service-button-icon path, .ccl-service-button-full.ccl-service-button-generic.ccl-service-button-link:hover .ccl-service-button-icon path {
     fill: #fff; }
   .ccl-service-button-full.ccl-service-button-generic.ccl-service-button-link:active .ccl-service-button-label, .ccl-service-button-full.ccl-service-button-generic.ccl-service-button-link:focus .ccl-service-button-label, .ccl-service-button-full.ccl-service-button-generic.ccl-service-button-link:hover .ccl-service-button-label {
@@ -142,6 +152,16 @@
     background-color: #941333; }
   .ccl-color_climate .ccl-footer-form button {
     color: #941333 !important; }
+  .ccl-color_climate .ccl-header-tools {
+    background-color: #941333; }
+  .ccl-color_climate .ccl-header-search input {
+    color: #941333 !important; }
+  .ccl-color_climate .ccl-header-search button {
+    background-color: #212529 !important; }
+  .ccl-color_climate .ccl-header-main-menu a {
+    color: #941333 !important; }
+    .ccl-color_climate .ccl-header-main-menu a:hover {
+      border-color: #941333 !important; }
 
 .ccl-service-button-m.ccl-service-button-climate, .ccl-service-button-l.ccl-service-button-climate, .ccl-service-button-f.ccl-service-button-climate {
   background-color: #941333; }
@@ -231,6 +251,16 @@
     background-color: #A0B128; }
   .ccl-color_land .ccl-footer-form button {
     color: #A0B128 !important; }
+  .ccl-color_land .ccl-header-tools {
+    background-color: #A0B128; }
+  .ccl-color_land .ccl-header-search input {
+    color: #A0B128 !important; }
+  .ccl-color_land .ccl-header-search button {
+    background-color: #212529 !important; }
+  .ccl-color_land .ccl-header-main-menu a {
+    color: #A0B128 !important; }
+    .ccl-color_land .ccl-header-main-menu a:hover {
+      border-color: #A0B128 !important; }
 
 .ccl-service-button-m.ccl-service-button-land, .ccl-service-button-l.ccl-service-button-land, .ccl-service-button-f.ccl-service-button-land {
   background-color: #A0B128; }
@@ -320,6 +350,16 @@
     background-color: #55BFD0; }
   .ccl-color_atmosphere .ccl-footer-form button {
     color: #55BFD0 !important; }
+  .ccl-color_atmosphere .ccl-header-tools {
+    background-color: #55BFD0; }
+  .ccl-color_atmosphere .ccl-header-search input {
+    color: #55BFD0 !important; }
+  .ccl-color_atmosphere .ccl-header-search button {
+    background-color: #212529 !important; }
+  .ccl-color_atmosphere .ccl-header-main-menu a {
+    color: #55BFD0 !important; }
+    .ccl-color_atmosphere .ccl-header-main-menu a:hover {
+      border-color: #55BFD0 !important; }
 
 .ccl-service-button-m.ccl-service-button-atmosphere, .ccl-service-button-l.ccl-service-button-atmosphere, .ccl-service-button-f.ccl-service-button-atmosphere {
   background-color: #55BFD0; }
@@ -409,6 +449,16 @@
     background-color: #1484A8; }
   .ccl-color_marine .ccl-footer-form button {
     color: #1484A8 !important; }
+  .ccl-color_marine .ccl-header-tools {
+    background-color: #1484A8; }
+  .ccl-color_marine .ccl-header-search input {
+    color: #1484A8 !important; }
+  .ccl-color_marine .ccl-header-search button {
+    background-color: #212529 !important; }
+  .ccl-color_marine .ccl-header-main-menu a {
+    color: #1484A8 !important; }
+    .ccl-color_marine .ccl-header-main-menu a:hover {
+      border-color: #1484A8 !important; }
 
 .ccl-service-button-m.ccl-service-button-marine, .ccl-service-button-l.ccl-service-button-marine, .ccl-service-button-f.ccl-service-button-marine {
   background-color: #1484A8; }
@@ -498,6 +548,16 @@
     background-color: #618888; }
   .ccl-color_security .ccl-footer-form button {
     color: #618888 !important; }
+  .ccl-color_security .ccl-header-tools {
+    background-color: #618888; }
+  .ccl-color_security .ccl-header-search input {
+    color: #618888 !important; }
+  .ccl-color_security .ccl-header-search button {
+    background-color: #212529 !important; }
+  .ccl-color_security .ccl-header-main-menu a {
+    color: #618888 !important; }
+    .ccl-color_security .ccl-header-main-menu a:hover {
+      border-color: #618888 !important; }
 
 .ccl-service-button-m.ccl-service-button-security, .ccl-service-button-l.ccl-service-button-security, .ccl-service-button-f.ccl-service-button-security {
   background-color: #618888; }
@@ -587,6 +647,16 @@
     background-color: #FAA73E; }
   .ccl-color_emergency .ccl-footer-form button {
     color: #FAA73E !important; }
+  .ccl-color_emergency .ccl-header-tools {
+    background-color: #FAA73E; }
+  .ccl-color_emergency .ccl-header-search input {
+    color: #FAA73E !important; }
+  .ccl-color_emergency .ccl-header-search button {
+    background-color: #212529 !important; }
+  .ccl-color_emergency .ccl-header-main-menu a {
+    color: #FAA73E !important; }
+    .ccl-color_emergency .ccl-header-main-menu a:hover {
+      border-color: #FAA73E !important; }
 
 .ccl-service-button-m.ccl-service-button-emergency, .ccl-service-button-l.ccl-service-button-emergency, .ccl-service-button-f.ccl-service-button-emergency {
   background-color: #FAA73E; }
@@ -676,6 +746,16 @@
     background-color: #783F34; }
   .ccl-color_insitu .ccl-footer-form button {
     color: #783F34 !important; }
+  .ccl-color_insitu .ccl-header-tools {
+    background-color: #783F34; }
+  .ccl-color_insitu .ccl-header-search input {
+    color: #783F34 !important; }
+  .ccl-color_insitu .ccl-header-search button {
+    background-color: #212529 !important; }
+  .ccl-color_insitu .ccl-header-main-menu a {
+    color: #783F34 !important; }
+    .ccl-color_insitu .ccl-header-main-menu a:hover {
+      border-color: #783F34 !important; }
 
 .ccl-service-button-m.ccl-service-button-insitu, .ccl-service-button-l.ccl-service-button-insitu, .ccl-service-button-f.ccl-service-button-insitu {
   background-color: #783F34; }
