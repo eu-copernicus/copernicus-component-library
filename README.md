@@ -119,7 +119,7 @@ Required elements needed for the CCL toolkit website
 * Header
 * Footer
 * Navigation
-* etc..
+* etc...
 
 ### layouts
 
