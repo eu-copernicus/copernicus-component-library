@@ -8,11 +8,54 @@
 .ccl-block {
 	&.ccl-block-services {
 		display: flex;
+		flex-wrap: wrap;
+
+		.ccl-service-button-container {
+			width: calc(99% / 6);
+			min-width: 150px;
+		}
+
+	}
+
+	&.ccl-block-quick-links {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+
+		.ccl-quick-links-container {
+			display: flex;
+			flex-flow: column;
+			width: calc(99% / 5);
+			justify-content: flex-start;
+			margin-bottom: 2rem;
+
+			@media (max-width:770px) {
+				width: calc(99% / 3);
+			}
+			.ccl-quick-links {
+				text-align: center;
+
+				.ccl-quick-links-icon {
+					width:50%;
+					max-width: rem-calc(124);
+
+					margin-bottom: 1rem;
+				}
+
+				.ccl-quick-links-label {
+					padding: rem-calc(30) 0;
+					display: block;
+				}
+
+			}
+
+		}
+
 	}
 
 }
 
-@media (max-width:900px) {
+@media (max-width:1024px) {
 	.ccl-block {
 		&.ccl-block-services {
 			display: flex;

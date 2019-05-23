@@ -11,7 +11,7 @@
   var $Selected=$('<div></div>')
   .addClass('ccl-select-selected')
   .attr('id','ccl-select-id--'+i)
-  .text($(elSelect).val())
+  .text($(elSelect).children('option:selected').text())
   .click(function(){
     closeAllSelect(this);
     $(this).next('.ccl-select-items').toggleClass("ccl-select-hide");

@@ -16,9 +16,31 @@ $(function() {
 	});
 
 	$(".demo-expandable__button").click(function(){
-		$(this).attr('aria-expanded', function(index, attr){
-			return attr == 'true' ? 'false' : 'true';
-		});
+
+		dropDownRoot=$(this).parents('ul.demo-side-navigation__root');			
+		$("a.demo-expandable__button[aria-expanded='true']",dropDownRoot).each(function(){
+			$(this).addClass('demo-expandable__toclose');						
+		})
+		$(this).parents('li').children('.demo-expandable__toclose').removeClass('demo-expandable__toclose');
+
+		$('.demo-expandable__toclose').each(function(){			
+			$(this).next().slideUp('fast', function() {
+				$(this).prev().removeClass('demo-expandable__toclose').attr('aria-expanded','false');
+			})
+		})	
+
+		
+
+		$(this).next().slideToggle('fast', function() {
+
+	    	// Animation complete.
+	    	$(this).prev().attr('aria-expanded', function(index, attr){
+	    		return attr == 'true' ? 'false' : 'true';
+	    	});
+
+	    });
+		
+
 	})
 	
 
@@ -48,7 +70,7 @@ $(function() {
 			$("#themeselector").append(newOptions);
 		});
 		$("#themeselector").addClass('ccl-select-reverse').wrap('<div class="ccl-form"></div>')
-			buildSelect($("#themeselector"),9999);
+		buildSelect($("#themeselector"),9999);
 		//Change theme command
 		$("#themeselector").change(function(){
 			changeTheme($(this).val());
@@ -60,12 +82,14 @@ $(function() {
 			changeTheme(defaultTheme);
 		})
 
-		$(".demo-collapse-nav-btn").click(function(){
+	$(".demo-collapse-nav-btn").click(function(){
+		$('.demo-content').toggleClass('fullwidth');
+		$('.demo-leftside').toggle( 'slide',function(){
 			$('.demo-leftside').toggleClass('demo-collapse-nav-visible');
 
-			
-
 		})
+		
+	})
 
 	
 });

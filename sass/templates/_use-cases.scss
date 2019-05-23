@@ -1,0 +1,41 @@
+.ccl-use-case {
+	@media (min-width:740px) {
+		column-count: 2;
+		-webkit-column-break-inside: avoid;
+		page-break-inside: avoid;
+		break-inside: avoid;
+		max-width: 1400px;
+		margin: auto;
+
+	}
+
+	.ccl-use-case-image {
+		width: 100%;
+		margin: 0 rem-calc(10);
+
+		img {
+			width: 100%;
+		}
+
+	}
+
+	.ccl-use-case-title,
+	h2 {
+		width: 100%;
+		margin: rem-calc(20) rem-calc(10);
+		font-size: rem-calc(25);
+	}
+
+	&>div,
+	p {
+		width: 100%;
+		margin: rem-calc(20) rem-calc(10);
+	}
+
+	
+
+}
+.ccl-use-case-buttons {
+		text-align: right;
+		margin-top: rem-calc(60);
+	}
