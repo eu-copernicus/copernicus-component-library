@@ -30,13 +30,24 @@
 	}
 
 	/*elements*/
-	.ccl-title_color, h1, h2, h3, h4, h5, h6, .ccl-title_headline, .ccl-title, .ccl-body_title {
+	.ccl-title_color,
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	.ccl-title_headline,
+	.ccl-title,
+	.ccl-body_title {
 		color: $ccl-color-title;
 	}
 
-	
-
-	.ccl-text_color, p, .ccl-body_big, .ccl-body_normal, .ccl-body_small {
+	.ccl-text_color,
+	p,
+	.ccl-body_big,
+	.ccl-body_normal,
+	.ccl-body_small {
 		color: $ccl-color-text;
 	}
 
@@ -44,12 +55,19 @@
 		color: $ccl-color-text_light;
 	}
 
-	.ccl-link_hover_color, a:hover, .ccl-link_hover, .ccl-breadcrumbs_link_hover {
+	.ccl-link_hover_color,
+	a:hover,
+	.ccl-link_hover,
+	.ccl-breadcrumbs_link_hover {
 		color: $ccl-color-link_hover;
 		border-color: $ccl-color-link_hover;
 	}
 
-	.ccl-link_color, .ccl_button_color, a, .ccl-link, .ccl-breadcrumbs_link {
+	.ccl-link_color,
+	.ccl_button_color,
+	a,
+	.ccl-link,
+	.ccl-breadcrumbs_link {
 		color: $ccl-color-link;
 		border-color: $ccl-color-link;
 	}
@@ -62,9 +80,40 @@
 		border-color: $ccl-color-main;
 		color: $ccl-color-main;
 
-		&:active, &:focus, &:hover {
+		&:active,
+		&:focus,
+		&:hover {
 			background-color: $ccl-color-main;
 			color: #fff;
+		}
+
+	}
+
+	.ccl-button--filter-primary,
+	.ccl-button--filter-icon {
+		background-color: $ccl-color-main;
+		color: #fff;
+
+		&:active,
+		&:focus,
+		&:hover {
+			border-color: $ccl-color-main;
+			background-color: #fff;
+			color: $ccl-color-main;
+		}
+
+	}
+
+	.ccl-button--filter-secondary {
+		background-color:#{$ccl-color-main}80;
+		color: #fff;
+
+		&:active,
+		&:focus,
+		&:hover {
+			border-color: $ccl-color-main;
+			color: $ccl-color-main;
+			background-color: #fff;
 		}
 
 	}
@@ -72,54 +121,86 @@
 	.ccl-breadcrumb__segment--last {
 		color: $ccl-color-link_hover;
 	}
-	.ccl-block-title{
+
+	.ccl-block-title {
 		border-color: $ccl-color-main;
 	}
+
 	.ccl-form-check-input:checked+.ccl-form-check-label::after,
 	.form-check-input:checked+label::after {
-		border-color:  $ccl-color-main !important;
+		border-color: $ccl-color-main !important;
 	}
+
 	.ccl-form-check-input:checked+.ccl-form-check-label:before {
-		border-color:  $ccl-color-main;
+		border-color: $ccl-color-main;
 	}
-	.ccl-filter-title{
+
+	.ccl-filter-title {
 		background-color: $ccl-color-main;
 	}
-	.ccl-modal{
+
+	.ccl-modal {
 		background-color: $ccl-color-main;
 	}
-	.ccl-footer{
+
+	.ccl-footer-main {
 		background-color: $ccl-color-main;
 	}
-	.ccl-footer-form button{
+
+	.ccl-footer-form button {
 		color: $ccl-color-main !important;
 	}
-	.ccl-header-tools{
+
+	.ccl-header-tools {
 		background-color: $ccl-color-main;
 	}
-	.ccl-header-search input{
-		color:$ccl-color-main !important;
+
+	.ccl-header-search input {
+		color: $ccl-color-main !important;
 	}
-	.ccl-header-search button{
-		background-color:$ccl-color-text !important;
+
+	.ccl-header-search button {
+		background-color: $ccl-color-text !important;
 	}
-	.ccl-header-main-menu{
+
+	.ccl-header-main-menu {
 		a {
-					
-					color: $ccl-color-main !important;
-					
-					&:hover{
-						border-color:  $ccl-color-main !important;
-					}
-				}
+			color: $ccl-color-main !important;
+
+			&:hover {
+				border-color: $ccl-color-main !important;
+			}
 
 		}
-		.ccl-list-item-image{
-			border-color: $ccl-color-main;
+
+		li li {
+			border-color: $ccl-color-main !important;
+
+			a:hover {
+				background-color: $ccl-color-main !important;
+				color: #fff !important;
+			}
+
 		}
+
+	}
+
+	.ccl-list-item-image {
+		border-color: $ccl-color-main;
+	}
+
+	.ccl-banner-top-bar {
+		background-color: $ccl-color-main !important;
+	}
+	.ccl-banner-top-main-block-title{
+		background-color:#{$ccl-color-main}80;
+	}
+
 }
 
-.ccl-service-button-m, .ccl-service-button-l, .ccl-service-button-f {
+.ccl-service-button-m,
+.ccl-service-button-l,
+.ccl-service-button-f {
 	&.ccl-service-button-#{$theme}{
 		background-color: $ccl-color-main;
 
@@ -127,7 +208,9 @@
 			fill: #fff;
 		}
 
-		&:active, &:focus, &:hover {
+		&:active,
+		&:focus,
+		&:hover {
 			background-color: #fff;
 			color: $ccl-color-main;
 
@@ -149,16 +232,20 @@
 			}
 
 		}
-		&.ccl-service-button-link {
-		&:active, &:focus, &:hover {
-			background-color: $ccl-color-main;
 
-			.ccl-service-button-icon path {
-				fill: #fff;
+		&.ccl-service-button-link {
+			&:active,
+			&:focus,
+			&:hover {
+				background-color: $ccl-color-main;
+
+				.ccl-service-button-icon path {
+					fill: #fff;
+				}
+
 			}
 
 		}
-	}
 
 	}
 
@@ -172,37 +259,49 @@
 			}
 
 		}
-		&.ccl-service-button-link {
-		&:active, &:focus, &:hover {
-			background-color: #fff;
 
-			.ccl-service-button-icon path {
-				fill: $ccl-color-main;
+		&.ccl-service-button-link {
+			&:active,
+			&:focus,
+			&:hover {
+				background-color: #fff;
+
+				.ccl-service-button-icon path {
+					fill: $ccl-color-main;
+				}
+
 			}
 
 		}
-	}
 
 	}
 
 }
+
 .ccl-service-button-full {
 	&.ccl-service-button-#{$theme}{
-		.ccl-service-button-label{
+		.ccl-service-button-label {
 			color: $ccl-color-main;
 		}
-			&.ccl-service-button-link {
-		&:active, &:focus, &:hover {
-			background-color: $ccl-color-main;
 
-			.ccl-service-button-icon path {
-				fill: #fff;
+		&.ccl-service-button-link {
+			&:active,
+			&:focus,
+			&:hover {
+				background-color: $ccl-color-main;
+
+				.ccl-service-button-icon path {
+					fill: #fff;
+				}
+
+				.ccl-service-button-label {
+					color: #fff;
+				}
+
 			}
-			.ccl-service-button-label{
-			color:  #fff;
-		}
 
 		}
+
 	}
-	}
+
 }

@@ -25,5 +25,23 @@
     &:hover {
         //text-decoration: underline;
     }
+    &.ccl-button--filter-primary{
+        line-height: rem-calc(47);
+         padding: 0 rem-calc(47);
+    }
+    &.ccl-button--filter-secondary{
+        line-height: rem-calc(47);
+        padding: 0 rem-calc(47);
+    }
+    &.ccl-button--filter-icon{
+        line-height: rem-calc(47);
+        text-align: left;
+        padding: 0 rem-calc(10);
+        span{
+            float: right;
+             line-height: rem-calc(47);
+        }
+    }
+   
 
 }

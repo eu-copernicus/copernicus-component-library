@@ -187,6 +187,9 @@ code {
 	border: 1px solid #ddd;
 	margin-bottom: 20px;
 	margin-right: 20px;
+
+}
+.demo-item-container-col {
 	overflow: hidden;
 }
 

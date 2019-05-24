@@ -32,6 +32,19 @@
   -webkit-transition: all .3s ease-out;
   transition: all .3s ease-out;
   cursor: pointer; }
+  .ccl-button.ccl-button--filter-primary {
+    line-height: 2.6111111111rem;
+    padding: 0 2.6111111111rem; }
+  .ccl-button.ccl-button--filter-secondary {
+    line-height: 2.6111111111rem;
+    padding: 0 2.6111111111rem; }
+  .ccl-button.ccl-button--filter-icon {
+    line-height: 2.6111111111rem;
+    text-align: left;
+    padding: 0 0.5555555556rem; }
+    .ccl-button.ccl-button--filter-icon span {
+      float: right;
+      line-height: 2.6111111111rem; }
 
 .ccl-link {
   font-weight: 400;
@@ -40,6 +53,8 @@
   border-bottom: 1px solid;
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s  ease-in-out; }
+  .ccl-link:hover {
+    border-bottom: 1px solid; }
 
 .ccl-link_hover {
   text-decoration: none;
@@ -224,7 +239,8 @@
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg); }
   .ccl-form button {
-    margin-top: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
     padding-right: 4rem;
     padding-left: 4rem; }
   .ccl-form * + .ccl-select-container {
@@ -399,7 +415,8 @@
   color: #fff;
   text-align: center;
   line-height: 2.5rem;
-  margin-bottom: 0.5rem; }
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem; }
 
 .ccl-modal {
   padding: 1rem;

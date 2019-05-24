@@ -8,6 +8,9 @@
     border-bottom: 1px solid ;    
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s  ease-in-out;
+    &:hover{
+         border-bottom: 1px solid ;    
+    }
 }
 
 

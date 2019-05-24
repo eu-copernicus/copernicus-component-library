@@ -4,84 +4,120 @@ doc: how_to_use
 ---
 <div class="ccl-element">
 	<div class="demo-group">
-		<div class="demo-label">Expand/Collapse</div>
+		<div class="demo-label">Filters</div>
 		<div class="demo-item">
 			
-			<form class="ccl-form ccl-filter" style="width:400px;">
+			<form class="ccl-form ccl-filter" style="max-width:400px;">
+
+
+				<button type="submit" class="ccl-button ccl-button--filter-primary" style="width:100%;max-width:400px;">Upcoming events</button>
+				<button type="submit" class="ccl-button ccl-button--filter-secondary" style="width:100%;max-width:400px;">past events</button>
+				<button type="submit" class="ccl-button ccl-button--filter-icon" style="width:100%;max-width:400px;">Search event   <span class="ccl-icon-zoom"></span></button>
+				<button type="submit" class="ccl-button ccl-button--filter-icon" style="width:100%;max-width:400px;">Search by date  <span class="ccl-icon-no-event"></span></button>
+				<button type="submit" class="ccl-button ccl-button--filter-icon" style="width:100%;max-width:400px;">Sort by date <span class="ccl-icon-chevron-thin-down"></span></button>
+				<button type="submit" class="ccl-button ccl-button--filter-icon" style="width:100%;max-width:400px;">Reset filter <span class="ccl-icon-close"></span></button>
+				<button type="submit" class="ccl-button ccl-button--filter-icon" style="width:100%;max-width:400px;">Refresh filter <span class="ccl-icon-refresh"></span></button>
+
 				<div class="ccl-filter-title">Filter by</div>
 				<a class="ccl-filter-link" href="#">Reset filters <span class="ccl-icon-refresh"></span></a>
 				<div  class="ccl-dropdown__filter  ccl-expandable__button" aria-expanded="false">Fruits</div>
 				<ul class="ccl-filter-list">
-				<li>
-				<input  type="checkbox" id="filter_1" value="Apple" class="ccl-checkbox ccl-form-check-input">
-				<label class="ccl-form-check-label" for="filter_1">Apple</label></li>
-				<li>
-				<input  type="checkbox" id="filter_2" value="Banana" class="ccl-checkbox ccl-form-check-input">
-				<label class="ccl-form-check-label" for="filter_2">Banana</label></li>
-				<li>
-				<input  type="checkbox" id="filter_3" value="Mango" class="ccl-checkbox ccl-form-check-input">
-				<label class="ccl-form-check-label" for="filter_3">Mango</label></li>
-				<li>
-				<input  type="checkbox" id="filter_4" value="Orange" class="ccl-checkbox ccl-form-check-input">
-				<label class="ccl-form-check-label" for="filter_4">Orange</label></li>
-			</ul>
+					<li>
+						<input  type="checkbox" id="filter_1" value="Apple" class="ccl-checkbox ccl-form-check-input">
+						<label class="ccl-form-check-label" for="filter_1">Apple</label>
+					</li>
+					<li>
+						<input  type="checkbox" id="filter_2" value="Banana" class="ccl-checkbox ccl-form-check-input">
+						<label class="ccl-form-check-label" for="filter_2">Banana</label>
+					</li>
+					<li>
+						<input  type="checkbox" id="filter_3" value="Mango" class="ccl-checkbox ccl-form-check-input">
+						<label class="ccl-form-check-label" for="filter_3">Mango</label>
+					</li>
+					<li>
+						<input  type="checkbox" id="filter_4" value="Orange" class="ccl-checkbox ccl-form-check-input">
+						<label class="ccl-form-check-label" for="filter_4">Orange</label>
+					</li>
+				</ul>
 				<div  class="ccl-dropdown__filter  ccl-expandable__button" aria-expanded="false">Vegetables</div>
 				<ul class="ccl-filter-list">
-				<li>
-				<input  type="checkbox" id="filter_11" value="broccoli" class="ccl-checkbox ccl-form-check-input">
-				<label class="ccl-form-check-label" for="filter_11">Broccoli</label></li>
-				<li>
-				<input  type="checkbox" id="filter_12" value="onions" class="ccl-checkbox ccl-form-check-input">
-				<label class="ccl-form-check-label" for="filter_12">Onions</label></li>
-				<li>
-				<input  type="checkbox" id="filter_13" value="Tomato" class="ccl-checkbox ccl-form-check-input">
-				<label class="ccl-form-check-label" for="filter_13">Tomato</label></li>
-				<li>
-				<input  type="checkbox" id="filter_14" value="peppers " class="ccl-checkbox ccl-form-check-input">
-				<label class="ccl-form-check-label" for="filter_14">Peppers</label></li>
-			</ul>
+					<li>
+						<input  type="checkbox" id="filter_11" value="broccoli" class="ccl-checkbox ccl-form-check-input">
+						<label class="ccl-form-check-label" for="filter_11">Broccoli</label>
+					</li>
+					<li>
+						<input  type="checkbox" id="filter_12" value="onions" class="ccl-checkbox ccl-form-check-input">
+						<label class="ccl-form-check-label" for="filter_12">Onions</label>
+					</li>
+					<li>
+						<input  type="checkbox" id="filter_13" value="Tomato" class="ccl-checkbox ccl-form-check-input">
+						<label class="ccl-form-check-label" for="filter_13">Tomato</label>
+					</li>
+					<li>
+						<input  type="checkbox" id="filter_14" value="peppers " class="ccl-checkbox ccl-form-check-input">
+						<label class="ccl-form-check-label" for="filter_14">Peppers</label>
+					</li>
+				</ul>
 			</form>
 
-			
+
 		</div>
 		<div class="demo-code">
 			<textarea>
 				<body class="ccl-style ccl-color_generic">
-					
-					<form class="ccl-form ccl-filter" style="width:400px;">
-				<div class="ccl-filter-title">Filter by</div>
-				<a class="ccl-filter-link" href="#">Reset filters <span class="ccl-icon-refresh"></span></a>
-				<div  class="ccl-dropdown__filter  ccl-expandable__button" aria-expanded="false">Fruits</div>
-				<ul class="ccl-filter-list">
-				<li>
-				<input  type="checkbox" id="filter_1" value="Apple" class="ccl-checkbox ccl-form-check-input">
-				<label class="ccl-form-check-label" for="filter_1">Apple</label></li>
-				<li>
-				<input  type="checkbox" id="filter_2" value="Banana" class="ccl-checkbox ccl-form-check-input">
-				<label class="ccl-form-check-label" for="filter_2">Banana</label></li>
-				<li>
-				<input  type="checkbox" id="filter_3" value="Mango" class="ccl-checkbox ccl-form-check-input">
-				<label class="ccl-form-check-label" for="filter_3">Mango</label></li>
-				<li>
-				<input  type="checkbox" id="filter_4" value="Orange" class="ccl-checkbox ccl-form-check-input">
-				<label class="ccl-form-check-label" for="filter_4">Orange</label></li>
-			</ul>
-				<div  class="ccl-dropdown__filter  ccl-expandable__button" aria-expanded="false">Vegetables</div>
-				<ul class="ccl-filter-list">
-				<li>
-				<input  type="checkbox" id="filter_11" value="broccoli" class="ccl-checkbox ccl-form-check-input">
-				<label class="ccl-form-check-label" for="filter_11">Broccoli</label></li>
-				<li>
-				<input  type="checkbox" id="filter_12" value="onions" class="ccl-checkbox ccl-form-check-input">
-				<label class="ccl-form-check-label" for="filter_12">Onions</label></li>
-				<li>
-				<input  type="checkbox" id="filter_13" value="Tomato" class="ccl-checkbox ccl-form-check-input">
-				<label class="ccl-form-check-label" for="filter_13">Tomato</label></li>
-				<li>
-				<input  type="checkbox" id="filter_14" value="peppers " class="ccl-checkbox ccl-form-check-input">
-				<label class="ccl-form-check-label" for="filter_14">Peppers</label></li>
-			</ul>
-			</form>
+
+					<form class="ccl-form ccl-filter" style="max-width:400px;">
+
+
+						<button type="submit" class="ccl-button ccl-button--filter-primary" style="width:100%;max-width:400px;">Upcoming events</button>
+						<button type="submit" class="ccl-button ccl-button--filter-secondary" style="width:100%;max-width:400px;">past events</button>
+						<button type="submit" class="ccl-button ccl-button--filter-icon" style="width:100%;max-width:400px;">Search event   <span class="ccl-icon-zoom"></span></button>
+						<button type="submit" class="ccl-button ccl-button--filter-icon" style="width:100%;max-width:400px;">Search by date  <span class="ccl-icon-no-event"></span></button>
+						<button type="submit" class="ccl-button ccl-button--filter-icon" style="width:100%;max-width:400px;">Sort by date <span class="ccl-icon-chevron-thin-down"></span></button>
+						<button type="submit" class="ccl-button ccl-button--filter-icon" style="width:100%;max-width:400px;">Reset filter <span class="ccl-icon-close"></span></button>
+						<button type="submit" class="ccl-button ccl-button--filter-icon" style="width:100%;max-width:400px;">Refresh filter <span class="ccl-icon-refresh"></span></button>
+
+						<div class="ccl-filter-title">Filter by</div>
+						<a class="ccl-filter-link" href="#">Reset filters <span class="ccl-icon-refresh"></span></a>
+						<div  class="ccl-dropdown__filter  ccl-expandable__button" aria-expanded="false">Fruits</div>
+						<ul class="ccl-filter-list">
+							<li>
+								<input  type="checkbox" id="filter_1" value="Apple" class="ccl-checkbox ccl-form-check-input">
+								<label class="ccl-form-check-label" for="filter_1">Apple</label>
+							</li>
+							<li>
+								<input  type="checkbox" id="filter_2" value="Banana" class="ccl-checkbox ccl-form-check-input">
+								<label class="ccl-form-check-label" for="filter_2">Banana</label>
+							</li>
+							<li>
+								<input  type="checkbox" id="filter_3" value="Mango" class="ccl-checkbox ccl-form-check-input">
+								<label class="ccl-form-check-label" for="filter_3">Mango</label>
+							</li>
+							<li>
+								<input  type="checkbox" id="filter_4" value="Orange" class="ccl-checkbox ccl-form-check-input">
+								<label class="ccl-form-check-label" for="filter_4">Orange</label>
+							</li>
+						</ul>
+						<div  class="ccl-dropdown__filter  ccl-expandable__button" aria-expanded="false">Vegetables</div>
+						<ul class="ccl-filter-list">
+							<li>
+								<input  type="checkbox" id="filter_11" value="broccoli" class="ccl-checkbox ccl-form-check-input">
+								<label class="ccl-form-check-label" for="filter_11">Broccoli</label>
+							</li>
+							<li>
+								<input  type="checkbox" id="filter_12" value="onions" class="ccl-checkbox ccl-form-check-input">
+								<label class="ccl-form-check-label" for="filter_12">Onions</label>
+							</li>
+							<li>
+								<input  type="checkbox" id="filter_13" value="Tomato" class="ccl-checkbox ccl-form-check-input">
+								<label class="ccl-form-check-label" for="filter_13">Tomato</label>
+							</li>
+							<li>
+								<input  type="checkbox" id="filter_14" value="peppers " class="ccl-checkbox ccl-form-check-input">
+								<label class="ccl-form-check-label" for="filter_14">Peppers</label>
+							</li>
+						</ul>
+					</form>
 				</body>
 			</textarea>
 		</div>
