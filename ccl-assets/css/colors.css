@@ -97,21 +97,34 @@
     color: #273B4B !important; }
   .ccl-color_generic .ccl-header-search button {
     background-color: #212529 !important; }
-  .ccl-color_generic .ccl-header-main-menu a {
-    color: #273B4B !important; }
-    .ccl-color_generic .ccl-header-main-menu a:hover {
+  @media (min-width: 820px) {
+    .ccl-color_generic .ccl-header-main-menu a {
+      color: #273B4B !important; }
+      .ccl-color_generic .ccl-header-main-menu a:hover {
+        border-color: #273B4B !important; }
+    .ccl-color_generic .ccl-header-main-menu li li {
       border-color: #273B4B !important; }
-  .ccl-color_generic .ccl-header-main-menu li li {
-    border-color: #273B4B !important; }
-    .ccl-color_generic .ccl-header-main-menu li li a:hover {
-      background-color: #273B4B !important;
+      .ccl-color_generic .ccl-header-main-menu li li a:hover {
+        background-color: #273B4B !important;
+        color: #fff !important; } }
+  @media (max-width: 820px) {
+    .ccl-color_generic .ccl-header-main-menu a {
       color: #fff !important; }
+      .ccl-color_generic .ccl-header-main-menu a:hover, .ccl-color_generic .ccl-header-main-menu a.active {
+        background-color: rgba(255, 255, 255, 0.2) !important; }
+    .ccl-color_generic .ccl-header-main-menu .active a {
+      background-color: rgba(255, 255, 255, 0.2) !important; } }
   .ccl-color_generic .ccl-list-item-image {
     border-color: #273B4B; }
   .ccl-color_generic .ccl-banner-top-bar {
     background-color: #273B4B !important; }
   .ccl-color_generic .ccl-banner-top-main-block-title {
     background-color: #273B4B80; }
+  .ccl-color_generic .ccl-main-menu-collapse-button:hover {
+    color: #273B4B !important; }
+  @media (max-width: 820px) {
+    .ccl-color_generic .ccl-main-menu {
+      background-color: #273B4B !important; } }
 
 .ccl-service-button-m.ccl-service-button-generic,
 .ccl-service-button-l.ccl-service-button-generic,
@@ -261,21 +274,34 @@
     color: #941333 !important; }
   .ccl-color_climate .ccl-header-search button {
     background-color: #212529 !important; }
-  .ccl-color_climate .ccl-header-main-menu a {
-    color: #941333 !important; }
-    .ccl-color_climate .ccl-header-main-menu a:hover {
+  @media (min-width: 820px) {
+    .ccl-color_climate .ccl-header-main-menu a {
+      color: #941333 !important; }
+      .ccl-color_climate .ccl-header-main-menu a:hover {
+        border-color: #941333 !important; }
+    .ccl-color_climate .ccl-header-main-menu li li {
       border-color: #941333 !important; }
-  .ccl-color_climate .ccl-header-main-menu li li {
-    border-color: #941333 !important; }
-    .ccl-color_climate .ccl-header-main-menu li li a:hover {
-      background-color: #941333 !important;
+      .ccl-color_climate .ccl-header-main-menu li li a:hover {
+        background-color: #941333 !important;
+        color: #fff !important; } }
+  @media (max-width: 820px) {
+    .ccl-color_climate .ccl-header-main-menu a {
       color: #fff !important; }
+      .ccl-color_climate .ccl-header-main-menu a:hover, .ccl-color_climate .ccl-header-main-menu a.active {
+        background-color: rgba(255, 255, 255, 0.2) !important; }
+    .ccl-color_climate .ccl-header-main-menu .active a {
+      background-color: rgba(255, 255, 255, 0.2) !important; } }
   .ccl-color_climate .ccl-list-item-image {
     border-color: #941333; }
   .ccl-color_climate .ccl-banner-top-bar {
     background-color: #941333 !important; }
   .ccl-color_climate .ccl-banner-top-main-block-title {
     background-color: #94133380; }
+  .ccl-color_climate .ccl-main-menu-collapse-button:hover {
+    color: #941333 !important; }
+  @media (max-width: 820px) {
+    .ccl-color_climate .ccl-main-menu {
+      background-color: #941333 !important; } }
 
 .ccl-service-button-m.ccl-service-button-climate,
 .ccl-service-button-l.ccl-service-button-climate,
@@ -425,21 +451,34 @@
     color: #A0B128 !important; }
   .ccl-color_land .ccl-header-search button {
     background-color: #212529 !important; }
-  .ccl-color_land .ccl-header-main-menu a {
-    color: #A0B128 !important; }
-    .ccl-color_land .ccl-header-main-menu a:hover {
+  @media (min-width: 820px) {
+    .ccl-color_land .ccl-header-main-menu a {
+      color: #A0B128 !important; }
+      .ccl-color_land .ccl-header-main-menu a:hover {
+        border-color: #A0B128 !important; }
+    .ccl-color_land .ccl-header-main-menu li li {
       border-color: #A0B128 !important; }
-  .ccl-color_land .ccl-header-main-menu li li {
-    border-color: #A0B128 !important; }
-    .ccl-color_land .ccl-header-main-menu li li a:hover {
-      background-color: #A0B128 !important;
+      .ccl-color_land .ccl-header-main-menu li li a:hover {
+        background-color: #A0B128 !important;
+        color: #fff !important; } }
+  @media (max-width: 820px) {
+    .ccl-color_land .ccl-header-main-menu a {
       color: #fff !important; }
+      .ccl-color_land .ccl-header-main-menu a:hover, .ccl-color_land .ccl-header-main-menu a.active {
+        background-color: rgba(255, 255, 255, 0.2) !important; }
+    .ccl-color_land .ccl-header-main-menu .active a {
+      background-color: rgba(255, 255, 255, 0.2) !important; } }
   .ccl-color_land .ccl-list-item-image {
     border-color: #A0B128; }
   .ccl-color_land .ccl-banner-top-bar {
     background-color: #A0B128 !important; }
   .ccl-color_land .ccl-banner-top-main-block-title {
     background-color: #A0B12880; }
+  .ccl-color_land .ccl-main-menu-collapse-button:hover {
+    color: #A0B128 !important; }
+  @media (max-width: 820px) {
+    .ccl-color_land .ccl-main-menu {
+      background-color: #A0B128 !important; } }
 
 .ccl-service-button-m.ccl-service-button-land,
 .ccl-service-button-l.ccl-service-button-land,
@@ -589,21 +628,34 @@
     color: #55BFD0 !important; }
   .ccl-color_atmosphere .ccl-header-search button {
     background-color: #212529 !important; }
-  .ccl-color_atmosphere .ccl-header-main-menu a {
-    color: #55BFD0 !important; }
-    .ccl-color_atmosphere .ccl-header-main-menu a:hover {
+  @media (min-width: 820px) {
+    .ccl-color_atmosphere .ccl-header-main-menu a {
+      color: #55BFD0 !important; }
+      .ccl-color_atmosphere .ccl-header-main-menu a:hover {
+        border-color: #55BFD0 !important; }
+    .ccl-color_atmosphere .ccl-header-main-menu li li {
       border-color: #55BFD0 !important; }
-  .ccl-color_atmosphere .ccl-header-main-menu li li {
-    border-color: #55BFD0 !important; }
-    .ccl-color_atmosphere .ccl-header-main-menu li li a:hover {
-      background-color: #55BFD0 !important;
+      .ccl-color_atmosphere .ccl-header-main-menu li li a:hover {
+        background-color: #55BFD0 !important;
+        color: #fff !important; } }
+  @media (max-width: 820px) {
+    .ccl-color_atmosphere .ccl-header-main-menu a {
       color: #fff !important; }
+      .ccl-color_atmosphere .ccl-header-main-menu a:hover, .ccl-color_atmosphere .ccl-header-main-menu a.active {
+        background-color: rgba(255, 255, 255, 0.2) !important; }
+    .ccl-color_atmosphere .ccl-header-main-menu .active a {
+      background-color: rgba(255, 255, 255, 0.2) !important; } }
   .ccl-color_atmosphere .ccl-list-item-image {
     border-color: #55BFD0; }
   .ccl-color_atmosphere .ccl-banner-top-bar {
     background-color: #55BFD0 !important; }
   .ccl-color_atmosphere .ccl-banner-top-main-block-title {
     background-color: #55BFD080; }
+  .ccl-color_atmosphere .ccl-main-menu-collapse-button:hover {
+    color: #55BFD0 !important; }
+  @media (max-width: 820px) {
+    .ccl-color_atmosphere .ccl-main-menu {
+      background-color: #55BFD0 !important; } }
 
 .ccl-service-button-m.ccl-service-button-atmosphere,
 .ccl-service-button-l.ccl-service-button-atmosphere,
@@ -753,21 +805,34 @@
     color: #1484A8 !important; }
   .ccl-color_marine .ccl-header-search button {
     background-color: #212529 !important; }
-  .ccl-color_marine .ccl-header-main-menu a {
-    color: #1484A8 !important; }
-    .ccl-color_marine .ccl-header-main-menu a:hover {
+  @media (min-width: 820px) {
+    .ccl-color_marine .ccl-header-main-menu a {
+      color: #1484A8 !important; }
+      .ccl-color_marine .ccl-header-main-menu a:hover {
+        border-color: #1484A8 !important; }
+    .ccl-color_marine .ccl-header-main-menu li li {
       border-color: #1484A8 !important; }
-  .ccl-color_marine .ccl-header-main-menu li li {
-    border-color: #1484A8 !important; }
-    .ccl-color_marine .ccl-header-main-menu li li a:hover {
-      background-color: #1484A8 !important;
+      .ccl-color_marine .ccl-header-main-menu li li a:hover {
+        background-color: #1484A8 !important;
+        color: #fff !important; } }
+  @media (max-width: 820px) {
+    .ccl-color_marine .ccl-header-main-menu a {
       color: #fff !important; }
+      .ccl-color_marine .ccl-header-main-menu a:hover, .ccl-color_marine .ccl-header-main-menu a.active {
+        background-color: rgba(255, 255, 255, 0.2) !important; }
+    .ccl-color_marine .ccl-header-main-menu .active a {
+      background-color: rgba(255, 255, 255, 0.2) !important; } }
   .ccl-color_marine .ccl-list-item-image {
     border-color: #1484A8; }
   .ccl-color_marine .ccl-banner-top-bar {
     background-color: #1484A8 !important; }
   .ccl-color_marine .ccl-banner-top-main-block-title {
     background-color: #1484A880; }
+  .ccl-color_marine .ccl-main-menu-collapse-button:hover {
+    color: #1484A8 !important; }
+  @media (max-width: 820px) {
+    .ccl-color_marine .ccl-main-menu {
+      background-color: #1484A8 !important; } }
 
 .ccl-service-button-m.ccl-service-button-marine,
 .ccl-service-button-l.ccl-service-button-marine,
@@ -917,21 +982,34 @@
     color: #618888 !important; }
   .ccl-color_security .ccl-header-search button {
     background-color: #212529 !important; }
-  .ccl-color_security .ccl-header-main-menu a {
-    color: #618888 !important; }
-    .ccl-color_security .ccl-header-main-menu a:hover {
+  @media (min-width: 820px) {
+    .ccl-color_security .ccl-header-main-menu a {
+      color: #618888 !important; }
+      .ccl-color_security .ccl-header-main-menu a:hover {
+        border-color: #618888 !important; }
+    .ccl-color_security .ccl-header-main-menu li li {
       border-color: #618888 !important; }
-  .ccl-color_security .ccl-header-main-menu li li {
-    border-color: #618888 !important; }
-    .ccl-color_security .ccl-header-main-menu li li a:hover {
-      background-color: #618888 !important;
+      .ccl-color_security .ccl-header-main-menu li li a:hover {
+        background-color: #618888 !important;
+        color: #fff !important; } }
+  @media (max-width: 820px) {
+    .ccl-color_security .ccl-header-main-menu a {
       color: #fff !important; }
+      .ccl-color_security .ccl-header-main-menu a:hover, .ccl-color_security .ccl-header-main-menu a.active {
+        background-color: rgba(255, 255, 255, 0.2) !important; }
+    .ccl-color_security .ccl-header-main-menu .active a {
+      background-color: rgba(255, 255, 255, 0.2) !important; } }
   .ccl-color_security .ccl-list-item-image {
     border-color: #618888; }
   .ccl-color_security .ccl-banner-top-bar {
     background-color: #618888 !important; }
   .ccl-color_security .ccl-banner-top-main-block-title {
     background-color: #61888880; }
+  .ccl-color_security .ccl-main-menu-collapse-button:hover {
+    color: #618888 !important; }
+  @media (max-width: 820px) {
+    .ccl-color_security .ccl-main-menu {
+      background-color: #618888 !important; } }
 
 .ccl-service-button-m.ccl-service-button-security,
 .ccl-service-button-l.ccl-service-button-security,
@@ -1081,21 +1159,34 @@
     color: #FAA73E !important; }
   .ccl-color_emergency .ccl-header-search button {
     background-color: #212529 !important; }
-  .ccl-color_emergency .ccl-header-main-menu a {
-    color: #FAA73E !important; }
-    .ccl-color_emergency .ccl-header-main-menu a:hover {
+  @media (min-width: 820px) {
+    .ccl-color_emergency .ccl-header-main-menu a {
+      color: #FAA73E !important; }
+      .ccl-color_emergency .ccl-header-main-menu a:hover {
+        border-color: #FAA73E !important; }
+    .ccl-color_emergency .ccl-header-main-menu li li {
       border-color: #FAA73E !important; }
-  .ccl-color_emergency .ccl-header-main-menu li li {
-    border-color: #FAA73E !important; }
-    .ccl-color_emergency .ccl-header-main-menu li li a:hover {
-      background-color: #FAA73E !important;
+      .ccl-color_emergency .ccl-header-main-menu li li a:hover {
+        background-color: #FAA73E !important;
+        color: #fff !important; } }
+  @media (max-width: 820px) {
+    .ccl-color_emergency .ccl-header-main-menu a {
       color: #fff !important; }
+      .ccl-color_emergency .ccl-header-main-menu a:hover, .ccl-color_emergency .ccl-header-main-menu a.active {
+        background-color: rgba(255, 255, 255, 0.2) !important; }
+    .ccl-color_emergency .ccl-header-main-menu .active a {
+      background-color: rgba(255, 255, 255, 0.2) !important; } }
   .ccl-color_emergency .ccl-list-item-image {
     border-color: #FAA73E; }
   .ccl-color_emergency .ccl-banner-top-bar {
     background-color: #FAA73E !important; }
   .ccl-color_emergency .ccl-banner-top-main-block-title {
     background-color: #FAA73E80; }
+  .ccl-color_emergency .ccl-main-menu-collapse-button:hover {
+    color: #FAA73E !important; }
+  @media (max-width: 820px) {
+    .ccl-color_emergency .ccl-main-menu {
+      background-color: #FAA73E !important; } }
 
 .ccl-service-button-m.ccl-service-button-emergency,
 .ccl-service-button-l.ccl-service-button-emergency,
@@ -1245,21 +1336,34 @@
     color: #783F34 !important; }
   .ccl-color_insitu .ccl-header-search button {
     background-color: #212529 !important; }
-  .ccl-color_insitu .ccl-header-main-menu a {
-    color: #783F34 !important; }
-    .ccl-color_insitu .ccl-header-main-menu a:hover {
+  @media (min-width: 820px) {
+    .ccl-color_insitu .ccl-header-main-menu a {
+      color: #783F34 !important; }
+      .ccl-color_insitu .ccl-header-main-menu a:hover {
+        border-color: #783F34 !important; }
+    .ccl-color_insitu .ccl-header-main-menu li li {
       border-color: #783F34 !important; }
-  .ccl-color_insitu .ccl-header-main-menu li li {
-    border-color: #783F34 !important; }
-    .ccl-color_insitu .ccl-header-main-menu li li a:hover {
-      background-color: #783F34 !important;
+      .ccl-color_insitu .ccl-header-main-menu li li a:hover {
+        background-color: #783F34 !important;
+        color: #fff !important; } }
+  @media (max-width: 820px) {
+    .ccl-color_insitu .ccl-header-main-menu a {
       color: #fff !important; }
+      .ccl-color_insitu .ccl-header-main-menu a:hover, .ccl-color_insitu .ccl-header-main-menu a.active {
+        background-color: rgba(255, 255, 255, 0.2) !important; }
+    .ccl-color_insitu .ccl-header-main-menu .active a {
+      background-color: rgba(255, 255, 255, 0.2) !important; } }
   .ccl-color_insitu .ccl-list-item-image {
     border-color: #783F34; }
   .ccl-color_insitu .ccl-banner-top-bar {
     background-color: #783F34 !important; }
   .ccl-color_insitu .ccl-banner-top-main-block-title {
     background-color: #783F3480; }
+  .ccl-color_insitu .ccl-main-menu-collapse-button:hover {
+    color: #783F34 !important; }
+  @media (max-width: 820px) {
+    .ccl-color_insitu .ccl-main-menu {
+      background-color: #783F34 !important; } }
 
 .ccl-service-button-m.ccl-service-button-insitu,
 .ccl-service-button-l.ccl-service-button-insitu,

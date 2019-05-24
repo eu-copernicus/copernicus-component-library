@@ -1,3 +1,4 @@
+$collapse-menu-width:820px;
 .ccl-color_#{$theme}{
 
 	/*backgrounds*/
@@ -163,6 +164,7 @@
 		background-color: $ccl-color-text !important;
 	}
 
+	@media (min-width:$collapse-menu-width) {
 	.ccl-header-main-menu {
 		a {
 			color: $ccl-color-main !important;
@@ -184,6 +186,28 @@
 		}
 
 	}
+}
+	@media (max-width:$collapse-menu-width) {
+		.ccl-header-main-menu {
+		a {
+			color: #fff !important;
+
+			&:hover,
+			&.active {
+				background-color: rgba(255,255,255,0.2) !important;
+			}
+
+		}
+		.active{
+			a{
+				background-color: rgba(255,255,255,0.2) !important;
+			}
+		}
+
+		
+
+	}
+	}
 
 	.ccl-list-item-image {
 		border-color: $ccl-color-main;
@@ -194,6 +218,14 @@
 	}
 	.ccl-banner-top-main-block-title{
 		background-color:#{$ccl-color-main}80;
+	}
+	.ccl-main-menu-collapse-button:hover{
+		color: $ccl-color-main !important;
+	}
+	.ccl-main-menu{
+		@media (max-width:$collapse-menu-width) {
+			background-color: $ccl-color-main !important;
+		}
 	}
 
 }

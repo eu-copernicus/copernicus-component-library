@@ -117,6 +117,20 @@ $(function() {
       });
     })
 
+    //collapsible  nav
+    $('.ccl-main-menu-collapse-button').click(function(){
+      if($('.ccl-header-main-menu').hasClass('ccl-collapsible-open')){
+        $('.ccl-header-main-menu').slideUp('fast',function(){
+          $(this).removeClass('ccl-collapsible-open').removeAttr('style');
+        });
+        
+      }else{
+        $('.ccl-header-main-menu').slideDown('fast',function(){
+          $('.ccl-header-main-menu').addClass('ccl-collapsible-open').removeAttr('style');
+        });
+        
+      }
+    })
 
 
 
@@ -127,4 +141,8 @@ $(function() {
     $(document).click(function(event){
       closeAllSelect(event.target);
     })
+
+
+
+
   });

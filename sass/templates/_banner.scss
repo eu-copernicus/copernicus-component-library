@@ -34,12 +34,16 @@
 	color: #fff;
 	border-bottom: 1px solid $ccl-color-border-medium;
 	border-top: 1px solid $ccl-color-border-medium;
-	padding: rem-calc(12) rem-calc(20);
+	padding: 0 rem-calc(20);
 
 	.ccl-container {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-between;
+		.ccl-banner-top-bar-left,
+		.ccl-banner-top-bar-right{
+			padding: rem-calc(12) 0;
+		}
 	}
 
 }
