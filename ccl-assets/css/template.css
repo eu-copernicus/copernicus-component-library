@@ -330,7 +330,8 @@
 .ccl-banner-top-container .ccl-banner-top-main {
   background-size: cover !important;
   background-position: center center !important;
-  min-height: 20.8333333333rem; }
+  min-height: 20.8333333333rem;
+  padding: 0 1.1111111111rem; }
   .ccl-banner-top-container .ccl-banner-top-main .ccl-container {
     min-height: 20.8333333333rem;
     display: flex;
