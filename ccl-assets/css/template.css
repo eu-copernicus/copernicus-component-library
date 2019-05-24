@@ -245,7 +245,8 @@
         margin: 2rem 0; } }
     .ccl-header .ccl-header-nav .ccl-header-logos-container .ccl-header-logo-service-container {
       height: 2.7777777778rem;
-      margin: 0; }
+      margin: 0;
+      display: none; }
       .ccl-header .ccl-header-nav .ccl-header-logos-container .ccl-header-logo-service-container.ccl-service-button.ccl-service-button-full {
         width: auto; }
         .ccl-header .ccl-header-nav .ccl-header-logos-container .ccl-header-logo-service-container.ccl-service-button.ccl-service-button-full .ccl-service-button-icon {

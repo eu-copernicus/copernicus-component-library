@@ -30,7 +30,8 @@ function changeTheme(palette){
 	$(".ccl-element").attr('class','ccl-element');
 	$(".ccl-element").attr('class','ccl-element ccl-style ccl-color_'+palette);
 	$("#themeselector_container").attr('class','ccl-color_'+palette);
-	
+	$(".ccl-header-logo-service-container").hide();
+	$(".ccl-header-logo-service-container.ccl-service-button-"+palette).css('display','flex');
 
 	$('.CodeMirror').each(function(i, el){
 		var code=el.CodeMirror.getValue();
