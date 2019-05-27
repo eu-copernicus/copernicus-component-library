@@ -53,11 +53,8 @@ function closeAllSelect(elmnt) {
 }
 
 /* Replace all SVG images with inline SVG */
-$(function() {
-
-    // img .svg with ccl-svg class to SVG in DOM
-    $('img.ccl-svg').each(function(){
-      var $img = $(this);
+function imgToSSVG(img) {
+  var $img = img;
       var imgURL = $img.attr('src');
       var imgID =  ($img.attr('id') === undefined) ? 'ccl-svg--'+imgURL.replace(/[^A-Z0-9]+/ig, "_") : imgID; ;          
       var imgClass = $img.attr('class');
@@ -108,6 +105,45 @@ $(function() {
 
               }, 'xml');
 
+}
+
+// build language selector
+ function languageSelector(languageBlock){
+ 
+          var currentLang =$('.ccl-language-list a.is-active',languageBlock).text();
+          currentLang=currentLang.replace(/(^.+)\(([A-Z]+)\)/g,'<span class="ccl-active-lang-label">$1</span><span> (</span>$2<span>)</span>')
+
+          $('<span></span>').addClass('ccl-active-lang').html(currentLang).prependTo($(languageBlock));          
+          $('.ccl-language-list',languageBlock).css({"min-width": $('.ccl-active-lang',languageBlock).outerWidth(  )});
+          
+          $(languageBlock).hover(              
+            function(){
+              $('.ccl-main-menu').removeClass('ccl-collapsible-open');  
+              $('.ccl-language-list-container',this).show();
+            }
+            , 
+            function(){
+                
+              $('.ccl-language-list-container',this).hide();
+            }
+
+             )
+          $(languageBlock).click(function(){
+            $('.ccl-main-menu').removeClass('ccl-collapsible-open'); 
+            $('.ccl-language-list-container',this).toogle();
+          })
+
+ }
+   
+
+$(function() {
+
+    // build language selector
+    languageSelector($("#block-languageswitcher"));
+
+    // img .svg with ccl-svg class to SVG in DOM
+    $('img.ccl-svg').each(function(){
+      imgToSSVG($(this))
     });
 
     //builds  dropdown. toogle the next element
@@ -119,20 +155,30 @@ $(function() {
 
     //collapsible  nav
     $('.ccl-main-menu-collapse-button').click(function(){
-      if($('.ccl-header-main-menu').hasClass('ccl-collapsible-open')){
-        $('.ccl-header-main-menu').slideUp('fast',function(){
+
+
+      if($('.ccl-main-menu').hasClass('ccl-collapsible-open')){
+        $('.ccl-main-menu').slideUp('fast',function(){
           $(this).removeClass('ccl-collapsible-open').removeAttr('style');
+
         });
         
       }else{
-        $('.ccl-header-main-menu').slideDown('fast',function(){
-          $('.ccl-header-main-menu').addClass('ccl-collapsible-open').removeAttr('style');
+        $('.ccl-main-menu').slideDown('fast',function(){
+          $(this).addClass('ccl-collapsible-open').removeAttr('style');
         });
         
       }
     })
 
+    $('.ccl-header-menu-tools').clone().addClass('ccl-collapsible-toolmenu').appendTo($('.ccl-main-menu'));
+    //collapsible search
+    $('.ccl-search-collapse-button').click(function(){
+      $('.ccl-header-search').css('display','flex').mouseleave(function(){
+        $(this).removeAttr('style');
+      });
 
+    })
 
     $('.ccl-select').each(function(index,el){
       buildSelect(el,index);

@@ -164,8 +164,23 @@ $collapse-menu-width:820px;
 		background-color: $ccl-color-text !important;
 	}
 
+	ul.ccl-language-list{
+		background-color: $ccl-color-main !important;
+		li a:hover,
+		li a.is-active:hover{
+			color: $ccl-color-main !important;
+			background-color: #fff;
+		}
+	}
+	.ccl-header-slogan {
+		@media (max-width:700px) {
+			color: $ccl-color-main !important;
+
+		}
+	}
+
 	@media (min-width:$collapse-menu-width) {
-	.ccl-header-main-menu {
+	.ccl-header-main-menu  {
 		a {
 			color: $ccl-color-main !important;
 
@@ -186,9 +201,12 @@ $collapse-menu-width:820px;
 		}
 
 	}
+
+
 }
 	@media (max-width:$collapse-menu-width) {
-		.ccl-header-main-menu {
+		.ccl-header-main-menu,
+	.ccl-collapsible-toolmenu {
 		a {
 			color: #fff !important;
 
@@ -219,7 +237,8 @@ $collapse-menu-width:820px;
 	.ccl-banner-top-main-block-title{
 		background-color:#{$ccl-color-main}80;
 	}
-	.ccl-main-menu-collapse-button:hover{
+	.ccl-main-menu-collapse-button:hover,
+	.ccl-search-collapse-button:hover{
 		color: $ccl-color-main !important;
 	}
 	.ccl-main-menu{

@@ -97,6 +97,15 @@
     color: #273B4B !important; }
   .ccl-color_generic .ccl-header-search button {
     background-color: #212529 !important; }
+  .ccl-color_generic ul.ccl-language-list {
+    background-color: #273B4B !important; }
+    .ccl-color_generic ul.ccl-language-list li a:hover,
+    .ccl-color_generic ul.ccl-language-list li a.is-active:hover {
+      color: #273B4B !important;
+      background-color: #fff; }
+  @media (max-width: 700px) {
+    .ccl-color_generic .ccl-header-slogan {
+      color: #273B4B !important; } }
   @media (min-width: 820px) {
     .ccl-color_generic .ccl-header-main-menu a {
       color: #273B4B !important; }
@@ -108,11 +117,15 @@
         background-color: #273B4B !important;
         color: #fff !important; } }
   @media (max-width: 820px) {
-    .ccl-color_generic .ccl-header-main-menu a {
+    .ccl-color_generic .ccl-header-main-menu a,
+    .ccl-color_generic .ccl-collapsible-toolmenu a {
       color: #fff !important; }
-      .ccl-color_generic .ccl-header-main-menu a:hover, .ccl-color_generic .ccl-header-main-menu a.active {
+      .ccl-color_generic .ccl-header-main-menu a:hover, .ccl-color_generic .ccl-header-main-menu a.active,
+      .ccl-color_generic .ccl-collapsible-toolmenu a:hover,
+      .ccl-color_generic .ccl-collapsible-toolmenu a.active {
         background-color: rgba(255, 255, 255, 0.2) !important; }
-    .ccl-color_generic .ccl-header-main-menu .active a {
+    .ccl-color_generic .ccl-header-main-menu .active a,
+    .ccl-color_generic .ccl-collapsible-toolmenu .active a {
       background-color: rgba(255, 255, 255, 0.2) !important; } }
   .ccl-color_generic .ccl-list-item-image {
     border-color: #273B4B; }
@@ -120,7 +133,8 @@
     background-color: #273B4B !important; }
   .ccl-color_generic .ccl-banner-top-main-block-title {
     background-color: #273B4B80; }
-  .ccl-color_generic .ccl-main-menu-collapse-button:hover {
+  .ccl-color_generic .ccl-main-menu-collapse-button:hover,
+  .ccl-color_generic .ccl-search-collapse-button:hover {
     color: #273B4B !important; }
   @media (max-width: 820px) {
     .ccl-color_generic .ccl-main-menu {
@@ -274,6 +288,15 @@
     color: #941333 !important; }
   .ccl-color_climate .ccl-header-search button {
     background-color: #212529 !important; }
+  .ccl-color_climate ul.ccl-language-list {
+    background-color: #941333 !important; }
+    .ccl-color_climate ul.ccl-language-list li a:hover,
+    .ccl-color_climate ul.ccl-language-list li a.is-active:hover {
+      color: #941333 !important;
+      background-color: #fff; }
+  @media (max-width: 700px) {
+    .ccl-color_climate .ccl-header-slogan {
+      color: #941333 !important; } }
   @media (min-width: 820px) {
     .ccl-color_climate .ccl-header-main-menu a {
       color: #941333 !important; }
@@ -285,11 +308,15 @@
         background-color: #941333 !important;
         color: #fff !important; } }
   @media (max-width: 820px) {
-    .ccl-color_climate .ccl-header-main-menu a {
+    .ccl-color_climate .ccl-header-main-menu a,
+    .ccl-color_climate .ccl-collapsible-toolmenu a {
       color: #fff !important; }
-      .ccl-color_climate .ccl-header-main-menu a:hover, .ccl-color_climate .ccl-header-main-menu a.active {
+      .ccl-color_climate .ccl-header-main-menu a:hover, .ccl-color_climate .ccl-header-main-menu a.active,
+      .ccl-color_climate .ccl-collapsible-toolmenu a:hover,
+      .ccl-color_climate .ccl-collapsible-toolmenu a.active {
         background-color: rgba(255, 255, 255, 0.2) !important; }
-    .ccl-color_climate .ccl-header-main-menu .active a {
+    .ccl-color_climate .ccl-header-main-menu .active a,
+    .ccl-color_climate .ccl-collapsible-toolmenu .active a {
       background-color: rgba(255, 255, 255, 0.2) !important; } }
   .ccl-color_climate .ccl-list-item-image {
     border-color: #941333; }
@@ -297,7 +324,8 @@
     background-color: #941333 !important; }
   .ccl-color_climate .ccl-banner-top-main-block-title {
     background-color: #94133380; }
-  .ccl-color_climate .ccl-main-menu-collapse-button:hover {
+  .ccl-color_climate .ccl-main-menu-collapse-button:hover,
+  .ccl-color_climate .ccl-search-collapse-button:hover {
     color: #941333 !important; }
   @media (max-width: 820px) {
     .ccl-color_climate .ccl-main-menu {
@@ -451,6 +479,15 @@
     color: #A0B128 !important; }
   .ccl-color_land .ccl-header-search button {
     background-color: #212529 !important; }
+  .ccl-color_land ul.ccl-language-list {
+    background-color: #A0B128 !important; }
+    .ccl-color_land ul.ccl-language-list li a:hover,
+    .ccl-color_land ul.ccl-language-list li a.is-active:hover {
+      color: #A0B128 !important;
+      background-color: #fff; }
+  @media (max-width: 700px) {
+    .ccl-color_land .ccl-header-slogan {
+      color: #A0B128 !important; } }
   @media (min-width: 820px) {
     .ccl-color_land .ccl-header-main-menu a {
       color: #A0B128 !important; }
@@ -462,11 +499,15 @@
         background-color: #A0B128 !important;
         color: #fff !important; } }
   @media (max-width: 820px) {
-    .ccl-color_land .ccl-header-main-menu a {
+    .ccl-color_land .ccl-header-main-menu a,
+    .ccl-color_land .ccl-collapsible-toolmenu a {
       color: #fff !important; }
-      .ccl-color_land .ccl-header-main-menu a:hover, .ccl-color_land .ccl-header-main-menu a.active {
+      .ccl-color_land .ccl-header-main-menu a:hover, .ccl-color_land .ccl-header-main-menu a.active,
+      .ccl-color_land .ccl-collapsible-toolmenu a:hover,
+      .ccl-color_land .ccl-collapsible-toolmenu a.active {
         background-color: rgba(255, 255, 255, 0.2) !important; }
-    .ccl-color_land .ccl-header-main-menu .active a {
+    .ccl-color_land .ccl-header-main-menu .active a,
+    .ccl-color_land .ccl-collapsible-toolmenu .active a {
       background-color: rgba(255, 255, 255, 0.2) !important; } }
   .ccl-color_land .ccl-list-item-image {
     border-color: #A0B128; }
@@ -474,7 +515,8 @@
     background-color: #A0B128 !important; }
   .ccl-color_land .ccl-banner-top-main-block-title {
     background-color: #A0B12880; }
-  .ccl-color_land .ccl-main-menu-collapse-button:hover {
+  .ccl-color_land .ccl-main-menu-collapse-button:hover,
+  .ccl-color_land .ccl-search-collapse-button:hover {
     color: #A0B128 !important; }
   @media (max-width: 820px) {
     .ccl-color_land .ccl-main-menu {
@@ -628,6 +670,15 @@
     color: #55BFD0 !important; }
   .ccl-color_atmosphere .ccl-header-search button {
     background-color: #212529 !important; }
+  .ccl-color_atmosphere ul.ccl-language-list {
+    background-color: #55BFD0 !important; }
+    .ccl-color_atmosphere ul.ccl-language-list li a:hover,
+    .ccl-color_atmosphere ul.ccl-language-list li a.is-active:hover {
+      color: #55BFD0 !important;
+      background-color: #fff; }
+  @media (max-width: 700px) {
+    .ccl-color_atmosphere .ccl-header-slogan {
+      color: #55BFD0 !important; } }
   @media (min-width: 820px) {
     .ccl-color_atmosphere .ccl-header-main-menu a {
       color: #55BFD0 !important; }
@@ -639,11 +690,15 @@
         background-color: #55BFD0 !important;
         color: #fff !important; } }
   @media (max-width: 820px) {
-    .ccl-color_atmosphere .ccl-header-main-menu a {
+    .ccl-color_atmosphere .ccl-header-main-menu a,
+    .ccl-color_atmosphere .ccl-collapsible-toolmenu a {
       color: #fff !important; }
-      .ccl-color_atmosphere .ccl-header-main-menu a:hover, .ccl-color_atmosphere .ccl-header-main-menu a.active {
+      .ccl-color_atmosphere .ccl-header-main-menu a:hover, .ccl-color_atmosphere .ccl-header-main-menu a.active,
+      .ccl-color_atmosphere .ccl-collapsible-toolmenu a:hover,
+      .ccl-color_atmosphere .ccl-collapsible-toolmenu a.active {
         background-color: rgba(255, 255, 255, 0.2) !important; }
-    .ccl-color_atmosphere .ccl-header-main-menu .active a {
+    .ccl-color_atmosphere .ccl-header-main-menu .active a,
+    .ccl-color_atmosphere .ccl-collapsible-toolmenu .active a {
       background-color: rgba(255, 255, 255, 0.2) !important; } }
   .ccl-color_atmosphere .ccl-list-item-image {
     border-color: #55BFD0; }
@@ -651,7 +706,8 @@
     background-color: #55BFD0 !important; }
   .ccl-color_atmosphere .ccl-banner-top-main-block-title {
     background-color: #55BFD080; }
-  .ccl-color_atmosphere .ccl-main-menu-collapse-button:hover {
+  .ccl-color_atmosphere .ccl-main-menu-collapse-button:hover,
+  .ccl-color_atmosphere .ccl-search-collapse-button:hover {
     color: #55BFD0 !important; }
   @media (max-width: 820px) {
     .ccl-color_atmosphere .ccl-main-menu {
@@ -805,6 +861,15 @@
     color: #1484A8 !important; }
   .ccl-color_marine .ccl-header-search button {
     background-color: #212529 !important; }
+  .ccl-color_marine ul.ccl-language-list {
+    background-color: #1484A8 !important; }
+    .ccl-color_marine ul.ccl-language-list li a:hover,
+    .ccl-color_marine ul.ccl-language-list li a.is-active:hover {
+      color: #1484A8 !important;
+      background-color: #fff; }
+  @media (max-width: 700px) {
+    .ccl-color_marine .ccl-header-slogan {
+      color: #1484A8 !important; } }
   @media (min-width: 820px) {
     .ccl-color_marine .ccl-header-main-menu a {
       color: #1484A8 !important; }
@@ -816,11 +881,15 @@
         background-color: #1484A8 !important;
         color: #fff !important; } }
   @media (max-width: 820px) {
-    .ccl-color_marine .ccl-header-main-menu a {
+    .ccl-color_marine .ccl-header-main-menu a,
+    .ccl-color_marine .ccl-collapsible-toolmenu a {
       color: #fff !important; }
-      .ccl-color_marine .ccl-header-main-menu a:hover, .ccl-color_marine .ccl-header-main-menu a.active {
+      .ccl-color_marine .ccl-header-main-menu a:hover, .ccl-color_marine .ccl-header-main-menu a.active,
+      .ccl-color_marine .ccl-collapsible-toolmenu a:hover,
+      .ccl-color_marine .ccl-collapsible-toolmenu a.active {
         background-color: rgba(255, 255, 255, 0.2) !important; }
-    .ccl-color_marine .ccl-header-main-menu .active a {
+    .ccl-color_marine .ccl-header-main-menu .active a,
+    .ccl-color_marine .ccl-collapsible-toolmenu .active a {
       background-color: rgba(255, 255, 255, 0.2) !important; } }
   .ccl-color_marine .ccl-list-item-image {
     border-color: #1484A8; }
@@ -828,7 +897,8 @@
     background-color: #1484A8 !important; }
   .ccl-color_marine .ccl-banner-top-main-block-title {
     background-color: #1484A880; }
-  .ccl-color_marine .ccl-main-menu-collapse-button:hover {
+  .ccl-color_marine .ccl-main-menu-collapse-button:hover,
+  .ccl-color_marine .ccl-search-collapse-button:hover {
     color: #1484A8 !important; }
   @media (max-width: 820px) {
     .ccl-color_marine .ccl-main-menu {
@@ -982,6 +1052,15 @@
     color: #618888 !important; }
   .ccl-color_security .ccl-header-search button {
     background-color: #212529 !important; }
+  .ccl-color_security ul.ccl-language-list {
+    background-color: #618888 !important; }
+    .ccl-color_security ul.ccl-language-list li a:hover,
+    .ccl-color_security ul.ccl-language-list li a.is-active:hover {
+      color: #618888 !important;
+      background-color: #fff; }
+  @media (max-width: 700px) {
+    .ccl-color_security .ccl-header-slogan {
+      color: #618888 !important; } }
   @media (min-width: 820px) {
     .ccl-color_security .ccl-header-main-menu a {
       color: #618888 !important; }
@@ -993,11 +1072,15 @@
         background-color: #618888 !important;
         color: #fff !important; } }
   @media (max-width: 820px) {
-    .ccl-color_security .ccl-header-main-menu a {
+    .ccl-color_security .ccl-header-main-menu a,
+    .ccl-color_security .ccl-collapsible-toolmenu a {
       color: #fff !important; }
-      .ccl-color_security .ccl-header-main-menu a:hover, .ccl-color_security .ccl-header-main-menu a.active {
+      .ccl-color_security .ccl-header-main-menu a:hover, .ccl-color_security .ccl-header-main-menu a.active,
+      .ccl-color_security .ccl-collapsible-toolmenu a:hover,
+      .ccl-color_security .ccl-collapsible-toolmenu a.active {
         background-color: rgba(255, 255, 255, 0.2) !important; }
-    .ccl-color_security .ccl-header-main-menu .active a {
+    .ccl-color_security .ccl-header-main-menu .active a,
+    .ccl-color_security .ccl-collapsible-toolmenu .active a {
       background-color: rgba(255, 255, 255, 0.2) !important; } }
   .ccl-color_security .ccl-list-item-image {
     border-color: #618888; }
@@ -1005,7 +1088,8 @@
     background-color: #618888 !important; }
   .ccl-color_security .ccl-banner-top-main-block-title {
     background-color: #61888880; }
-  .ccl-color_security .ccl-main-menu-collapse-button:hover {
+  .ccl-color_security .ccl-main-menu-collapse-button:hover,
+  .ccl-color_security .ccl-search-collapse-button:hover {
     color: #618888 !important; }
   @media (max-width: 820px) {
     .ccl-color_security .ccl-main-menu {
@@ -1159,6 +1243,15 @@
     color: #FAA73E !important; }
   .ccl-color_emergency .ccl-header-search button {
     background-color: #212529 !important; }
+  .ccl-color_emergency ul.ccl-language-list {
+    background-color: #FAA73E !important; }
+    .ccl-color_emergency ul.ccl-language-list li a:hover,
+    .ccl-color_emergency ul.ccl-language-list li a.is-active:hover {
+      color: #FAA73E !important;
+      background-color: #fff; }
+  @media (max-width: 700px) {
+    .ccl-color_emergency .ccl-header-slogan {
+      color: #FAA73E !important; } }
   @media (min-width: 820px) {
     .ccl-color_emergency .ccl-header-main-menu a {
       color: #FAA73E !important; }
@@ -1170,11 +1263,15 @@
         background-color: #FAA73E !important;
         color: #fff !important; } }
   @media (max-width: 820px) {
-    .ccl-color_emergency .ccl-header-main-menu a {
+    .ccl-color_emergency .ccl-header-main-menu a,
+    .ccl-color_emergency .ccl-collapsible-toolmenu a {
       color: #fff !important; }
-      .ccl-color_emergency .ccl-header-main-menu a:hover, .ccl-color_emergency .ccl-header-main-menu a.active {
+      .ccl-color_emergency .ccl-header-main-menu a:hover, .ccl-color_emergency .ccl-header-main-menu a.active,
+      .ccl-color_emergency .ccl-collapsible-toolmenu a:hover,
+      .ccl-color_emergency .ccl-collapsible-toolmenu a.active {
         background-color: rgba(255, 255, 255, 0.2) !important; }
-    .ccl-color_emergency .ccl-header-main-menu .active a {
+    .ccl-color_emergency .ccl-header-main-menu .active a,
+    .ccl-color_emergency .ccl-collapsible-toolmenu .active a {
       background-color: rgba(255, 255, 255, 0.2) !important; } }
   .ccl-color_emergency .ccl-list-item-image {
     border-color: #FAA73E; }
@@ -1182,7 +1279,8 @@
     background-color: #FAA73E !important; }
   .ccl-color_emergency .ccl-banner-top-main-block-title {
     background-color: #FAA73E80; }
-  .ccl-color_emergency .ccl-main-menu-collapse-button:hover {
+  .ccl-color_emergency .ccl-main-menu-collapse-button:hover,
+  .ccl-color_emergency .ccl-search-collapse-button:hover {
     color: #FAA73E !important; }
   @media (max-width: 820px) {
     .ccl-color_emergency .ccl-main-menu {
@@ -1336,6 +1434,15 @@
     color: #783F34 !important; }
   .ccl-color_insitu .ccl-header-search button {
     background-color: #212529 !important; }
+  .ccl-color_insitu ul.ccl-language-list {
+    background-color: #783F34 !important; }
+    .ccl-color_insitu ul.ccl-language-list li a:hover,
+    .ccl-color_insitu ul.ccl-language-list li a.is-active:hover {
+      color: #783F34 !important;
+      background-color: #fff; }
+  @media (max-width: 700px) {
+    .ccl-color_insitu .ccl-header-slogan {
+      color: #783F34 !important; } }
   @media (min-width: 820px) {
     .ccl-color_insitu .ccl-header-main-menu a {
       color: #783F34 !important; }
@@ -1347,11 +1454,15 @@
         background-color: #783F34 !important;
         color: #fff !important; } }
   @media (max-width: 820px) {
-    .ccl-color_insitu .ccl-header-main-menu a {
+    .ccl-color_insitu .ccl-header-main-menu a,
+    .ccl-color_insitu .ccl-collapsible-toolmenu a {
       color: #fff !important; }
-      .ccl-color_insitu .ccl-header-main-menu a:hover, .ccl-color_insitu .ccl-header-main-menu a.active {
+      .ccl-color_insitu .ccl-header-main-menu a:hover, .ccl-color_insitu .ccl-header-main-menu a.active,
+      .ccl-color_insitu .ccl-collapsible-toolmenu a:hover,
+      .ccl-color_insitu .ccl-collapsible-toolmenu a.active {
         background-color: rgba(255, 255, 255, 0.2) !important; }
-    .ccl-color_insitu .ccl-header-main-menu .active a {
+    .ccl-color_insitu .ccl-header-main-menu .active a,
+    .ccl-color_insitu .ccl-collapsible-toolmenu .active a {
       background-color: rgba(255, 255, 255, 0.2) !important; } }
   .ccl-color_insitu .ccl-list-item-image {
     border-color: #783F34; }
@@ -1359,7 +1470,8 @@
     background-color: #783F34 !important; }
   .ccl-color_insitu .ccl-banner-top-main-block-title {
     background-color: #783F3480; }
-  .ccl-color_insitu .ccl-main-menu-collapse-button:hover {
+  .ccl-color_insitu .ccl-main-menu-collapse-button:hover,
+  .ccl-color_insitu .ccl-search-collapse-button:hover {
     color: #783F34 !important; }
   @media (max-width: 820px) {
     .ccl-color_insitu .ccl-main-menu {

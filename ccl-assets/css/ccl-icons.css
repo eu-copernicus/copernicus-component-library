@@ -24,6 +24,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.ccl-icon-language:before {
+  content: "\e91b";
+}
 .ccl-icon-menu:before {
   content: "\e91a";
 }
@@ -65,6 +68,9 @@
 }
 .ccl-icon-no-event:before {
   content: "\e90a";
+}
+.ccl-icon-cog:before {
+  content: "\e91c";
 }
 .ccl-icon-youtube:before {
   content: "\e90c";
