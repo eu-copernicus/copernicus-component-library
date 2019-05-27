@@ -201,7 +201,12 @@ $collapse-menu-width:820px;
 		}
 
 	}
-
+	.ccl-list-carousel .ccl-list-item-image img{
+		border-color: $ccl-color-main !important;
+	}
+	.ccl-list-carousel .slick-arrow:before{
+		color: $ccl-color-main !important;
+	}
 
 }
 	@media (max-width:$collapse-menu-width) {

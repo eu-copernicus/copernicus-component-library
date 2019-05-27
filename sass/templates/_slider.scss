@@ -1,0 +1,58 @@
+.ccl-banner-top-container-slider {
+	.slick-arrow{
+		z-index: 100;
+		height: rem-calc(40);
+		width: rem-calc(40);
+		&:before {
+			font-size: rem-calc(40);
+			font-weight: 900;
+		}
+	}
+	.slick-prev {		
+		left: rem-calc(5);
+
+	}
+
+	.slick-next {
+			right: rem-calc(5);
+		
+
+	
+
+	}
+
+}
+
+.ccl-list-carousel{
+	.slick-arrow{
+		z-index: 100;
+		height: rem-calc(40);
+		width: rem-calc(40);
+		&:before {
+			font-size: rem-calc(40);
+			font-weight: 900;
+		}
+	}
+	.slick-prev {		
+		left: rem-calc(-25);
+
+	}
+
+	.slick-next {
+			right: rem-calc(-25);
+		
+
+	
+
+	}
+
+	.ccl-list-item{
+		margin-left: rem-calc(10);
+		margin-right: rem-calc(10);
+	}
+	.ccl-list-item-image{
+		img{
+			border-bottom:5px solid;
+		}
+	}
+}

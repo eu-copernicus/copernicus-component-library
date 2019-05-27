@@ -115,7 +115,11 @@
       border-color: #273B4B !important; }
       .ccl-color_generic .ccl-header-main-menu li li a:hover {
         background-color: #273B4B !important;
-        color: #fff !important; } }
+        color: #fff !important; }
+    .ccl-color_generic .ccl-list-carousel .ccl-list-item-image img {
+      border-color: #273B4B !important; }
+    .ccl-color_generic .ccl-list-carousel .slick-arrow:before {
+      color: #273B4B !important; } }
   @media (max-width: 820px) {
     .ccl-color_generic .ccl-header-main-menu a,
     .ccl-color_generic .ccl-collapsible-toolmenu a {
@@ -306,7 +310,11 @@
       border-color: #941333 !important; }
       .ccl-color_climate .ccl-header-main-menu li li a:hover {
         background-color: #941333 !important;
-        color: #fff !important; } }
+        color: #fff !important; }
+    .ccl-color_climate .ccl-list-carousel .ccl-list-item-image img {
+      border-color: #941333 !important; }
+    .ccl-color_climate .ccl-list-carousel .slick-arrow:before {
+      color: #941333 !important; } }
   @media (max-width: 820px) {
     .ccl-color_climate .ccl-header-main-menu a,
     .ccl-color_climate .ccl-collapsible-toolmenu a {
@@ -497,7 +505,11 @@
       border-color: #A0B128 !important; }
       .ccl-color_land .ccl-header-main-menu li li a:hover {
         background-color: #A0B128 !important;
-        color: #fff !important; } }
+        color: #fff !important; }
+    .ccl-color_land .ccl-list-carousel .ccl-list-item-image img {
+      border-color: #A0B128 !important; }
+    .ccl-color_land .ccl-list-carousel .slick-arrow:before {
+      color: #A0B128 !important; } }
   @media (max-width: 820px) {
     .ccl-color_land .ccl-header-main-menu a,
     .ccl-color_land .ccl-collapsible-toolmenu a {
@@ -688,7 +700,11 @@
       border-color: #55BFD0 !important; }
       .ccl-color_atmosphere .ccl-header-main-menu li li a:hover {
         background-color: #55BFD0 !important;
-        color: #fff !important; } }
+        color: #fff !important; }
+    .ccl-color_atmosphere .ccl-list-carousel .ccl-list-item-image img {
+      border-color: #55BFD0 !important; }
+    .ccl-color_atmosphere .ccl-list-carousel .slick-arrow:before {
+      color: #55BFD0 !important; } }
   @media (max-width: 820px) {
     .ccl-color_atmosphere .ccl-header-main-menu a,
     .ccl-color_atmosphere .ccl-collapsible-toolmenu a {
@@ -879,7 +895,11 @@
       border-color: #1484A8 !important; }
       .ccl-color_marine .ccl-header-main-menu li li a:hover {
         background-color: #1484A8 !important;
-        color: #fff !important; } }
+        color: #fff !important; }
+    .ccl-color_marine .ccl-list-carousel .ccl-list-item-image img {
+      border-color: #1484A8 !important; }
+    .ccl-color_marine .ccl-list-carousel .slick-arrow:before {
+      color: #1484A8 !important; } }
   @media (max-width: 820px) {
     .ccl-color_marine .ccl-header-main-menu a,
     .ccl-color_marine .ccl-collapsible-toolmenu a {
@@ -1070,7 +1090,11 @@
       border-color: #618888 !important; }
       .ccl-color_security .ccl-header-main-menu li li a:hover {
         background-color: #618888 !important;
-        color: #fff !important; } }
+        color: #fff !important; }
+    .ccl-color_security .ccl-list-carousel .ccl-list-item-image img {
+      border-color: #618888 !important; }
+    .ccl-color_security .ccl-list-carousel .slick-arrow:before {
+      color: #618888 !important; } }
   @media (max-width: 820px) {
     .ccl-color_security .ccl-header-main-menu a,
     .ccl-color_security .ccl-collapsible-toolmenu a {
@@ -1261,7 +1285,11 @@
       border-color: #FAA73E !important; }
       .ccl-color_emergency .ccl-header-main-menu li li a:hover {
         background-color: #FAA73E !important;
-        color: #fff !important; } }
+        color: #fff !important; }
+    .ccl-color_emergency .ccl-list-carousel .ccl-list-item-image img {
+      border-color: #FAA73E !important; }
+    .ccl-color_emergency .ccl-list-carousel .slick-arrow:before {
+      color: #FAA73E !important; } }
   @media (max-width: 820px) {
     .ccl-color_emergency .ccl-header-main-menu a,
     .ccl-color_emergency .ccl-collapsible-toolmenu a {
@@ -1452,7 +1480,11 @@
       border-color: #783F34 !important; }
       .ccl-color_insitu .ccl-header-main-menu li li a:hover {
         background-color: #783F34 !important;
-        color: #fff !important; } }
+        color: #fff !important; }
+    .ccl-color_insitu .ccl-list-carousel .ccl-list-item-image img {
+      border-color: #783F34 !important; }
+    .ccl-color_insitu .ccl-list-carousel .slick-arrow:before {
+      color: #783F34 !important; } }
   @media (max-width: 820px) {
     .ccl-color_insitu .ccl-header-main-menu a,
     .ccl-color_insitu .ccl-collapsible-toolmenu a {
