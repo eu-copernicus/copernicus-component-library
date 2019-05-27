@@ -3,7 +3,7 @@
   /*backgrounds*/
   /*elements*/ }
   .ccl-color_generic .ccl-bg-grey {
-    background-color: #7690A312; }
+    background-color: #273B4B0f; }
   .ccl-color_generic .ccl-main_bgcolor {
     background-color: #273B4B; }
   .ccl-color_generic .ccl-title_bgcolor {
@@ -145,6 +145,8 @@
   @media (max-width: 820px) {
     .ccl-color_generic .ccl-main-menu {
       background-color: #273B4B !important; } }
+  .ccl-color_generic .ccl-use-case-col-list {
+    background-color: #273B4B0f; }
 
 .ccl-service-button-m.ccl-service-button-generic,
 .ccl-service-button-l.ccl-service-button-generic,
@@ -200,7 +202,7 @@
   /*backgrounds*/
   /*elements*/ }
   .ccl-color_climate .ccl-bg-grey {
-    background-color: #7690A312; }
+    background-color: #9413330f; }
   .ccl-color_climate .ccl-main_bgcolor {
     background-color: #941333; }
   .ccl-color_climate .ccl-title_bgcolor {
@@ -342,6 +344,8 @@
   @media (max-width: 820px) {
     .ccl-color_climate .ccl-main-menu {
       background-color: #941333 !important; } }
+  .ccl-color_climate .ccl-use-case-col-list {
+    background-color: #9413330f; }
 
 .ccl-service-button-m.ccl-service-button-climate,
 .ccl-service-button-l.ccl-service-button-climate,
@@ -397,7 +401,7 @@
   /*backgrounds*/
   /*elements*/ }
   .ccl-color_land .ccl-bg-grey {
-    background-color: #7690A312; }
+    background-color: #A0B1280f; }
   .ccl-color_land .ccl-main_bgcolor {
     background-color: #A0B128; }
   .ccl-color_land .ccl-title_bgcolor {
@@ -539,6 +543,8 @@
   @media (max-width: 820px) {
     .ccl-color_land .ccl-main-menu {
       background-color: #A0B128 !important; } }
+  .ccl-color_land .ccl-use-case-col-list {
+    background-color: #A0B1280f; }
 
 .ccl-service-button-m.ccl-service-button-land,
 .ccl-service-button-l.ccl-service-button-land,
@@ -594,7 +600,7 @@
   /*backgrounds*/
   /*elements*/ }
   .ccl-color_atmosphere .ccl-bg-grey {
-    background-color: #7690A312; }
+    background-color: #55BFD00f; }
   .ccl-color_atmosphere .ccl-main_bgcolor {
     background-color: #55BFD0; }
   .ccl-color_atmosphere .ccl-title_bgcolor {
@@ -736,6 +742,8 @@
   @media (max-width: 820px) {
     .ccl-color_atmosphere .ccl-main-menu {
       background-color: #55BFD0 !important; } }
+  .ccl-color_atmosphere .ccl-use-case-col-list {
+    background-color: #55BFD00f; }
 
 .ccl-service-button-m.ccl-service-button-atmosphere,
 .ccl-service-button-l.ccl-service-button-atmosphere,
@@ -791,7 +799,7 @@
   /*backgrounds*/
   /*elements*/ }
   .ccl-color_marine .ccl-bg-grey {
-    background-color: #7690A312; }
+    background-color: #1484A80f; }
   .ccl-color_marine .ccl-main_bgcolor {
     background-color: #1484A8; }
   .ccl-color_marine .ccl-title_bgcolor {
@@ -933,6 +941,8 @@
   @media (max-width: 820px) {
     .ccl-color_marine .ccl-main-menu {
       background-color: #1484A8 !important; } }
+  .ccl-color_marine .ccl-use-case-col-list {
+    background-color: #1484A80f; }
 
 .ccl-service-button-m.ccl-service-button-marine,
 .ccl-service-button-l.ccl-service-button-marine,
@@ -988,7 +998,7 @@
   /*backgrounds*/
   /*elements*/ }
   .ccl-color_security .ccl-bg-grey {
-    background-color: #7690A312; }
+    background-color: #6188880f; }
   .ccl-color_security .ccl-main_bgcolor {
     background-color: #618888; }
   .ccl-color_security .ccl-title_bgcolor {
@@ -1130,6 +1140,8 @@
   @media (max-width: 820px) {
     .ccl-color_security .ccl-main-menu {
       background-color: #618888 !important; } }
+  .ccl-color_security .ccl-use-case-col-list {
+    background-color: #6188880f; }
 
 .ccl-service-button-m.ccl-service-button-security,
 .ccl-service-button-l.ccl-service-button-security,
@@ -1185,7 +1197,7 @@
   /*backgrounds*/
   /*elements*/ }
   .ccl-color_emergency .ccl-bg-grey {
-    background-color: #7690A312; }
+    background-color: #FAA73E0f; }
   .ccl-color_emergency .ccl-main_bgcolor {
     background-color: #FAA73E; }
   .ccl-color_emergency .ccl-title_bgcolor {
@@ -1327,6 +1339,8 @@
   @media (max-width: 820px) {
     .ccl-color_emergency .ccl-main-menu {
       background-color: #FAA73E !important; } }
+  .ccl-color_emergency .ccl-use-case-col-list {
+    background-color: #FAA73E0f; }
 
 .ccl-service-button-m.ccl-service-button-emergency,
 .ccl-service-button-l.ccl-service-button-emergency,
@@ -1382,7 +1396,7 @@
   /*backgrounds*/
   /*elements*/ }
   .ccl-color_insitu .ccl-bg-grey {
-    background-color: #7690A312; }
+    background-color: #783F340f; }
   .ccl-color_insitu .ccl-main_bgcolor {
     background-color: #783F34; }
   .ccl-color_insitu .ccl-title_bgcolor {
@@ -1524,6 +1538,8 @@
   @media (max-width: 820px) {
     .ccl-color_insitu .ccl-main-menu {
       background-color: #783F34 !important; } }
+  .ccl-color_insitu .ccl-use-case-col-list {
+    background-color: #783F340f; }
 
 .ccl-service-button-m.ccl-service-button-insitu,
 .ccl-service-button-l.ccl-service-button-insitu,

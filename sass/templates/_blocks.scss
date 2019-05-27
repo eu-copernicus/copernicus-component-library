@@ -7,6 +7,11 @@
 	margin-top: rem-calc(50);
 	margin-bottom: rem-calc(50);
 }
+.ccl-container-small{
+	max-width: 675px;
+	margin-right: auto;
+	margin-left: auto;
+}
 .ccl-container{
 	max-width: 1400px;
 	margin-right: auto;
@@ -118,4 +123,42 @@
 
 	}
 
+}
+.ccl-no-padding-top{
+	padding-top: 0;
+}
+
+.ccl-no-padding-bottom{
+	padding-bottom: 0;
+}
+
+.ccl-no-padding-left{
+	padding-left: 0;
+}
+
+.ccl-no-padding-right{
+	padding-right: 0;
+}
+
+.ccl-no-padding{
+	padding: 0;
+}
+.ccl-no-margin-top{
+	margin-top: 0;
+}
+
+.ccl-no-margin-bottom{
+	margin-bottom: 0;
+}
+
+.ccl-no-margin-left{
+	margin-left: 0;
+}
+
+.ccl-no-margin-right{
+	margin-right: 0;
+}
+
+.ccl-no-margin{
+	margin: 0;
 }

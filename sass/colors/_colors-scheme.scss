@@ -4,7 +4,7 @@ $collapse-menu-width:820px;
 	/*backgrounds*/
 
 	.ccl-bg-grey {
-		background-color: #{$ccl-color-bg-grey}12;
+		background-color: #{$ccl-color-main}0f;
 	}
 
 
@@ -256,6 +256,9 @@ $collapse-menu-width:820px;
 		@media (max-width:$collapse-menu-width) {
 			background-color: $ccl-color-main !important;
 		}
+	}
+	.ccl-use-case-col-list{
+		background-color:#{$ccl-color-main}0f;
 	}
 
 }
