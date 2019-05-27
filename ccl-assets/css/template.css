@@ -1,4 +1,13 @@
 /*THEME generic*/
+.ccl-block-row {
+  padding-top: 2.7777777778rem;
+  padding-bottom: 2.7777777778rem;
+  margin-bottom: 2.7777777778rem; }
+
+.ccl-block-button {
+  margin-top: 2.7777777778rem;
+  margin-bottom: 2.7777777778rem; }
+
 .ccl-container {
   max-width: 1400px;
   margin-right: auto;
@@ -17,7 +26,8 @@
 
 .ccl-block.ccl-block-services {
   display: flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  justify-content: center; }
   .ccl-block.ccl-block-services .ccl-service-button-container {
     width: calc(99% / 6);
     min-width: 150px; }
@@ -44,7 +54,7 @@
         padding: 1.6666666667rem 0;
         display: block; }
 .ccl-block.ccl-block-partners {
-  margin: 4rem 0 2rem 0;
+  margin: 4rem auto 2rem auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around; }
@@ -646,6 +656,7 @@
 @media (min-width: 740px) {
   .ccl-use-case {
     column-count: 2;
+    column-gap: 2.2222222222rem;
     -webkit-column-break-inside: avoid;
     page-break-inside: avoid;
     break-inside: avoid;
@@ -682,21 +693,28 @@
 .ccl-banner-top-container-slider .slick-next {
   right: 0.2777777778rem; }
 
-.ccl-list-carousel .slick-arrow {
-  z-index: 100;
-  height: 2.2222222222rem;
-  width: 2.2222222222rem; }
-  .ccl-list-carousel .slick-arrow:before {
-    font-size: 2.2222222222rem;
-    font-weight: 900; }
-.ccl-list-carousel .slick-prev {
-  left: -1.3888888889rem; }
-.ccl-list-carousel .slick-next {
-  right: -1.3888888889rem; }
-.ccl-list-carousel .ccl-list-item {
-  margin-left: 0.5555555556rem;
-  margin-right: 0.5555555556rem; }
-.ccl-list-carousel .ccl-list-item-image img {
-  border-bottom: 5px solid; }
+.ccl-list-carousel {
+  padding-left: 2.2222222222rem;
+  padding-right: 2.2222222222rem; }
+  @media (max-width: 600px) {
+    .ccl-list-carousel {
+      padding-left: 0;
+      padding-right: 0; } }
+  .ccl-list-carousel .slick-arrow {
+    z-index: 100;
+    height: 2.2222222222rem;
+    width: 2.2222222222rem; }
+    .ccl-list-carousel .slick-arrow:before {
+      font-size: 2.2222222222rem;
+      font-weight: 900; }
+  .ccl-list-carousel .slick-prev {
+    left: -1.1111111111rem; }
+  .ccl-list-carousel .slick-next {
+    right: -1.1111111111rem; }
+  .ccl-list-carousel .ccl-list-item {
+    margin-left: 0.5555555556rem;
+    margin-right: 0.5555555556rem; }
+  .ccl-list-carousel .ccl-list-item-image img {
+    border-bottom: 5px solid; }
 
 /*# sourceMappingURL=template.css.map */

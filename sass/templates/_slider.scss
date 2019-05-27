@@ -24,6 +24,13 @@
 }
 
 .ccl-list-carousel{
+
+	padding-left: rem-calc(40);
+	padding-right: rem-calc(40);
+	@media (max-width:600px) {
+		padding-left: 0;
+	padding-right: 0;
+	}
 	.slick-arrow{
 		z-index: 100;
 		height: rem-calc(40);
@@ -34,12 +41,12 @@
 		}
 	}
 	.slick-prev {		
-		left: rem-calc(-25);
+		left: rem-calc(-20);
 
 	}
 
 	.slick-next {
-			right: rem-calc(-25);
+			right: rem-calc(-20);
 		
 
 	

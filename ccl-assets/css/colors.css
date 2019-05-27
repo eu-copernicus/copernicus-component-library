@@ -2,6 +2,8 @@
 .ccl-color_generic {
   /*backgrounds*/
   /*elements*/ }
+  .ccl-color_generic .ccl-bg-grey {
+    background-color: #7690A312; }
   .ccl-color_generic .ccl-main_bgcolor {
     background-color: #273B4B; }
   .ccl-color_generic .ccl-title_bgcolor {
@@ -197,6 +199,8 @@
 .ccl-color_climate {
   /*backgrounds*/
   /*elements*/ }
+  .ccl-color_climate .ccl-bg-grey {
+    background-color: #7690A312; }
   .ccl-color_climate .ccl-main_bgcolor {
     background-color: #941333; }
   .ccl-color_climate .ccl-title_bgcolor {
@@ -392,6 +396,8 @@
 .ccl-color_land {
   /*backgrounds*/
   /*elements*/ }
+  .ccl-color_land .ccl-bg-grey {
+    background-color: #7690A312; }
   .ccl-color_land .ccl-main_bgcolor {
     background-color: #A0B128; }
   .ccl-color_land .ccl-title_bgcolor {
@@ -587,6 +593,8 @@
 .ccl-color_atmosphere {
   /*backgrounds*/
   /*elements*/ }
+  .ccl-color_atmosphere .ccl-bg-grey {
+    background-color: #7690A312; }
   .ccl-color_atmosphere .ccl-main_bgcolor {
     background-color: #55BFD0; }
   .ccl-color_atmosphere .ccl-title_bgcolor {
@@ -782,6 +790,8 @@
 .ccl-color_marine {
   /*backgrounds*/
   /*elements*/ }
+  .ccl-color_marine .ccl-bg-grey {
+    background-color: #7690A312; }
   .ccl-color_marine .ccl-main_bgcolor {
     background-color: #1484A8; }
   .ccl-color_marine .ccl-title_bgcolor {
@@ -977,6 +987,8 @@
 .ccl-color_security {
   /*backgrounds*/
   /*elements*/ }
+  .ccl-color_security .ccl-bg-grey {
+    background-color: #7690A312; }
   .ccl-color_security .ccl-main_bgcolor {
     background-color: #618888; }
   .ccl-color_security .ccl-title_bgcolor {
@@ -1172,6 +1184,8 @@
 .ccl-color_emergency {
   /*backgrounds*/
   /*elements*/ }
+  .ccl-color_emergency .ccl-bg-grey {
+    background-color: #7690A312; }
   .ccl-color_emergency .ccl-main_bgcolor {
     background-color: #FAA73E; }
   .ccl-color_emergency .ccl-title_bgcolor {
@@ -1367,6 +1381,8 @@
 .ccl-color_insitu {
   /*backgrounds*/
   /*elements*/ }
+  .ccl-color_insitu .ccl-bg-grey {
+    background-color: #7690A312; }
   .ccl-color_insitu .ccl-main_bgcolor {
     background-color: #783F34; }
   .ccl-color_insitu .ccl-title_bgcolor {

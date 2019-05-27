@@ -1,3 +1,12 @@
+.ccl-block-row{
+	padding-top: rem-calc(50);
+	padding-bottom: rem-calc(50);
+	margin-bottom: rem-calc(50);
+}
+.ccl-block-button{
+	margin-top: rem-calc(50);
+	margin-bottom: rem-calc(50);
+}
 .ccl-container{
 	max-width: 1400px;
 	margin-right: auto;
@@ -20,6 +29,7 @@
 	&.ccl-block-services {
 		display: flex;
 		flex-wrap: wrap;
+		justify-content: center;
 
 		.ccl-service-button-container {
 			width: calc(99% / 6);
@@ -64,7 +74,7 @@
 
 	}
 	&.ccl-block-partners{
-		margin: 4rem 0 2rem 0;
+		margin: 4rem auto 2rem auto;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-around;

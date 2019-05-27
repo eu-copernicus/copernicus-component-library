@@ -31,32 +31,41 @@ html {
 .text-right {
   text-align: right !important; }
 
+p.ccl-paragraph--l,
 .ccl-paragraph--l {
   font-size: 1.4rem;
   line-height: 1.6rem; }
+  p.ccl-paragraph--l p,
   .ccl-paragraph--l p {
     font-size: 1.4rem;
     line-height: 1.6rem; }
+  p.ccl-paragraph--l h2,
   .ccl-paragraph--l h2 {
     font-size: 2rem;
     margin-bottom: 1.1rem; }
 
+p.ccl-paragraph--m,
 .ccl-paragraph--m {
   font-size: 1rem;
   line-height: 1.3rem; }
+  p.ccl-paragraph--m p,
   .ccl-paragraph--m p {
     font-size: 1rem;
     line-height: 1.3rem; }
+  p.ccl-paragraph--m h2,
   .ccl-paragraph--m h2 {
     font-size: 1.4rem;
     margin-bottom: 1.1rem; }
 
+p.ccl-paragraph--s,
 .ccl-paragraph--s {
   font-size: 0.88rem;
   line-height: 1.15rem; }
+  p.ccl-paragraph--s p,
   .ccl-paragraph--s p {
     font-size: 0.88rem;
     line-height: 1.15rem; }
+  p.ccl-paragraph--s h2,
   .ccl-paragraph--s h2 {
     font-size: 1.1rem;
     margin-bottom: 1.1rem; }
@@ -106,7 +115,8 @@ ol.ccl-list li {
   .ccl-service-button.ccl-service-button-f {
     color: #fff;
     padding: 1rem;
-    margin-right: 0.8888888889rem;
+    margin-right: 0.4444444444rem;
+    margin-left: 0.4444444444rem;
     margin-bottom: 0.8888888889rem;
     position: relative;
     min-width: 100px; }
@@ -138,7 +148,8 @@ ol.ccl-list li {
     min-height: 10.2222222222rem;
     color: #fff;
     padding: 1rem;
-    margin-right: 0.8888888889rem;
+    margin-right: 0.4444444444rem;
+    margin-left: 0.4444444444rem;
     margin-bottom: 0.8888888889rem; }
     .ccl-service-button.ccl-service-button-m .ccl-service-button-label {
       height: 100px;
@@ -161,8 +172,9 @@ ol.ccl-list li {
     min-height: 15.5555555556rem;
     color: #fff;
     padding: 1rem;
-    margin-right: 1.3888888889rem;
-    margin-bottom: 1.3888888889rem; }
+    margin-right: 0.6666666667rem;
+    margin-left: 0.6666666667rem;
+    margin-bottom: 1.3333333333rem; }
     .ccl-service-button.ccl-service-button-l .ccl-service-button-label {
       height: 100px;
       line-height: 100px;

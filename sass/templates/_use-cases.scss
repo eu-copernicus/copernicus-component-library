@@ -1,6 +1,7 @@
 .ccl-use-case {
 	@media (min-width:740px) {
 		column-count: 2;
+		column-gap: rem-calc(40);
 		-webkit-column-break-inside: avoid;
 		page-break-inside: avoid;
 		break-inside: avoid;

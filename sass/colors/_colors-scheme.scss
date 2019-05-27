@@ -2,6 +2,12 @@ $collapse-menu-width:820px;
 .ccl-color_#{$theme}{
 
 	/*backgrounds*/
+
+	.ccl-bg-grey {
+		background-color: #{$ccl-color-bg-grey}12;
+	}
+
+
 	.ccl-main_bgcolor {
 		background-color: $ccl-color-main;
 	}
