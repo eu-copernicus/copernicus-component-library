@@ -48,14 +48,24 @@
 
 				.ccl-service-button {
 					width: 22%;
+					@media (max-width:1240px) {
+						width: 35%;
+					}
+					@media (max-width:900px) {
+						width: 22%;
+					}
 					text-decoration: none;
 					font-size: 0.7rem;
-					margin: 0 5%;
-					padding: 0 0 2rem 0;
+					margin: rem-calc(10) 2%;				
+    				padding: rem-calc(10) 3% 2rem 3%;
+    				border: 1px solid transparent;
 
-					&:hover {
+					&:hover,
+					&:active,
+					&:focus {
 						background-color: transparent !important;
 						color: $ccl-color-border-grey-light !important;
+						border: 1px solid #fff;
 
 						.ccl-service-button-icon path {
 							fill: $ccl-color-border-grey-light !important;

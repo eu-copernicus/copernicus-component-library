@@ -101,12 +101,20 @@
         width: 22%;
         text-decoration: none;
         font-size: 0.7rem;
-        margin: 0 5%;
-        padding: 0 0 2rem 0; }
-        .ccl-footer .ccl-footer-main .ccl-footer-col .ccl-footer-services .ccl-service-button:hover {
+        margin: 0.5555555556rem 2%;
+        padding: 0.5555555556rem 3% 2rem 3%;
+        border: 1px solid transparent; }
+        @media (max-width: 1240px) {
+          .ccl-footer .ccl-footer-main .ccl-footer-col .ccl-footer-services .ccl-service-button {
+            width: 35%; } }
+        @media (max-width: 900px) {
+          .ccl-footer .ccl-footer-main .ccl-footer-col .ccl-footer-services .ccl-service-button {
+            width: 22%; } }
+        .ccl-footer .ccl-footer-main .ccl-footer-col .ccl-footer-services .ccl-service-button:hover, .ccl-footer .ccl-footer-main .ccl-footer-col .ccl-footer-services .ccl-service-button:active, .ccl-footer .ccl-footer-main .ccl-footer-col .ccl-footer-services .ccl-service-button:focus {
           background-color: transparent !important;
-          color: #dadada !important; }
-          .ccl-footer .ccl-footer-main .ccl-footer-col .ccl-footer-services .ccl-service-button:hover .ccl-service-button-icon path {
+          color: #dadada !important;
+          border: 1px solid #fff; }
+          .ccl-footer .ccl-footer-main .ccl-footer-col .ccl-footer-services .ccl-service-button:hover .ccl-service-button-icon path, .ccl-footer .ccl-footer-main .ccl-footer-col .ccl-footer-services .ccl-service-button:active .ccl-service-button-icon path, .ccl-footer .ccl-footer-main .ccl-footer-col .ccl-footer-services .ccl-service-button:focus .ccl-service-button-icon path {
             fill: #dadada !important; }
     .ccl-footer .ccl-footer-main .ccl-footer-col .ccl-footer-form {
       margin: 1rem 0;
